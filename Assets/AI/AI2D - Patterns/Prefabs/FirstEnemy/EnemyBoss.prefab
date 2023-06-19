@@ -367,9 +367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944a35477a6de704daf0b0a0a25fae31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxTimeToWalk: 1
-  _minTimeToWalk: 1
-  _speed: 20
+  _maxTimeToWalk: 0.5
+  _minTimeToWalk: 0.5
+  _speed: 80
   _bossDataController: {fileID: 2808922800182590538}
 --- !u!1 &2808922801062171926
 GameObject:

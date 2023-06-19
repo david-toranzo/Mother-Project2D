@@ -16,6 +16,8 @@ namespace Runtime.AICommand
         private Rigidbody2D _objectMoveRb;
         private Transform _target;
 
+        private Vector3 _targetPosition;
+
         private float _timeToWait = 2f;
         private float _currentTime = 0;
 
@@ -31,6 +33,7 @@ namespace Runtime.AICommand
         {
             _timeToWait = Random.Range(_minTimeToWalk, _maxTimeToWalk);
             _currentTime = 0;
+            _targetPosition = _target.position;
             StartCoroutine(WaitTimeToDoneExecution());
         }
 
@@ -51,12 +54,12 @@ namespace Runtime.AICommand
 
         private bool IsClosestPosition()
         {
-            return Vector2.Distance(_objectMoveRb.transform.position, _target.transform.position) < _distanceToMove;
+            return Vector2.Distance(_objectMoveRb.transform.position, _targetPosition) < _distanceToMove;
         }
 
         private void MoveToPosition()
         {
-            Vector2 direction = -(_objectMoveRb.transform.position - _target.position);
+            Vector2 direction = -(_objectMoveRb.transform.position - _targetPosition);
             direction.y = 0;
 
             Vector2 movePositionFrame = direction.normalized * (Time.deltaTime * _speed);
