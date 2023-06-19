@@ -251,6 +251,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "command": {
+      "version": "https://github.com/david-toranzo/UP-Command.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5bfcc89503af48d006f03e81278e28cb826f3bf4"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
