@@ -9,9 +9,7 @@ namespace Runtime.AICommand
 
         public override void Execute()
         {
-            //Debug.Log("Active");
-            //Debug.Break();
-            //_objectToChangeState.SetActive(_newState);
+            _objectToChangeState.SetActive(_newState);
             NotifyDoneExecution();
         }
     }

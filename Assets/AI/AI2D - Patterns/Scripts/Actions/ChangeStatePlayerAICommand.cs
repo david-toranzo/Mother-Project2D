@@ -10,7 +10,7 @@ namespace Runtime.AICommand
 
         public override void Execute()
         {
-            _objectToChangeState.enabled = _newState;
+            _objectToChangeState.ChangeStateCharacterActive(_newState);
             NotifyDoneExecution();
         }
     }
