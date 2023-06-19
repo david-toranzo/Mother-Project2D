@@ -9,7 +9,7 @@ namespace Runtime.Common
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.tag == _tagToDetect)
+            if (collision.tag == _tagToDetect && !_objectToActive.activeInHierarchy)
                 _objectToActive.SetActive(true);
         }
     }
