@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace David.InputSystem
+namespace Runtime.InputSystem
 {
     public class ControlInputVector2 : ControlInputBase
     {

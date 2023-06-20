@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace David.InputSystem
+namespace Runtime.InputSystem
 {
     [CreateAssetMenu(fileName = "Input", menuName = "ScriptableObjects/Data/NameInput", order = 1)]
     public class NameInput : ScriptableObject

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.InputSystem;
 
-namespace David.InputSystem
+namespace Runtime.InputSystem
 {
     public class ControlInputBoolCancel : ControlInputBool
     {

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace David.InputSystem
+namespace Runtime.InputSystem
 {
     public abstract class ControlInputBase : MonoBehaviour
     {

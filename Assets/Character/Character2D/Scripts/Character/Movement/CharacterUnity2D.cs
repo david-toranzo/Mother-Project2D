@@ -1,4 +1,4 @@
-using David.InputSystem;
+using Runtime.InputSystem;
 using UnityEngine;
 
 namespace Runtime.Character2D
@@ -61,7 +61,10 @@ namespace Runtime.Character2D
         private void Update()
         {
             HandleRotation();
+        }
 
+        private void FixedUpdate()
+        {
             SetMove();
         }
 

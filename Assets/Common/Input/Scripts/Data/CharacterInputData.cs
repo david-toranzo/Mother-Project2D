@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace David.InputSystem
+namespace Runtime.InputSystem
 {
     [CreateAssetMenu(fileName = "CharacterInputData", 
         menuName = "ScriptableObjects/InputData/CharacterInputData", order = 1)]

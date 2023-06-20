@@ -1,4 +1,4 @@
-using David.InputSystem;
+using Runtime.InputSystem;
 using UnityEngine;
 
 namespace Runtime.Character2D
@@ -32,7 +32,7 @@ namespace Runtime.Character2D
 
         public override void Enter()
         {
-            _character.ResetVelocityMove();
+            //_character.ResetVelocityMove();
             _character.ChangeGravityEnabled(false);
             _controlInput.IsInputPressed = false;
 

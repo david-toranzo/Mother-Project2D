@@ -1,4 +1,4 @@
-﻿namespace David.InputSystem
+﻿namespace Runtime.InputSystem
 {
     public class ControlInputBoolOnePress : ControlInputBool
     {

@@ -346,7 +346,7 @@ MonoBehaviour:
   _animator: {fileID: 619762443100095793}
   _characterInput: {fileID: 5049015371738903058}
   _nameInputAction: {fileID: 11400000, guid: c1930a55a9e60324ebbd78fc7cd6e61d, type: 2}
-  _velocityJumpForward: 15
+  _velocityJumpForward: 4
 --- !u!1 &593104785730929690
 GameObject:
   m_ObjectHideFlags: 0
@@ -3988,7 +3988,7 @@ MonoBehaviour:
   _characterJumpController: {fileID: 1552329072277873205}
   _characterInput: {fileID: 5049015371738903058}
   _nameInputAction: {fileID: 11400000, guid: 3961c4033fe25cb4489c70d25ec5be25, type: 2}
-  _maxJumpHeight: 2.8
+  _maxJumpHeight: 1.9
   _maxJumpTime: 0.7
 --- !u!1 &4191315530211278690
 GameObject:
@@ -6074,7 +6074,7 @@ MonoBehaviour:
   _characterJumpController: {fileID: 1552329072277873205}
   _characterInput: {fileID: 5049015371738903058}
   _nameInputAction: {fileID: 11400000, guid: 3961c4033fe25cb4489c70d25ec5be25, type: 2}
-  _maxJumpHeight: 2.8
+  _maxJumpHeight: 1.9
   _maxJumpTime: 0.7
   _characterAnimation: {fileID: 7856999235155298358}
 --- !u!1 &6333759410298393256
@@ -7901,7 +7901,7 @@ MonoBehaviour:
   - {fileID: 2638343699410822286}
   - {fileID: 6220736662595797562}
   _character: {fileID: 6395342059089254384}
-  _walkSpeed: 8
+  _walkSpeed: 3.5
   _groundedGravity: -0.05
 --- !u!1 &8053316068579354870
 GameObject:
@@ -8937,7 +8937,7 @@ MonoBehaviour:
   _multiplyGravityFactor: 5
   _gravity: -9.8
   _groundedGravity: -0.05
-  _walkSpeed: 7
+  _walkSpeed: 2.8
 --- !u!1 &9087026468949852654
 GameObject:
   m_ObjectHideFlags: 0
