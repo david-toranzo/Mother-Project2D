@@ -130,11 +130,11 @@ namespace Runtime.Character2D
         {
             Vector2 movementInput = _controlInputMovement.GetActualValueVector2Input();
 
-            if(Mathf.Abs(movementInput.x) > 0)
+            /*if(Mathf.Abs(movementInput.x) > 0)
                 movementInput.x = 1 * Mathf.Sign(movementInput.x);
 
             if (Mathf.Abs(movementInput.y) > 0)
-                movementInput.y = 1 * Mathf.Sign(movementInput.y);
+                movementInput.y = 1 * Mathf.Sign(movementInput.y);*/
 
             _inputMove = movementInput;
         }

@@ -23,7 +23,7 @@ namespace Runtime.Character2D
             _rigidbody2D = GetComponent<Rigidbody2D>();
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
             CheckPlayerIsOnGround();
         }
