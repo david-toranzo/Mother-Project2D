@@ -44,7 +44,7 @@ namespace Runtime.AICommand
             if (!IsClosestPosition())
                 MoveToPosition();
 
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForFixedUpdate();
 
             if (_currentTime > _timeToWait)
                 NotifyDoneExecution();

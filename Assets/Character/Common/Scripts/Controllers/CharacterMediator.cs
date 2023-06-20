@@ -10,7 +10,7 @@ namespace Runtime.Character2D
         {
             _playerMovement.enabled = newState;
 
-            //delete this
+            //TODO delete this
             _playerMovement.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
             _playerMovement.GetComponent<Animator>().SetFloat("Speed", 0);
         }
