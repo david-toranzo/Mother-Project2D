@@ -57,11 +57,11 @@ namespace Runtime.Character2D
 
         private void SetMoveMakeJump()
         {
-            _character.MakeJump(_initialJumpVelocity * _multiplyJumpForce);
-            /*_character.Velocity = new Vector3
+            //_character.MakeJump(_initialJumpVelocity * _multiplyJumpForce);
+            _character.Velocity = new Vector3
                 (_character.Velocity.x, 
                 _initialJumpVelocity * _multiplyJumpForce,
-                _character.Velocity.z);*/
+                _character.Velocity.z);
 
             _characterJumpController.NotifyJumpCharacter();
         }

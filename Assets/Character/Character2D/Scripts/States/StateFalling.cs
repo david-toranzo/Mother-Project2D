@@ -16,6 +16,8 @@ namespace Runtime.Character2D
         [SerializeField] private float _multiplyGravityFactor = 3f;
         [SerializeField] private float _gravity = -9.8f;
         [SerializeField] private float _groundedGravity = -0.05f;
+
+        [Header("Move in air")]
         [SerializeField] private float _walkSpeed = 2.5f;
 
         public override void Enter() 

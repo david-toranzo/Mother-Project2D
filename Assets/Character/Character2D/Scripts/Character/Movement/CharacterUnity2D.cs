@@ -10,7 +10,6 @@ namespace Runtime.Character2D
             Right, Left
         }
         [SerializeField] private float _defaultVelocityY = 2.5f;
-        [SerializeField] private float _rotationFactorPerFrame = 12;
 
         [Header("Input")]
         [SerializeField] private CharacterInput _characterInput;
@@ -18,7 +17,7 @@ namespace Runtime.Character2D
         [SerializeField] private NameInput _nameInputActionMovement;
 
         private const float _groundedGravity = -0.05f;
-        private const float _velocityToMultiply = 1.25f;
+        private const float _velocityToMultiply = 4f;
 
         private Vector2 _inputMove;
         private bool _walkInput;
@@ -62,10 +61,7 @@ namespace Runtime.Character2D
         private void Update()
         {
             HandleRotation();
-        }
 
-        private void FixedUpdate()
-        {
             SetMove();
         }
 
@@ -95,7 +91,7 @@ namespace Runtime.Character2D
 
         private void SetMove()
         {
-            _characterController.Move(_velocityToMultiply * _velocity); //+ _velocityPlatform); 
+            _characterController.Move((_velocityToMultiply * _velocity) * Time.deltaTime); //+ _velocityPlatform); 
 
             _walkInput = _inputMove.x != 0 || _inputMove.y != 0;
         }
@@ -125,11 +121,6 @@ namespace Runtime.Character2D
 
             currentMove = GetSpeedMultiplyByVelocity(currentMove, speed);
             return currentMove;
-        }
-
-        public void MakeJump(float force)
-        {
-            _characterController.SetVelocityToRigidbody(Vector2.up * force);
         }
 
         private void SetInputMoveWithMoveInput()

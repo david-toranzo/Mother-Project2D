@@ -33,17 +33,12 @@ namespace Runtime.Character2D
             isGrounded = Physics2D.OverlapCircle(_groundCheck.position, _groundCheckRadius, _whatIsGround);
         }
 
-        public void Move(Vector2 move2D)
+        public void Move(Vector3 move2D)
         {
             if (Gravity)
-                _rigidbody2D.velocity = new Vector2(move2D.x, _rigidbody2D.velocity.y);
+                _rigidbody2D.MovePosition(transform.position + move2D);
             else
                 _rigidbody2D.velocity = new Vector2(move2D.x, 0);
-        }
-
-        public void SetVelocityToRigidbody(Vector2 vector2)
-        {
-            _rigidbody2D.velocity = vector2;
         }
     }
 }
