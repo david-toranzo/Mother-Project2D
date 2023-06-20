@@ -1,0 +1,17 @@
+{
+    "name": "Runtime.CharacterOthers",
+    "rootNamespace": "Runtime.CharacterOthers",
+    "references": [
+        "GUID:de6418bb62bbc8e4fb5224b036319dd1",
+        "GUID:23ef2a7ee77680c4eb8b4d446ccdc23f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
