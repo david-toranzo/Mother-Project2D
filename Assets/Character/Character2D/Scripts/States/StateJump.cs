@@ -31,7 +31,7 @@ namespace Runtime.Character2D
         //DELETE this, only for debug and changed the values in runtime
         private void Update()
         {
-            
+            SetupJumpParameters();
         }
 
         private ControlInputBool GetControlInputBool()

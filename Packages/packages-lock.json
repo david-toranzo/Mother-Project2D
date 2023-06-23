@@ -291,6 +291,13 @@
       "dependencies": {},
       "hash": "446213de7467f1c358bf204588c069e0cffbf91e"
     },
+    "scriptableobject-event": {
+      "version": "https://github.com/david-toranzo/UP-ScriptableObject-Event.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "734e5f4bc88fce7778ee050be06e377754847544"
+    },
     "state-machine": {
       "version": "https://github.com/david-toranzo/UP-StateMachine.git",
       "depth": 0,
