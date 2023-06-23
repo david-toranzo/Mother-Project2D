@@ -8,9 +8,10 @@ namespace Runtime.Character2D
         [Header("References")]
         [SerializeField] protected CharacterUnity2D _character;
 
-        [Header("Data walk")]
-        [SerializeField] private float _walkSpeed = 2.5f;
-        [SerializeField] private float _groundedGravity = -0.05f;
+        [Header("Data")]
+        [SerializeField] private CharacterDataSO _characterDataSO;
+
+        private const float _groundedGravity = -0.05f;
 
         public override void Enter() {}
 
@@ -31,7 +32,7 @@ namespace Runtime.Character2D
 
         private float GetSpeed()
         {
-            return _walkSpeed;
+            return _characterDataSO.WalkSpeed;
         }
     }
 }

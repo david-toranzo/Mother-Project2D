@@ -14,9 +14,8 @@ namespace Runtime.Character2D
         [SerializeField] private CharacterInput _characterInput;
         [SerializeField] private NameInput _nameInputAction;
 
-        [Header("Jump")]
-        [SerializeField] private float _maxJumpHeight = 1;
-        [SerializeField] private float _maxJumpTime = 0.5f;
+        [Header("Data")]
+        [SerializeField] private CharacterDataSO _characterDataSO;
 
         private ControlInputBool _controlInput;
         private const float _multiplyJumpForce = 0.5f;
@@ -29,6 +28,12 @@ namespace Runtime.Character2D
             _controlInput = GetControlInputBool();
         }
 
+        //DELETE this, only for debug and changed the values in runtime
+        private void Update()
+        {
+            
+        }
+
         private ControlInputBool GetControlInputBool()
         {
             return _characterInput.GetControlInputByString(_nameInputAction.NameControlInput) as ControlInputBool;
@@ -36,8 +41,8 @@ namespace Runtime.Character2D
 
         private void SetupJumpParameters()
         {
-            float timeToApex = _maxJumpTime / 2;
-            _initialJumpVelocity = (2 * _maxJumpHeight) / timeToApex;
+            float timeToApex = _characterDataSO.MaxJumpTime / 2;
+            _initialJumpVelocity = (2 * _characterDataSO.MaxJumpHeight) / timeToApex;
         }
 
         public override void Enter()

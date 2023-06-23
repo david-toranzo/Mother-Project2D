@@ -12,13 +12,8 @@ namespace Runtime.Character2D
         [SerializeField] protected CharacterUnity2D _character;
         [SerializeField] protected CharacterJumpController _characterJumpController;
 
-        [Header("Gravity")] 
-        [SerializeField] private float _multiplyGravityFactor = 3f;
-        [SerializeField] private float _gravity = -9.8f;
-        [SerializeField] private float _groundedGravity = -0.05f;
-
-        [Header("Move in air")]
-        [SerializeField] private float _walkSpeed = 2.5f;
+        [Header("Data")]
+        [SerializeField] private CharacterDataSO _characterDataSO;
 
         public override void Enter() 
         {
@@ -28,7 +23,7 @@ namespace Runtime.Character2D
         public override void Exit()
         {
             _characterJumpController.ResetAllValues();
-            _character.Velocity = new Vector3(_character.Velocity.x, _groundedGravity, _character.Velocity.z);
+            _character.Velocity = new Vector3(_character.Velocity.x, _characterDataSO.GroundedGravity, _character.Velocity.z);
             OnChangeStateFalling?.Invoke();
         }
 
@@ -36,7 +31,7 @@ namespace Runtime.Character2D
         {
             Vector3 velocityPrevious = _character.Velocity;
             float previousYVelocity = velocityPrevious.y;
-            float newYVelocity = velocityPrevious.y + _gravity * Time.deltaTime * _multiplyGravityFactor;
+            float newYVelocity = velocityPrevious.y + _characterDataSO.Gravity * Time.deltaTime * _characterDataSO.MultiplyGravityFactor;
             float nextYVelocity = (previousYVelocity + newYVelocity) * .5f;
 
             _characterJumpController.LastTimeFalling += Time.deltaTime;
@@ -52,7 +47,7 @@ namespace Runtime.Character2D
 
         private float GetSpeed()
         {
-            return _walkSpeed;
+            return _characterDataSO.WalkSpeed;
         }
     }
 }

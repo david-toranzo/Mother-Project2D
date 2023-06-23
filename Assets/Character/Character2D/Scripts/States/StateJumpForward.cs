@@ -16,7 +16,7 @@ namespace Runtime.Character2D
         [SerializeField] private NameInput _nameInputAction;
 
         [Header("Jump forward")]
-        [SerializeField] private float _velocityJumpForward = 1;
+        [SerializeField] private CharacterDataSO _characterDataSO;
 
         private ControlInputBool _controlInput;
 
@@ -54,7 +54,7 @@ namespace Runtime.Character2D
 
         private void SetMoveMakeJump()
         {
-            Vector3 velocityToApply = _character.transform.right * _velocityJumpForward;
+            Vector3 velocityToApply = _character.transform.right * _characterDataSO.VelocityJumpForward;
             velocityToApply.y = _character.Velocity.y;
             _character.Velocity = velocityToApply;
         }
