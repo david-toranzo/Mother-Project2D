@@ -13,6 +13,9 @@ namespace Common
         [SerializeField] private Color _colorDefault;
         [SerializeField] private Color _colorHit;
         [SerializeField] private float _secondToWait;
+        [SerializeField] private int _cyclesChangeColor = 3;
+
+        private int _countCycleAnim = 0;
 
         private void Start()
         {
@@ -21,26 +24,21 @@ namespace Common
 
         private void MakeAnimator(int value)
         {
+            _countCycleAnim = 0;
             StartCoroutine(MakeAnimationChangeColor());
         }
 
         private IEnumerator MakeAnimationChangeColor()
         {
-            _spriteHit.color = _colorHit;
-            yield return new WaitForSeconds(_secondToWait);
-            _spriteHit.color = _colorDefault;
+            while (_countCycleAnim < _cyclesChangeColor)
+            {
+                _spriteHit.color = _colorHit;
+                yield return new WaitForSeconds(_secondToWait);
+                _spriteHit.color = _colorDefault;
+                yield return new WaitForSeconds(_secondToWait);
 
-            yield return new WaitForSeconds(_secondToWait);
-
-            _spriteHit.color = _colorHit;
-            yield return new WaitForSeconds(_secondToWait);
-            _spriteHit.color = _colorDefault;
-
-            yield return new WaitForSeconds(_secondToWait);
-
-            _spriteHit.color = _colorHit;
-            yield return new WaitForSeconds(_secondToWait);
-            _spriteHit.color = _colorDefault;
+                _countCycleAnim++;
+            }
         }
 
         private void OnDestroy()
