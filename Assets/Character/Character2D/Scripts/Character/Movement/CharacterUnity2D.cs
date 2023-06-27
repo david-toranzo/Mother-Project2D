@@ -21,6 +21,7 @@ namespace Runtime.Character2D
 
         private Vector2 _inputMove;
         private bool _walkInput;
+        private bool _canMove = true;
 
         private CharacterController2D _characterController;
         private CharacterAnimation _characterAnimation;
@@ -35,6 +36,7 @@ namespace Runtime.Character2D
 
         public Vector3 Velocity { get => _velocity; set => _velocity = value; }
         public Vector3 VelocityPlatform { get => _velocityPlatform; set => _velocityPlatform = value; }
+        public bool CanMove { get => _canMove; set => _canMove = value; }
 
         private void Awake()
         {
@@ -75,7 +77,7 @@ namespace Runtime.Character2D
 
         private void HandleRotation()
         {
-            if (!_walkInput)
+            if (!_walkInput || !_canMove)
                 return;
 
             Vector2 positionToLookAt = _inputMove;
@@ -94,6 +96,9 @@ namespace Runtime.Character2D
 
         private void SetMove()
         {
+            if (!_canMove)
+                return;
+
             _characterController.Move((_velocityToMultiply * _velocity) * Time.deltaTime); //+ _velocityPlatform); 
 
             _walkInput = _inputMove.x != 0 || _inputMove.y != 0;
@@ -109,6 +114,7 @@ namespace Runtime.Character2D
         {
             _velocity = new Vector3(0, _groundedGravity, 0);
             _inputMove = Vector2.zero;
+            _walkInput = false;
         }
 
         public void ChangeGravityEnabled(bool enabledGravity)
@@ -129,12 +135,6 @@ namespace Runtime.Character2D
         private void SetInputMoveWithMoveInput()
         {
             Vector2 movementInput = _controlInputMovement.GetActualValueVector2Input();
-
-            /*if(Mathf.Abs(movementInput.x) > 0)
-                movementInput.x = 1 * Mathf.Sign(movementInput.x);
-
-            if (Mathf.Abs(movementInput.y) > 0)
-                movementInput.y = 1 * Mathf.Sign(movementInput.y);*/
 
             _inputMove = movementInput;
         }
