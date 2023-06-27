@@ -16,7 +16,7 @@ namespace Runtime.AICommand
         private Rigidbody2D _objectMoveRb;
         private Transform _target;
 
-        private Vector3 _targetPosition;
+        private Vector2 _directionMove;
 
         private float _timeToWait = 2f;
         private float _currentTime = 0;
@@ -33,7 +33,11 @@ namespace Runtime.AICommand
         {
             _timeToWait = Random.Range(_minTimeToWalk, _maxTimeToWalk);
             _currentTime = 0;
-            _targetPosition = _target.position;
+
+            Vector3 _targetPosition = _target.position;
+            _directionMove = -(_objectMoveRb.transform.position - _targetPosition);
+            _directionMove.y = 0;
+
             StartCoroutine(WaitTimeToDoneExecution());
         }
 
@@ -41,8 +45,7 @@ namespace Runtime.AICommand
         {
             _currentTime += Time.deltaTime;
 
-            if (!IsClosestPosition())
-                MoveToPosition();
+            MoveToPosition();
 
             yield return new WaitForFixedUpdate();
 
@@ -52,17 +55,9 @@ namespace Runtime.AICommand
                 StartCoroutine(WaitTimeToDoneExecution());
         }
 
-        private bool IsClosestPosition()
-        {
-            return Vector2.Distance(_objectMoveRb.transform.position, _targetPosition) < _distanceToMove;
-        }
-
         private void MoveToPosition()
         {
-            Vector2 direction = -(_objectMoveRb.transform.position - _targetPosition);
-            direction.y = 0;
-
-            Vector2 movePositionFrame = direction.normalized * (Time.deltaTime * _speed);
+            Vector2 movePositionFrame = _directionMove.normalized * (Time.deltaTime * _speed);
             _objectMoveRb.MovePosition((Vector2)_objectMoveRb.transform.position + movePositionFrame);
         }
     }

@@ -1,10 +1,11 @@
 ﻿using Patterns.Command;
+using System;
 
 namespace Runtime.AICommand
 {
     public class RepeaterAICommand : DecoratorAICommand, ICommandDoneTask
     {
-        private bool _objectDestroyed = false;
+        private bool _deactiveCommand = false;
 
         public override void InitialConfiguration(ICommandDoneTask commandDone)
         {
@@ -13,7 +14,7 @@ namespace Runtime.AICommand
 
         public void DoneExecutionCommand()
         {
-            if (!_objectDestroyed)
+            if (!_deactiveCommand)
                 Execute();
         }
 
@@ -24,7 +25,12 @@ namespace Runtime.AICommand
 
         private void OnDestroy()
         {
-            _objectDestroyed = true;
+            _deactiveCommand = true;
+        }
+
+        public void StopExecuteCommand()
+        {
+            _deactiveCommand = true;
         }
     }
 }

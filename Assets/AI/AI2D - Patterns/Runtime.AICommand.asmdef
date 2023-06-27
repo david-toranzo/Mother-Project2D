@@ -3,7 +3,8 @@
     "rootNamespace": "Runtime.AICommand",
     "references": [
         "GUID:8adfcfebf0e720a46b081988f0195671",
-        "GUID:a660d5bcaf911fc4eb81214ba683837f"
+        "GUID:a660d5bcaf911fc4eb81214ba683837f",
+        "GUID:de6418bb62bbc8e4fb5224b036319dd1"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
