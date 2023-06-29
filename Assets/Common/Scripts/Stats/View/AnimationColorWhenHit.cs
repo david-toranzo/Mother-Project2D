@@ -32,9 +32,9 @@ namespace Common
         {
             while (_countCycleAnim < _cyclesChangeColor)
             {
-                _spriteHit.color = _colorHit;
+                _spriteHit.material.color = _colorHit;
                 yield return new WaitForSeconds(_secondToWait);
-                _spriteHit.color = _colorDefault;
+                _spriteHit.material.color = _colorDefault;
                 yield return new WaitForSeconds(_secondToWait);
 
                 _countCycleAnim++;
