@@ -1,26 +1,20 @@
-﻿using Patterns.Command;
-using System;
-
+﻿
 namespace Runtime.AICommand
 {
-    public class RepeaterAICommand : DecoratorAICommand, ICommandDoneTask
+    public class RepeaterAICommand : DecoratorAICommand
     {
         private bool _deactiveCommand = false;
 
-        public override void InitialConfiguration(ICommandDoneTask commandDone)
+        protected override StateNode ProcessWorkCommand()
         {
-            _decoratorCommand.SetCommandManager(this);
-        }
+            if (_deactiveCommand)
+                return StateNode.Success;
 
-        public void DoneExecutionCommand()
-        {
-            if (!_deactiveCommand)
-                Execute();
-        }
+            var lastState = _decoratorCommand.ProcessUpdate();
+            if (lastState == StateNode.Success)
+                _decoratorCommand.ResetNodeWithExit();
 
-        public override void Execute()
-        {
-            _decoratorCommand.Execute();
+            return StateNode.Running;
         }
 
         private void OnDestroy()

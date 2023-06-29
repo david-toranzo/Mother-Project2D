@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 namespace Runtime.AICommand
@@ -7,15 +6,20 @@ namespace Runtime.AICommand
     {
         [SerializeField] private float _timeToWait = 2f;
 
-        public override void Execute()
+        private float _currentTimeToWait = 0;
+
+        protected override void EnterNode()
         {
-            StartCoroutine(WaitTimeToDoneExecution());
+            _currentTimeToWait = 0;
         }
 
-        private IEnumerator WaitTimeToDoneExecution()
+        protected override StateNode ProcessWorkCommand()
         {
-            yield return new WaitForSeconds(_timeToWait);
-            NotifyDoneExecution();
+            _currentTimeToWait += Time.deltaTime;
+            if (_currentTimeToWait >= _timeToWait)
+                return StateNode.Success;
+            else
+                return StateNode.Running;
         }
     }
 }

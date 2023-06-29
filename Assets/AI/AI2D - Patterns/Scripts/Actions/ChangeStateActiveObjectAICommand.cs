@@ -7,10 +7,10 @@ namespace Runtime.AICommand
         [SerializeField] private GameObject _objectToChangeState;
         [SerializeField] private bool _newState = false;
 
-        public override void Execute()
+        protected override StateNode ProcessWorkCommand()
         {
             _objectToChangeState.SetActive(_newState);
-            NotifyDoneExecution();
+            return StateNode.Success;
         }
     }
 }

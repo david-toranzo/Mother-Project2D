@@ -1,5 +1,4 @@
-﻿using Runtime.AICommand;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Runtime.AICommand
 {
@@ -19,14 +18,14 @@ namespace Runtime.AICommand
             _target = _bossDataController.Target.transform;
         }
 
-        public override void Execute()
+        protected override StateNode ProcessWorkCommand()
         {
             if (_objectRotate.position.x > _target.position.x && _isRightRotation)
                 RotateObject(-180, false);
             else if (_objectRotate.position.x < _target.position.x && !_isRightRotation)
                 RotateObject(180, true);
-
-            NotifyDoneExecution();
+            
+            return StateNode.Success;
         }
 
         private void RotateObject(int rotateAngle, bool newStateRight)

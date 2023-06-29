@@ -4,15 +4,16 @@ namespace Runtime.AICommand
 {
     public class RandomExecuterAICommand : CompositeAICommand
     {
-        public override void DoneExecutionCommand()
+        private int _randomIndex = 0;
+
+        protected override void EnterNode()
         {
-            NotifyDoneExecution();
+            _randomIndex = Random.Range(0, _decoratorsCommand.Length);
         }
 
-        public override void Execute()
+        protected override StateNode ProcessWorkCommand()
         {
-            int index = Random.Range(0, _decoratorsCommand.Length);
-            _decoratorsCommand[index].Execute();
+            return _decoratorsCommand[_randomIndex].ProcessUpdate();
         }
     }
 }

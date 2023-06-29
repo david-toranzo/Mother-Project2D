@@ -1,30 +1,49 @@
-﻿using Patterns.Command;
+﻿using System;
+using UnityEngine;
 
 namespace Runtime.AICommand
 {
     public class SequencerAICommand : CompositeAICommand
     {
-        private int _commandIndex = 0;
+        private int _commandInternalCount = 0;
+        private StateNode _lastState = StateNode.Running;
+        private bool _finishExecuteCommand = false;
 
-        public override void DoneExecutionCommand()
+        protected override void EnterNode()
         {
-            _commandIndex++;
-
-            if (_commandIndex < _decoratorsCommand.Length)
-                _decoratorsCommand[_commandIndex].Execute();
-            else
-                FinishSequenceCommand();
+            _commandInternalCount = 0;
+            _finishExecuteCommand = false;
         }
 
-        private void FinishSequenceCommand()
+        protected override StateNode ProcessWorkCommand()
         {
-            _commandIndex = 0;
-            NotifyDoneExecution();
+            SetStateAndUpdateWorkCommand();
+            VerifyCompleteTaskCommand();
+
+            if (_finishExecuteCommand)
+                return StateNode.Success;
+
+            return StateNode.Running;
         }
 
-        public override void Execute()
+        private void SetStateAndUpdateWorkCommand()
         {
-            _decoratorsCommand[_commandIndex].Execute();
+            _lastState = _decoratorsCommand[_commandInternalCount].ProcessUpdate();
+        }
+
+        private void VerifyCompleteTaskCommand()
+        {
+            if (_lastState == StateNode.Running)
+                return;
+
+            if (_lastState == StateNode.Failure)
+                throw new Exception("Failure state");
+
+            _commandInternalCount++;
+            _lastState = StateNode.Running;
+
+            if (_commandInternalCount >= _decoratorsCommand.Length)
+                _finishExecuteCommand = true;
         }
     }
 }

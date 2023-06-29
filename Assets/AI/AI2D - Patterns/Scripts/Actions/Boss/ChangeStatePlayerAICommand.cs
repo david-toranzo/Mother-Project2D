@@ -8,10 +8,10 @@ namespace Runtime.AICommand
         [SerializeField] private CharacterMediator _objectToChangeState;
         [SerializeField] private bool _newState = false;
 
-        public override void Execute()
+        protected override StateNode ProcessWorkCommand()
         {
             _objectToChangeState.ChangeStateCharacterActive(_newState);
-            NotifyDoneExecution();
+            return StateNode.Success;
         }
     }
 }

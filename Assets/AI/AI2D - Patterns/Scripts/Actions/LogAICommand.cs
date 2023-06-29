@@ -6,10 +6,10 @@ namespace Runtime.AICommand
     {
         [SerializeField] private string _messageToLog = "This is a simple log for the ai command";
 
-        public override void Execute()
+        protected override StateNode ProcessWorkCommand()
         {
             Debug.Log(_messageToLog);
-            NotifyDoneExecution();
+            return StateNode.Success;
         }
     }
 }

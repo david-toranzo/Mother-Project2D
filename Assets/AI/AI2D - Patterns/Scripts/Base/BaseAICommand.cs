@@ -1,11 +1,8 @@
-using Patterns.Command;
-
 namespace Runtime.AICommand
 {
-    public abstract class BaseAICommand : BaseCommand
+    public abstract class BaseAICommand : Node
     {
-        public override void InitialConfiguration(ICommandDoneTask commandDone)
-        {
-        }
+        protected override void EnterNode() { }
+        protected override void ExitNode() { }
     }
 }

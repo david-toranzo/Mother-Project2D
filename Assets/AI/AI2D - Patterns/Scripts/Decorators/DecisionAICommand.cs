@@ -1,33 +1,27 @@
-﻿using Patterns.Command;
-using Runtime.AICommand;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Runtime.AICommand
 {
-    public class DecisionAICommand : DecoratorAICommand, ICommandDoneTask
+    public class DecisionAICommand : DecoratorAICommand
     {
         [SerializeField] private BaseAICommand _decoratorCommandFalseCondition;
 
         [Header("References")]
         [SerializeField] private DecisionBase _verificatorDecision;
 
-        public override void InitialConfiguration(ICommandDoneTask commandDone)
-        {
-            _decoratorCommand.SetCommandManager(this);
-            _decoratorCommandFalseCondition.SetCommandManager(this);
-        }
+        private BaseAICommand _commandToExecute;
 
-        public void DoneExecutionCommand()
+        protected override void EnterNode()
         {
-            NotifyDoneExecution();
-        }
-
-        public override void Execute()
-        {
-            if(_verificatorDecision.GetResolutionOfDecision())
-                _decoratorCommand.Execute();
+            if (_verificatorDecision.GetResolutionOfDecision())
+                _commandToExecute = _decoratorCommand;
             else
-                _decoratorCommandFalseCondition.Execute();
+                _commandToExecute = _decoratorCommandFalseCondition;
+        }
+
+        protected override StateNode ProcessWorkCommand()
+        {
+            return _commandToExecute.ProcessUpdate();
         }
     }
 }

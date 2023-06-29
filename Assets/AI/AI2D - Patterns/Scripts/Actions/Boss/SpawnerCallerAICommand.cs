@@ -7,10 +7,10 @@ namespace Runtime.AICommand
         [Header("References")]
         [SerializeField] private ObjectSpawnerByAmount _objectSpawnerByAmount;
 
-        public override void Execute()
+        protected override StateNode ProcessWorkCommand()
         {
             _objectSpawnerByAmount.SpawnObjects();
-            NotifyDoneExecution();
+            return StateNode.Success;
         }
     }
 }

@@ -11,13 +11,14 @@ namespace Runtime.AICommand
         [Header("References")]
         [SerializeField] private BossDataController _bossDataController;
 
-        public override void Execute()
+        protected override StateNode ProcessWorkCommand()
         {
             var rock = Instantiate(_objectToSpawn, _positionToSpawn.position, Quaternion.identity);
 
             Vector2 direction = _bossDataController.GetDirectionToTarget();
             rock.GetComponent<DirectionForceAdder>().SetDirectionToAddForce(direction);
-            NotifyDoneExecution();
+            
+            return StateNode.Success;
         }
     }
 }

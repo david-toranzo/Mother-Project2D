@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Runtime.AICommand
 {
@@ -29,7 +28,7 @@ namespace Runtime.AICommand
             _target = _bossDataController.Target.transform;
         }
 
-        public override void Execute()
+        protected override void EnterNode()
         {
             _timeToWait = Random.Range(_minTimeToWalk, _maxTimeToWalk);
             _currentTime = 0;
@@ -37,22 +36,18 @@ namespace Runtime.AICommand
             Vector3 _targetPosition = _target.position;
             _directionMove = -(_objectMoveRb.transform.position - _targetPosition);
             _directionMove.y = 0;
-
-            StartCoroutine(WaitTimeToDoneExecution());
         }
 
-        private IEnumerator WaitTimeToDoneExecution()
+        protected override StateNode ProcessWorkCommand()
         {
             _currentTime += Time.deltaTime;
 
             MoveToPosition();
 
-            yield return new WaitForFixedUpdate();
-
             if (_currentTime > _timeToWait)
-                NotifyDoneExecution();
-            else
-                StartCoroutine(WaitTimeToDoneExecution());
+                return StateNode.Success;
+
+            return StateNode.Running;
         }
 
         private void MoveToPosition()

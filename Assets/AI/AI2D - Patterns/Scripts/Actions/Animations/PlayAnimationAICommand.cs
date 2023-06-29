@@ -7,10 +7,10 @@ namespace Runtime.AICommand
         [SerializeField] private Animator _animator;
         [SerializeField] private string _animationName = "";
 
-        public override void Execute()
+        protected override StateNode ProcessWorkCommand()
         {
             _animator.Play(_animationName);
-            NotifyDoneExecution();
+            return StateNode.Success;
         }
     }
 }
