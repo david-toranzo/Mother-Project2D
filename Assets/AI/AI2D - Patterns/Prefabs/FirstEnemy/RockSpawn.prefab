@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 3296295959128920833}
   - component: {fileID: 7269901535379852970}
   - component: {fileID: 6497337029670523368}
-  - component: {fileID: 2951117938014150420}
+  - component: {fileID: -5099797742497837546}
+  - component: {fileID: 2973316423772528662}
   m_Layer: 0
   m_Name: RockSpawn
   m_TagString: Untagged
@@ -149,7 +150,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 7.29, y: 2.21}
   m_Direction: 1
---- !u!114 &2951117938014150420
+--- !u!114 &-5099797742497837546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191462584079816628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e8a7298186cf645aecae650d03975a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tagToCollision: Player
+  _healthToSubstract: 1
+--- !u!114 &2973316423772528662
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

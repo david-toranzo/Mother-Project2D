@@ -10,9 +10,9 @@ namespace Common
         [SerializeField] private SpriteRenderer _spriteHit;
 
         [Header("Data")]
-        [SerializeField] private Color _colorDefault;
-        [SerializeField] private Color _colorHit;
-        [SerializeField] private float _secondToWait;
+        [SerializeField] private Color _colorDefault = Color.white;
+        [SerializeField] private Color _colorHit = Color.red;
+        [SerializeField] private float _secondToWait = 0.05f;
         [SerializeField] private int _cyclesChangeColor = 3;
 
         private int _countCycleAnim = 0;
