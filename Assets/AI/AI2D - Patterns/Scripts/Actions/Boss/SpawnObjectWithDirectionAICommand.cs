@@ -14,9 +14,6 @@ namespace Runtime.AICommand
         protected override StateNode ProcessWorkCommand()
         {
             var rock = Instantiate(_objectToSpawn, _positionToSpawn.position, Quaternion.identity);
-
-            Vector2 direction = _bossDataController.GetDirectionToTarget();
-            rock.GetComponent<DirectionForceAdder>().SetDirectionToAddForce(direction);
             
             return StateNode.Success;
         }

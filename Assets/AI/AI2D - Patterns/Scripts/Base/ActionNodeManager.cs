@@ -11,14 +11,14 @@ namespace Runtime.AICommand
 
         private List<Node> _commandsNode;
 
-        private WaitForEndOfFrame _waitForEndOfFrame;
+        private WaitForFixedUpdate _waitForEndOfFrame;
         private StateNode _lastState = StateNode.Running;
         private int _commandInternalCount = 0;
         private bool _canRunCommand = true;
 
         private void Awake()
         {
-            _waitForEndOfFrame = new WaitForEndOfFrame();
+            _waitForEndOfFrame = new WaitForFixedUpdate();
             AddAndSetNodes(_nodes);
         }
 
