@@ -938,6 +938,7 @@ GameObject:
   - component: {fileID: 1424209235639066300}
   - component: {fileID: 5346079404520367869}
   - component: {fileID: 4905509963118428444}
+  - component: {fileID: 6251977345874519749}
   m_Layer: 7
   m_Name: EnemyFirst
   m_TagString: Enemy
@@ -1170,6 +1171,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _healthController: {fileID: 2394906720860658285}
   _mainRepeater: {fileID: 2808922802120810136}
+--- !u!114 &6251977345874519749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2808922801100703274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ccb3483aafb564984169d6f13c60df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider2D: {fileID: 5639433916017072443}
+  _healthController: {fileID: 2394906720860658285}
 --- !u!1 &2808922801179186410
 GameObject:
   m_ObjectHideFlags: 0
