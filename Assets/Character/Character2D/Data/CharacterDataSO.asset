@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e83e26145b12bbc4288b0b0eaff51264, type: 3}
   m_Name: CharacterDataSO
   m_EditorClassIdentifier: 
-  _walkSpeed: 1.8
-  _multiplyGravityFactor: 4
+  _walkSpeed: 1.5
+  _multiplyGravityFactor: 2
   _gravity: -9.8
   _groundedGravity: -0.05
   _walkSpeedAir: 2.5
-  _maxJumpHeight: 1.8
+  _maxJumpHeight: 1.2
   _maxJumpTime: 0.7
   _velocityJumpForward: 4
