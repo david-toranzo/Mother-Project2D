@@ -1749,7 +1749,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348654020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.83, y: 5.49928, z: -10.121539}
+  m_LocalPosition: {x: -3.83, y: 6.19752, z: -10.121539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1953,12 +1953,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470727569}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 52.93, y: 14.47, z: 0}
-  m_LocalScale: {x: 25.840002, y: 1.0574, z: 1}
+  m_LocalPosition: {x: 100.53, y: -10.41, z: -0.2736733}
+  m_LocalScale: {x: 2, y: 0.46, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1918544248}
-  m_RootOrder: 25
+  m_Father: {fileID: 1176378799}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &470727571
 BoxCollider2D:
@@ -2047,7 +2047,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2617,7 +2617,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.83, y: 5.49928, z: -10.121539}
+  m_LocalPosition: {x: -3.83, y: 6.19752, z: -10.121539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5473,6 +5473,7 @@ Transform:
   m_Children:
   - {fileID: 1423344652}
   - {fileID: 630810393}
+  - {fileID: 470727570}
   m_Father: {fileID: 827976778}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5699,7 +5700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277971151}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: EnemyBoss - collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5767,7 +5768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 1.42, y: 0.74, z: 0}
+  m_TrackedObjectOffset: {x: 1.42, y: 1.78, z: 0}
   m_LookaheadTime: 0.227
   m_LookaheadSmoothing: 5.5
   m_LookaheadIgnoreY: 1
@@ -5776,16 +5777,16 @@ MonoBehaviour:
   m_ZDamping: 1
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
-  m_ScreenY: 0.571
+  m_ScreenY: 0.539
   m_CameraDistance: 10
   m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0.614
+  m_DeadZoneHeight: 0.44
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.826
-  m_SoftZoneHeight: 0.832
+  m_SoftZoneHeight: 0.808
   m_BiasX: 0
-  m_BiasY: -0.004
+  m_BiasY: 0.004
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 0
@@ -6429,8 +6430,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.007250011, y: -0.004999995, z: 0}
-    m_Extent: {x: 0.99775, y: 1.0042, z: 0}
+    m_Center: {x: 0.002849996, y: -0.0021499991, z: 0}
+    m_Extent: {x: 1.0064499, y: 1.00705, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9372,7 +9373,6 @@ Transform:
   - {fileID: 248789678}
   - {fileID: 815332520}
   - {fileID: 2141188488}
-  - {fileID: 470727570}
   m_Father: {fileID: 827976778}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
