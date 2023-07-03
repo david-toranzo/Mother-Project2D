@@ -24,13 +24,19 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEditor;
+
+#if UNITY_EDITOR
+
 using UnityEditor.SceneManagement;
 using System.Text.RegularExpressions;
+#endif
 
 namespace DragonBones
 {
     public class UnityEditor
     {
+#if UNITY_EDITOR
+
         [MenuItem("GameObject/DragonBones/Armature Object", false, 10)]
         private static void _CreateArmatureObjectMenuItem()
         {
@@ -473,6 +479,6 @@ namespace DragonBones
 
             return armatureComponent;
         }
-
+#endif
     }
 }

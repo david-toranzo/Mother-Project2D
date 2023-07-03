@@ -20,18 +20,19 @@
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
-using UnityEditorInternal;
-using System.Reflection;
 using System.IO;
+#endif
 
 namespace DragonBones
 {
+#if UNITY_EDITOR
+
     [InitializeOnLoad]
     public class DragonBonesIcons : Editor
-    {
-
+   {
         static Texture2D /*textureBone,*/ textureArmature, textureImg, textureMesh/* , textureIk */;
         static string editorPath = "";
         static string editorGUIPath = "";
@@ -112,5 +113,5 @@ namespace DragonBones
             }
         }
     }
-
+#endif
 }
