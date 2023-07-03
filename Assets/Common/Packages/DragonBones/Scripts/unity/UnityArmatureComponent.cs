@@ -128,6 +128,17 @@ namespace DragonBones
         //
         internal int _armatureZ;
 
+        public bool FlipX
+        {
+            get => _flipX;
+            set
+            {
+                _flipX = value;
+
+                _armature.flipX = _flipX;
+            }
+        }
+
         /// <private/>
         public void DBClear()
         {

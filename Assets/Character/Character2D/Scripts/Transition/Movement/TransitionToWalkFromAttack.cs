@@ -7,12 +7,11 @@ namespace Runtime.Character2D
     {
         [Header("Fighter")]
         [SerializeField] private CharacterFighter _characterFighter;
-        [SerializeField] private AnimationClip _attackClip;
-        [SerializeField] private float _velocityClip = 2;
+        [SerializeField] private float _velocityClip = 0.5f;
 
         public override bool GetProcessTransitionVerification()
         {
-            return (_attackClip.averageDuration / _velocityClip) < _characterFighter.TimeBetweenLastAttack;
+            return _velocityClip < _characterFighter.TimeBetweenLastAttack;
         }
     }
 }

@@ -24,7 +24,7 @@ namespace Runtime.Character2D
         private bool _canMove = true;
 
         private CharacterController2D _characterController;
-        private CharacterAnimation _characterAnimation;
+        private CharacterAnimationDragonBones _characterAnimation;
         private ControlInputBool _controlRunInput;
         private ControlInputVector2 _controlInputMovement;
 
@@ -41,7 +41,7 @@ namespace Runtime.Character2D
         private void Awake()
         {
             _characterController = GetComponent<CharacterController2D>();
-            _characterAnimation = GetComponentInChildren<CharacterAnimation>();
+            _characterAnimation = GetComponentInChildren<CharacterAnimationDragonBones>();
         }
 
         private void Start()
@@ -84,12 +84,14 @@ namespace Runtime.Character2D
 
             if (_lookPlayerDirection == LookDirection.Right && positionToLookAt.x < 0)
             {
-                transform.Rotate(0, 180, 0);
+                //transform.Rotate(0, 180, 0);
+                _characterAnimation.RotateCharacter();
                 _lookPlayerDirection = LookDirection.Left;
             }
             else if (_lookPlayerDirection == LookDirection.Left && positionToLookAt.x > 0)
             {
-                transform.Rotate(0, -180, 0);
+                _characterAnimation.RotateCharacter();
+                //transform.Rotate(0, -180, 0);
                 _lookPlayerDirection = LookDirection.Right;
             }
         }

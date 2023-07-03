@@ -227,8 +227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nextStateMove: {fileID: 8657280858091272694}
   _characterFighter: {fileID: 8386594159205130977}
-  _attackClip: {fileID: 7400000, guid: c8b86315878e184448ae65c5aa29bf02, type: 2}
-  _velocityClip: 2
+  _velocityClip: 0.3
 --- !u!1 &650626153974613049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,7 +1094,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721115264345203468}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1554,8 +1553,6 @@ MonoBehaviour:
   _transitions:
   - {fileID: 2105737638601867761}
   - {fileID: 3866863042669188152}
-  - {fileID: 514280798146994743}
-  - {fileID: 7520945415973058670}
   _character: {fileID: 6147375219389303815}
   _characterJumpController: {fileID: 7269748771568286032}
   _characterDataSO: {fileID: 11400000, guid: eca0f9a02729a18429227a6910f59283, type: 2}
@@ -2208,10 +2205,10 @@ MonoBehaviour:
   - {fileID: 5753817000778164722}
   _character: {fileID: 6147375219389303815}
   _characterJumpController: {fileID: 7269748771568286032}
+  _characterAnimation: {fileID: 8104250357598138701}
   _characterInput: {fileID: 8126621261785666042}
   _nameInputAction: {fileID: 11400000, guid: 3961c4033fe25cb4489c70d25ec5be25, type: 2}
   _characterDataSO: {fileID: 11400000, guid: eca0f9a02729a18429227a6910f59283, type: 2}
-  _characterAnimation: {fileID: 8357801249044183187}
 --- !u!1 &3034929161783539776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2691,7 +2688,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.0466006}
+  m_Offset: {x: 0, y: 0.84}
   m_Size: {x: 0.58, y: 1.6322327}
   m_Direction: 0
 --- !u!114 &7057404585023594604
@@ -2991,6 +2988,125 @@ MonoBehaviour:
   _performedAction: 0
   _endAction: 1
   _worksWithEvent: 0
+--- !u!1 &4958734832295917877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6863573592584648505}
+  - component: {fileID: 1182637768939471585}
+  - component: {fileID: 3349241629851591885}
+  - component: {fileID: 8104250357598138701}
+  m_Layer: 0
+  m_Name: Armature1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6863573592584648505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958734832295917877}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 575487641938839739}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1182637768939471585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958734832295917877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f825bb5ce93d6ab429dfa508444119b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityData: {fileID: 11400000, guid: f3ead17cb263e034c955fdd3d39aa4fe, type: 2}
+  armatureName: Armature1
+  isUGUI: 0
+  debugDraw: 0
+  animationName: 1_attack_sword_1
+  _playTimes: 0
+  _timeScale: 1
+  _sortingMode: 0
+  _sortingLayerName: Default
+  _sortingOrder: 0
+  _zSpace: 0
+  _flipX: 0
+  _flipY: 0
+  _closeCombineMeshs: 0
+--- !u!114 &3349241629851591885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958734832295917877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfe11beb597d1a40a892f995bd31b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotNames:
+  - PELO_DETRAS
+  - pollera_trasera
+  - escudo_1
+  - brazo_der
+  - antebrazo_der
+  - mano_der
+  - pie_derecho
+  - muslo_derecha
+  - pantorrilla_der
+  - pollera
+  - cinturas
+  - pecho
+  - brazo_izq
+  - hombro
+  - antebrazo_izq
+  - cabeza
+  - cejas
+  - ojos
+  - parpados
+  - MECHON01
+  - MECHON_03
+  - MECHON_04
+  - MECHON01_0
+  - pollera_correr
+  dirty: 0
+--- !u!114 &8104250357598138701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958734832295917877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a253804235bdfb469ad3acd92a67981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  armatureComponent: {fileID: 1182637768939471585}
+  _timeTransition: 0.15
+  _timeScaleAttack: 2
+  idleAnimation: 0_idle
+  walkAnimation: 0_run_FAST
+  jumpAnimation: 0_jump
+  fallingAnimation: 0_falling
+  dieAnimation: Die
+  attackAnimation: Attack
 --- !u!1 &4978261857711155237
 GameObject:
   m_ObjectHideFlags: 0
@@ -3480,7 +3596,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nextStateMove: {fileID: 8657280858091272694}
   _characterFighter: {fileID: 8386594159205130977}
-  _attackClip: {fileID: 7400000, guid: 9d003ef0af3c5b54698fdd6dd2646d87, type: 2}
   _velocityClip: 2
 --- !u!1 &5952909805429659164
 GameObject:
@@ -3514,6 +3629,7 @@ Transform:
   - {fileID: 1616287394531142482}
   - {fileID: 6448726261067555629}
   - {fileID: 1627670385256924429}
+  - {fileID: 6863573592584648505}
   m_Father: {fileID: 5993083702970845265}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3650,7 +3766,6 @@ MonoBehaviour:
   _transitions:
   - {fileID: 5753817000778164722}
   - {fileID: 3906012742040278714}
-  - {fileID: 6970769867006818752}
   - {fileID: 7520945415973058670}
   _character: {fileID: 6147375219389303815}
   _characterDataSO: {fileID: 11400000, guid: eca0f9a02729a18429227a6910f59283, type: 2}
@@ -4134,6 +4249,7 @@ MonoBehaviour:
   - {fileID: 5753817000778164722}
   _character: {fileID: 6147375219389303815}
   _characterJumpController: {fileID: 7269748771568286032}
+  _characterAnimation: {fileID: 8104250357598138701}
   _characterInput: {fileID: 8126621261785666042}
   _nameInputAction: {fileID: 11400000, guid: 3961c4033fe25cb4489c70d25ec5be25, type: 2}
   _characterDataSO: {fileID: 11400000, guid: eca0f9a02729a18429227a6910f59283, type: 2}
@@ -4269,7 +4385,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nextStateMove: {fileID: 8657280858091272694}
   _characterFighter: {fileID: 8386594159205130977}
-  _attackClip: {fileID: 7400000, guid: 40c911b7ba9c50647bbcb81fe0f2ac54, type: 2}
   _velocityClip: 1
 --- !u!1 &8457466865007522489
 GameObject:
@@ -4323,14 +4438,14 @@ MonoBehaviour:
   _character: {fileID: 6147375219389303815}
   _characterDataSO: {fileID: 11400000, guid: eca0f9a02729a18429227a6910f59283, type: 2}
   _character2DController: {fileID: 2968087397562722911}
-  _animator: {fileID: 3892967172506047232}
+  _characterAnimationDragonBones: {fileID: 8104250357598138701}
   _characterFighter: {fileID: 8386594159205130977}
   _characterInput: {fileID: 8126621261785666042}
   _nameInputAction: {fileID: 11400000, guid: ea5f05db3647d464285f0ec8c47f1bef, type: 2}
   _animationAttackTriggerName:
-  - attack
-  - attack2
-  - attack3
+  - 1_attack_sword_1
+  - 1_attack_sword_2
+  - 1_attack_sword_3
   _animationAttackAirTriggerName: attackAir
 --- !u!1 &8655824235480562339
 GameObject:

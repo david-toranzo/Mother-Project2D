@@ -7,7 +7,7 @@ namespace Runtime.Character2D
     {
         [Header("References")]
         [SerializeField] private CharacterController2D _character2DController;
-        [SerializeField] private Animator _animator;
+        [SerializeField] private CharacterAnimationDragonBones _characterAnimationDragonBones;
         [SerializeField] private CharacterFighter _characterFighter;
 
         [Header("Input")]
@@ -43,7 +43,7 @@ namespace Runtime.Character2D
         private void SetAnimationTrigger()
         {
             int index = _characterFighter.CountCombo;
-            _animator.SetTrigger(GetStringAnimator(index));
+            _characterAnimationDragonBones.Attack(GetStringAnimator(index));
         }
 
         private string GetStringAnimator(int index)
