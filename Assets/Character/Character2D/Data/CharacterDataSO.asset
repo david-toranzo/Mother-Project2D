@@ -17,6 +17,6 @@ MonoBehaviour:
   _gravity: -9.8
   _groundedGravity: -0.05
   _walkSpeedAir: 2.5
-  _maxJumpHeight: 1.2
+  _maxJumpHeight: 1.25
   _maxJumpTime: 0.7
   _velocityJumpForward: 4
