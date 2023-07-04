@@ -1,3 +1,4 @@
+using BasicEnemy.Enemy;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -9,6 +10,10 @@ public class EnemyController : MonoBehaviour
     }
 
     public EnemyType enemyType;
+
+    [Header("References")]
+    [SerializeField] private Movement _movementEnemy;
+
     [Header("Ranges")]
     public float patrolRange = 5f;
     public float chaseRange = 10f;
@@ -106,7 +111,9 @@ public class EnemyController : MonoBehaviour
     {
         float patrolDistance = patrolRange * 2f;
         float movement = isPatrollingRight ? 1f : -1f;
-        transform.Translate(Vector2.right * movement * patrolSpeed * Time.deltaTime);
+
+        //transform.Translate(Vector2.right * movement * patrolSpeed * Time.deltaTime);
+        _movementEnemy.StartMoveAction(Vector2.right * movement, patrolSpeed * Time.deltaTime);
 
         if ((isPatrollingRight && transform.position.x >= originalPosition.x + patrolDistance) ||
             (!isPatrollingRight && transform.position.x <= originalPosition.x - patrolDistance))
