@@ -948,17 +948,20 @@ namespace DragonBones
                     for (int i = 0, l = this._slotTimelines.Count; i < l; ++i)
                     {
                         var timeline = this._slotTimelines[i];
-                        var displayController = timeline.slot.displayController;
-
-                        if (
-                            displayController == null ||
-                            displayController == this.name ||
-                            displayController == this.group
-                        )
+                        if (timeline.slot != null)
                         {
-                            if (timeline.playState <= 0)
+                            var displayController = timeline.slot.displayController;
+
+                            if (
+                                displayController == null ||
+                                displayController == this.name ||
+                                displayController == this.group
+                            )
                             {
-                                timeline.Update(time);
+                                if (timeline.playState <= 0)
+                                {
+                                    timeline.Update(time);
+                                }
                             }
                         }
                     }

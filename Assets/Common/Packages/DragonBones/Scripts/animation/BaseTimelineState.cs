@@ -59,6 +59,8 @@ namespace DragonBones
         protected AnimationState _animationState;
         protected TimelineState _actionTimeline;
 
+        protected AnimationState _defaultAnimationState;
+
         protected short[] _frameArray;
         protected short[] _frameIntArray;
         protected float[] _frameFloatArray;
@@ -113,6 +115,13 @@ namespace DragonBones
             }
             else if (this._actionTimeline == null || this._timeScale != 1.0f || this._timeOffset != 0.0f)
             {
+                if (this._animationState == null)
+                {
+                    UnityEngine.Debug.Log("_animationState ");
+                    return false;
+                    this._animationState = _defaultAnimationState;
+                }
+
                 var playTimes = this._animationState.playTimes;
                 var totalTime = playTimes * this._duration;
 
@@ -187,6 +196,7 @@ namespace DragonBones
         {
             this._armature = armature;
             this._animationState = animationState;
+            this._defaultAnimationState = animationState;
             this._timelineData = timelineData;
             this._actionTimeline = this._animationState._actionTimeline;
 
