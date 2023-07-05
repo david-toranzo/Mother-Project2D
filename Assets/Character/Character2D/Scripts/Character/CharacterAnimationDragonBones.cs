@@ -39,7 +39,7 @@ namespace Runtime.Character2D
 
         private void OnAnimationEventCompleted(string type, EventObject eventObject)
         {
-            if (state == State.DEAD && state != State.BLOCK)
+            if (state == State.DEAD || state == State.BLOCK)
                 return;
 
             if (state == State.ATTACK)
@@ -61,7 +61,7 @@ namespace Runtime.Character2D
 
         public void UpdateAnimation(bool _walk, bool sprint)
         {
-            if (state == State.DEAD && state != State.BLOCK)
+            if (state == State.DEAD || state == State.BLOCK)
                 return;
 
             if (_walk)
@@ -72,7 +72,7 @@ namespace Runtime.Character2D
 
         public void UpdateGroundAnimation(bool isGrounded, float airOffset)
         {
-            if (state == State.DEAD && state != State.BLOCK)
+            if (state == State.DEAD || state == State.BLOCK)
                 return;
 
             if (!isGrounded && state != State.FALLING && airOffset < 0)
@@ -143,8 +143,6 @@ namespace Runtime.Character2D
         {
             if (state != State.DEAD && state != State.ATTACK && state != State.BLOCK)
             {
-                Debug.Log("Block animation");
-
                 armatureComponent.animation.timeScale = _timeScaleAttack;
                 armatureComponent.animation.FadeIn(blockAnimation, _timeTransition);
                 state = State.BLOCK;
