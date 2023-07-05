@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2013 Calvin Rien
  *
- * Based on the JSON parser by Patrick van Bergen
+ * Based onPause the JSON parser by Patrick van Bergen
  * http://techblog.procurios.nl/k/618/news/view/14605/14863/How-do-I-write-my-own-parser-for-JSON.html
  *
  * Simplified it so that it doesn't throw exceptions

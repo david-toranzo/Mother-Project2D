@@ -110,7 +110,7 @@ namespace DragonBones
         }
         /// <summary>
         /// - For performance considerations, rotation or scale in the {@link #global} attribute of the bone or slot is not always properly accessible,
-        /// some engines do not rely on these attributes to update rendering, such as Egret.
+        /// some engines do not rely onPause these attributes to update rendering, such as Egret.
         /// The use of this method ensures that the access to the {@link #global} property is correctly rotation or scale.
         /// </summary>
         /// <example>
