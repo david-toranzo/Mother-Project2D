@@ -17,7 +17,6 @@ namespace Common
         [SerializeField] protected string _tagNameToAttack;
 
         protected IHealth _currentHealth;
-        protected Animator _animator;
         protected float _timeBetweenLastAttack = 0;
 
         protected virtual void Start()
@@ -25,7 +24,6 @@ namespace Common
             _timeBetweenLastAttack = _timeBetweenAttack;
 
             _currentHealth = GetComponent<IHealth>();
-            _animator = GetComponentInChildren<Animator>();
         }
 
         protected void UpdateTimeBetweenLastAttack()

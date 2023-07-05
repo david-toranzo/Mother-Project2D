@@ -103,7 +103,7 @@ namespace Runtime.Character2D
 
             _characterController.Move((_velocityToMultiply * _velocity) * Time.deltaTime); //+ _velocityPlatform); 
 
-            _walkInput = _inputMove.x != 0 || _inputMove.y != 0;
+            _walkInput = _inputMove.x != 0;
         }
 
         private void AnimationSetup()
@@ -137,7 +137,8 @@ namespace Runtime.Character2D
         private void SetInputMoveWithMoveInput()
         {
             Vector2 movementInput = _controlInputMovement.GetActualValueVector2Input();
-
+            movementInput.y = 0;
+            movementInput.Normalize();
             _inputMove = movementInput;
         }
 

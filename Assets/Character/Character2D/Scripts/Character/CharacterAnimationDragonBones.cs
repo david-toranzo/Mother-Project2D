@@ -20,25 +20,38 @@ namespace Runtime.Character2D
         public string fallingAnimation = "0_falling";
 
         public string dieAnimation = "Die";
+        public string blockAnimation = "0_block";
 
         public string attackAnimation = "Attack";
 
-        enum State { IDLE, WALKING, FALLING, JUMPING, DEAD, ATTACK };
+        enum State { IDLE, WALKING, FALLING, JUMPING, BLOCK, DEAD, ATTACK };
+        [Header("Debug")]
+        [SerializeField]
         private State state = State.IDLE;
 
+        private bool _isGroundLastFrame = false;
 
         private void Start()
         {
             armatureComponent.AddDBEventListener(EventObject.LOOP_COMPLETE, OnAnimationEventCompleted);
+            armatureComponent.AddEventListener("Attack", OnAnimationEventAttack);
         }
 
         private void OnAnimationEventCompleted(string type, EventObject eventObject)
         {
+            if (state == State.DEAD && state != State.BLOCK)
+                return;
+
             if (state == State.ATTACK)
             {
                 armatureComponent.animation.FadeIn(idleAnimation, _timeTransition, -1);
                 state = State.IDLE;
             }
+        }
+
+        private void OnAnimationEventAttack(string type, EventObject eventObject)
+        {
+            Debug.Log("Attack animations " + type);
         }
 
         public void RotateCharacter()
@@ -48,6 +61,9 @@ namespace Runtime.Character2D
 
         public void UpdateAnimation(bool _walk, bool sprint)
         {
+            if (state == State.DEAD && state != State.BLOCK)
+                return;
+
             if (_walk)
                 Walk();
             else
@@ -56,32 +72,44 @@ namespace Runtime.Character2D
 
         public void UpdateGroundAnimation(bool isGrounded, float airOffset)
         {
+            if (state == State.DEAD && state != State.BLOCK)
+                return;
+
             if (!isGrounded && state != State.FALLING && airOffset < 0)
             {
                 armatureComponent.animation.timeScale = 1f;
                 armatureComponent.animation.FadeIn(fallingAnimation, _timeTransition, -1);
                 state = State.FALLING;
             }
-            else if(isGrounded && state != State.IDLE && state != State.WALKING && state != State.JUMPING && state != State.ATTACK)
+            else if (isGrounded && state != State.IDLE && state != State.WALKING && state != State.JUMPING && state != State.ATTACK) //
             {
-                armatureComponent.animation.timeScale = 1f;
-                armatureComponent.animation.FadeIn(idleAnimation, _timeTransition, -1);
-                state = State.IDLE;
+                TransitionToIdle();
             }
+            else if (state == State.JUMPING && !_isGroundLastFrame && isGrounded)
+            {
+                TransitionToIdle();
+            }
+
+            _isGroundLastFrame = isGrounded;
         }
 
-        public void Idle()
+        private void TransitionToIdle()
+        {
+            armatureComponent.animation.timeScale = 1f;
+            armatureComponent.animation.FadeIn(idleAnimation, _timeTransition, -1);
+            state = State.IDLE;
+        }
+
+        private void Idle()
         {
             if (state != State.DEAD && state != State.IDLE && state != State.FALLING 
                 && state != State.JUMPING && state != State.ATTACK)
             {
-                armatureComponent.animation.timeScale = 1f;
-                armatureComponent.animation.FadeIn(idleAnimation, _timeTransition, -1);
-                state = State.IDLE;
+                TransitionToIdle();
             }
         }
 
-        public void Walk()
+        private void Walk()
         {
             if (state != State.DEAD && state != State.WALKING && state != State.FALLING 
                 && state != State.JUMPING && state != State.ATTACK)
@@ -108,6 +136,26 @@ namespace Runtime.Character2D
                 armatureComponent.animation.Play(dieAnimation, 1);
                 armatureComponent.animation.timeScale = 1f;
                 state = State.DEAD;
+            }
+        }
+
+        public void Block()
+        {
+            if (state != State.DEAD && state != State.ATTACK && state != State.BLOCK)
+            {
+                Debug.Log("Block animation");
+
+                armatureComponent.animation.timeScale = _timeScaleAttack;
+                armatureComponent.animation.FadeIn(blockAnimation, _timeTransition);
+                state = State.BLOCK;
+            }
+        }
+
+        public void StopBlock()
+        {
+            if (state != State.DEAD && state == State.BLOCK)
+            {
+                TransitionToIdle();
             }
         }
 

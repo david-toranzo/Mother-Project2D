@@ -1086,6 +1086,8 @@ namespace DragonBones
 
                 ikConstraint._bendPositive = bendPositive;
             }
+            else if (ikConstraint == null)
+                return;
             else
             {
                 var ikConstraintData = ikConstraint._constraintData as IKConstraintData;

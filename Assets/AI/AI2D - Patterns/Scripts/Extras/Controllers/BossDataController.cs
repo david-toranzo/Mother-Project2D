@@ -7,8 +7,11 @@ namespace Runtime.AICommand
         [SerializeField] private GameObject _enemyController;
         [SerializeField] private GameObject _target;
 
+        private bool _isRightRotation = false;
+
         public GameObject EnemyGameObject { get => _enemyController; set => _enemyController = value; }
         public GameObject Target { get => _target; set => _target = value; }
+        public bool IsRightRotation { get => _isRightRotation; set => _isRightRotation = value; }
 
         public Vector2 GetDirectionToTarget()
         { 

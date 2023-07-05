@@ -147,7 +147,15 @@ namespace DragonBones
                 this._armature = null;
                 if (this._disposeProxy)
                 {
-                    UnityFactoryHelper.DestroyUnityObject(gameObject);
+                    try
+                    {
+                        var go = gameObject;
+                        UnityFactoryHelper.DestroyUnityObject(gameObject);
+                    }
+                    catch (System.Exception e)
+                    {
+
+                    }
                 }
             }
 

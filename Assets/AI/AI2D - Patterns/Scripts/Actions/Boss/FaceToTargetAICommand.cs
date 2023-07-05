@@ -10,8 +10,6 @@ namespace Runtime.AICommand
         private Transform _objectRotate;
         private Transform _target;
 
-        private bool _isRightRotation = false;
-
         private void Start()
         {
             _objectRotate = _bossDataController.EnemyGameObject.transform;
@@ -20,9 +18,9 @@ namespace Runtime.AICommand
 
         protected override StateNode ProcessWorkCommand()
         {
-            if (_objectRotate.position.x > _target.position.x && _isRightRotation)
+            if (_objectRotate.position.x > _target.position.x && _bossDataController.IsRightRotation)
                 RotateObject(-180, false);
-            else if (_objectRotate.position.x < _target.position.x && !_isRightRotation)
+            else if (_objectRotate.position.x < _target.position.x && !_bossDataController.IsRightRotation)
                 RotateObject(180, true);
             
             return StateNode.Success;
@@ -31,7 +29,7 @@ namespace Runtime.AICommand
         private void RotateObject(int rotateAngle, bool newStateRight)
         {
             _objectRotate.Rotate(0, rotateAngle, 0);
-            _isRightRotation = newStateRight;
+            _bossDataController.IsRightRotation = newStateRight;
         }
     }
 }
