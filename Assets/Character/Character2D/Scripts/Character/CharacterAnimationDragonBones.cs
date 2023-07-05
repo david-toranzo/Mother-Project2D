@@ -34,7 +34,7 @@ namespace Runtime.Character2D
         private void Start()
         {
             armatureComponent.AddDBEventListener(EventObject.LOOP_COMPLETE, OnAnimationEventCompleted);
-            armatureComponent.AddDBEventListener("Attack", OnAnimationEventAttack);
+            armatureComponent.AddEventListener("Attack", OnAnimationEventAttack);
         }
 
         private void OnAnimationEventCompleted(string type, EventObject eventObject)
