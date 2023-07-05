@@ -807,10 +807,10 @@ namespace DragonBones
             }
         }
         /// <summary>
-        /// - The animation cache frame rate, which turns on the animation cache when the set value is greater than 0.
+        /// - The animation cache frame rate, which turns onPause the animation cache when the set value is greater than 0.
         /// There is a certain amount of memory overhead to improve performance by caching animation data in memory.
         /// The frame rate should not be set too high, usually with the frame rate of the animation is similar and lower than the program running frame rate.
-        /// When the animation cache is turned on, some features will fail, such as the offset property of bone.
+        /// When the animation cache is turned onPause, some features will fail, such as the offset property of bone.
         /// </summary>
         /// <example>
         /// TypeScript style, for reference only.
@@ -933,7 +933,7 @@ namespace DragonBones
         /// <summary>
         /// - The display container.
         /// The display of the slot is displayed as the parent.
-        /// Depending on the rendering engine, the type will be different, usually the DisplayObjectContainer type.
+        /// Depending onPause the rendering engine, the type will be different, usually the DisplayObjectContainer type.
         /// </summary>
         /// <version>DragonBones 3.0</version>
         /// <language>en_US</language>

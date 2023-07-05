@@ -26,7 +26,7 @@
     /// - A Rectangle object is an area defined by its position, as indicated by its top-left corner point (x, y) and by its
     /// width and its height.<br/>
     /// The x, y, width, and height properties of the Rectangle class are independent of each other; changing the value of
-    /// one property has no effect on the others. However, the right and bottom properties are integrally related to those
+    /// one property has no effect onPause the others. However, the right and bottom properties are integrally related to those
     /// four properties. For example, if you change the value of the right property, the value of the width property changes;
     /// if you change the bottom property, the value of the height property changes.
     /// </summary>

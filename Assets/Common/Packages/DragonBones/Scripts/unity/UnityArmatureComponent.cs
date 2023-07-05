@@ -196,7 +196,7 @@ namespace DragonBones
                 Shader shader = Shader.Find("Hidden/Internal-Colored");
                 _debugDrawer = new Material(shader);
                 _debugDrawer.hideFlags = HideFlags.HideAndDontSave;
-                // Turn on alpha blending
+                // Turn onPause alpha blending
                 _debugDrawer.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
                 _debugDrawer.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
                 // Turn backface culling off

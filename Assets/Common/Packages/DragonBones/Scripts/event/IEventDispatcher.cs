@@ -25,7 +25,7 @@
     public delegate void ListenerDelegate<T>(string type, T eventObject);
     /// <summary>
     /// - The event dispatcher interface.
-    /// Dragonbones event dispatch usually relies on docking engine to implement, which defines the event method to be implemented when docking the engine.
+    /// Dragonbones event dispatch usually relies onPause docking engine to implement, which defines the event method to be implemented when docking the engine.
     /// </summary>
     /// <version>DragonBones 4.5</version>
     /// <language>en_US</language>
