@@ -1,14 +1,11 @@
-using Runtime.InputSystem;
+﻿using Runtime.InputSystem;
 using Patterns.StateMachine;
 using UnityEngine;
 
 namespace Runtime.Character2D
 {
-    public class TransitionToJump : Transition
+    public class TransitionToStateNonInput : Transition
     {
-        [Header("References")]
-        [SerializeField] private CharacterController2D _characterController;
-
         [Header("Input")]
         [SerializeField] private CharacterInput _characterInput;
         [SerializeField] private NameInput _nameInputAction;
@@ -27,8 +24,7 @@ namespace Runtime.Character2D
 
         public override bool GetProcessTransitionVerification()
         {
-            return _controlInput.IsInputPressed &&
-                _characterController.isGrounded;
+            return !_controlInput.IsInputPressed;
         }
     }
 }

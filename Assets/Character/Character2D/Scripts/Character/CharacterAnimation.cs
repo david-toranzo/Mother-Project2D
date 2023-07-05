@@ -1,10 +1,8 @@
 using ScriptableObjects.Data;
-using System;
 using UnityEngine;
 
 namespace Runtime.Character2D
 {
-
     //TODO refactor all class
     public class CharacterAnimation : MonoBehaviour
     {
