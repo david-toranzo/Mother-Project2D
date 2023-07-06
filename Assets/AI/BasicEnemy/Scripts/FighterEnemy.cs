@@ -73,12 +73,9 @@ namespace BasicEnemy.Enemy
 
         public override void MakeAttack()
         {
-            Debug.Log("MakeAttack");
             if (Vector3.Distance(_positionToAttack.transform.position, _lastTarget.transform.position)
                 < _shoutDistanceTakeDamage)
             {
-                Debug.Log("MakeAttack take damage");
-
                 IHealth targetToTest = _lastTarget.GetComponent<IHealth>();
                 targetToTest.ReceiveAttack(_damage);
             }
