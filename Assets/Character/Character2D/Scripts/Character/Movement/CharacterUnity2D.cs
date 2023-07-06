@@ -30,6 +30,7 @@ namespace Runtime.Character2D
         private CharacterAnimationDragonBones _characterAnimation;
         private ControlInputBool _controlRunInput;
         private ControlInputVector2 _controlInputMovement;
+        private CharacterCollision _characterCollision;
 
         private Vector3 _velocity;
 
@@ -43,14 +44,22 @@ namespace Runtime.Character2D
 
         private void Awake()
         {
+            _characterCollision = GetComponent<CharacterCollision>();
             _characterController = GetComponent<CharacterController2D>();
             _characterAnimation = GetComponentInChildren<CharacterAnimationDragonBones>();
         }
 
         private void Start()
         {
+            _characterCollision.OnCollisionUp += ResetVelocityMove;
+
             _controlRunInput = GetControlInputBool(_nameInputActionRun.NameControlInput);
             _controlInputMovement = GetControlInputVector2(_nameInputActionMovement.NameControlInput);
+        }
+
+        private void OnDestroy()
+        {
+            _characterCollision.OnCollisionUp -= ResetVelocityMove;
         }
 
         private ControlInputBool GetControlInputBool(string nameInput)
