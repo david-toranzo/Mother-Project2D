@@ -8,6 +8,8 @@ namespace BasicEnemy.Enemy
         [Header("References")]
         [SerializeField] private UnityArmatureComponent _armatureComponent;
         [SerializeField] private float _timeTransition = 1f;
+        [SerializeField] private float _velocityAttack = 2f;
+        [SerializeField] private float _velocityWalk = 2f;
 
         [Header("String names")]
         [SerializeField] private string _idleAnimation = "0_idle";
@@ -27,7 +29,8 @@ namespace BasicEnemy.Enemy
         {
             if (_attack && _isIdle)
             {
-                _armatureComponent.animation.FadeIn(_idleAnimation, _timeTransition, -1);
+                _armatureComponent.animation.timeScale = 1;
+                _armatureComponent.animation.FadeIn(_idleAnimation, -1);
                 _isIdle = true;
                 _attack = false;
             }
@@ -38,18 +41,22 @@ namespace BasicEnemy.Enemy
             if (speed == 0 && !_isIdle)
             {
                 _armatureComponent.animation.FadeIn(_idleAnimation, _timeTransition, -1);
+                _armatureComponent.animation.timeScale = 1;
                 _isIdle = true;
             }
             if (speed != 0 && _isIdle)
             {
-                _armatureComponent.animation.FadeIn(_walkAnimation, _timeTransition, -1);
+                _armatureComponent.animation.FadeIn(_walkAnimation, _timeTransition/2, -1);
+                _armatureComponent.animation.timeScale = _velocityWalk;
                 _isIdle = false;
             }
         }
 
         public void SetAttack()
         {
-            _armatureComponent.animation.FadeIn(_attack1Animation, _timeTransition, -1);
+            string attackAnim = Random.Range(0,2) == 0 ? _attack1Animation : _attack2Animation;
+            _armatureComponent.animation.FadeIn(attackAnim, _timeTransition, -1);
+            _armatureComponent.animation.timeScale = _velocityAttack;
             _isIdle = true;
             _attack = true;
         }

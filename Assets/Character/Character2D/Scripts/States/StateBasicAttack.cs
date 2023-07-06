@@ -32,7 +32,7 @@ namespace Runtime.Character2D
 
         public override void Enter()
         {
-            //_character.ResetVelocityMove();
+            _character.ResetVelocityMove();
             _character.ChangeGravityEnabled(false);
             _controlInput.IsInputPressed = false;
 

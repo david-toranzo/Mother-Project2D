@@ -141,7 +141,7 @@ namespace Runtime.Character2D
 
         public void Block()
         {
-            if (state != State.DEAD && state != State.ATTACK && state != State.BLOCK)
+            if (state != State.DEAD && state != State.BLOCK) // && state != State.ATTACK
             {
                 armatureComponent.animation.timeScale = _timeScaleAttack;
                 armatureComponent.animation.FadeIn(blockAnimation, _timeTransition);

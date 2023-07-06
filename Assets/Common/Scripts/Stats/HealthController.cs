@@ -28,7 +28,7 @@ namespace Common
 
         public bool IsDead() => _currentLife <= 0;
 
-        public void ReceiveAttack(int healthToSubstract)
+        public virtual void ReceiveAttack(int healthToSubstract)
         {
             if (IsDead())
                 return;
