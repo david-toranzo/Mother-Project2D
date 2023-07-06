@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Common;
+using System;
 using UnityEngine;
 
-namespace Common
+namespace Runtime.Common
 {
     public abstract class Fighter : MonoBehaviour
     {

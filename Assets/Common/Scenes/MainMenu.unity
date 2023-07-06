@@ -8071,7 +8071,7 @@ MonoBehaviour:
   defaultVolume: 0.5
   defaultSen: 4
   defaultInvertY: 0
-  _newGameButtonLevel: AudioScene
+  _newGameButtonLevel: SampleScene
   menuDefaultCanvas: {fileID: 1939101950031649}
   GeneralSettingsCanvas: {fileID: 1053070461060097}
   graphicsMenu: {fileID: 1181362548911921}

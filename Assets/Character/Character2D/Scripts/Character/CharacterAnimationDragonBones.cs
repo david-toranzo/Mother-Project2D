@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
 using DragonBones;
+using Runtime.Common;
+using System;
 
 namespace Runtime.Character2D
 {
-    public class CharacterAnimationDragonBones : MonoBehaviour
+    public class CharacterAnimationDragonBones : MonoBehaviour, IAttackEvent
     {
+        public Action OnAttack { get; set; }
+
         [Header("References")]
         [SerializeField] private UnityArmatureComponent armatureComponent;
 
@@ -30,6 +34,7 @@ namespace Runtime.Character2D
         private State state = State.IDLE;
 
         private bool _isGroundLastFrame = false;
+
 
         private void Start()
         {
@@ -161,6 +166,7 @@ namespace Runtime.Character2D
         {
             if (state != State.DEAD && state != State.ATTACK)
             {
+                OnAttack?.Invoke();
                 armatureComponent.animation.timeScale = _timeScaleAttack;
                 armatureComponent.animation.FadeIn(indexAttack, _timeTransition);
                 state = State.ATTACK;

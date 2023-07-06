@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Common
+namespace Runtime.Common
 {
     public class FighterAnimatorEventCaller : MonoBehaviour
     {
