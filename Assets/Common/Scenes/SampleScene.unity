@@ -1173,9 +1173,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303317130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.1, y: 0.7, z: -13.283}
-  m_LocalScale: {x: 1.5956019, y: 1.5956019, z: 2.6593368}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 52.5, y: 0.7, z: -13.283}
+  m_LocalScale: {x: 4.88, y: 4.88, z: 8.133334}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 943719306}
   - {fileID: 118844410}
@@ -1434,9 +1434,9 @@ MonoBehaviour:
   background1: {fileID: 943719306}
   background2: {fileID: 118844410}
   background3: {fileID: 1620934329}
-  parallaxFactor1: 0.5
-  parallaxFactor2: 1
-  parallaxFactor3: 2
+  parallaxFactor1: 1
+  parallaxFactor2: 0.5
+  parallaxFactor3: 0.25
 --- !u!114 &386484883 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8751644870566915652, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
@@ -3304,7 +3304,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d8a6e335575608c4097f8947b1d549cc, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3346,11 +3346,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3332417996642499127, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -43.69995
+      value: -43.700012
       objectReference: {fileID: 0}
     - target: {fileID: 3781476275857688524, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -43.69995
+      value: -43.700012
       objectReference: {fileID: 0}
     - target: {fileID: 3789572779371653627, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3450,7 +3450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8676294626546737574, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -43.69995
+      value: -43.700012
       objectReference: {fileID: 0}
     - target: {fileID: 9031429478776182093, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_Name
@@ -5230,8 +5230,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00085002184, y: 0.005549997, z: 0}
-    m_Extent: {x: 1.0086501, y: 1.00435, z: 0}
+    m_Center: {x: -0.0041499734, y: 0.0024999976, z: 0}
+    m_Extent: {x: 1.00435, y: 1.0065, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -7562,6 +7562,11 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!4 &2072702765 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1627670385256924429, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+  m_PrefabInstance: {fileID: 3410459931432340737}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2102105973
 GameObject:
   m_ObjectHideFlags: 0
@@ -7699,10 +7704,6 @@ PrefabInstance:
     - target: {fileID: 2808922801419898839, guid: c95ec745240811d4c8617eb42e63b75e, type: 3}
       propertyPath: m_Name
       value: EnemyBoss
-      objectReference: {fileID: 0}
-    - target: {fileID: 2808922801419898839, guid: c95ec745240811d4c8617eb42e63b75e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3399232560652169313, guid: c95ec745240811d4c8617eb42e63b75e, type: 3}
       propertyPath: _objectToChangeState
@@ -8063,6 +8064,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1627670385256924429, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.475
+      objectReference: {fileID: 0}
     - target: {fileID: 1877147052959577079, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -8415,6 +8420,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6147375219389303815, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: _positionAttack
+      value: 
+      objectReference: {fileID: 2072702765}
     - target: {fileID: 6178703164812355515, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: m_IsActive
       value: 0

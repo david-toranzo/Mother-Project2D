@@ -883,7 +883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2808922801062171921}
-  - component: {fileID: 2808922801062171920}
+  - component: {fileID: 2255878166796765869}
   m_Layer: 0
   m_Name: WaitTime
   m_TagString: Untagged
@@ -906,7 +906,7 @@ Transform:
   m_Father: {fileID: 2808922801961645218}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2808922801062171920
+--- !u!114 &2255878166796765869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -915,12 +915,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2808922801062171926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5e56fb6423f1b545ab4161e3a7feae1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4bad44072df5cd74eb60968fc7efe6a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
   started: 0
-  _timeToWait: 2
+  _minTimeToWait: 1
+  _maxTimeToWait: 2
 --- !u!1 &2808922801100703274
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,7 +1249,7 @@ Transform:
   - {fileID: 2808922801100703317}
   - {fileID: 2808922801640297652}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2808922801505228322
 GameObject:
@@ -1461,7 +1462,7 @@ MonoBehaviour:
   state: 0
   started: 0
   _decoratorsCommand:
-  - {fileID: 2808922801062171920}
+  - {fileID: 2255878166796765869}
   - {fileID: 2808922801505228333}
   - {fileID: 2808922801569284448}
   - {fileID: 4719043606568059620}

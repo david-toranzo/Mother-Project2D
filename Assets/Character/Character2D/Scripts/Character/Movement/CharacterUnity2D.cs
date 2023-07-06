@@ -16,6 +16,9 @@ namespace Runtime.Character2D
         [SerializeField] private NameInput _nameInputActionRun;
         [SerializeField] private NameInput _nameInputActionMovement;
 
+        [Header("Debug")]
+        [SerializeField] private Transform _positionAttack;
+
         private const float _groundedGravity = -0.05f;
         private const float _velocityToMultiply = 4f;
 
@@ -84,16 +87,26 @@ namespace Runtime.Character2D
 
             if (_lookPlayerDirection == LookDirection.Right && positionToLookAt.x < 0)
             {
-                //transform.Rotate(0, 180, 0);
+                //TODO DELETE
+                ChangePositionAttack();
+
                 _characterAnimation.RotateCharacter();
                 _lookPlayerDirection = LookDirection.Left;
             }
             else if (_lookPlayerDirection == LookDirection.Left && positionToLookAt.x > 0)
             {
+                //TODO DELETE
+                ChangePositionAttack();
+
                 _characterAnimation.RotateCharacter();
-                //transform.Rotate(0, -180, 0);
                 _lookPlayerDirection = LookDirection.Right;
             }
+        }
+
+        //TODO DELETE
+        private void ChangePositionAttack()
+        {
+            _positionAttack.localPosition = new Vector3(_positionAttack.localPosition.x * (-1), _positionAttack.localPosition.y, 0);
         }
 
         private void SetMove()
