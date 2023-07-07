@@ -42,10 +42,8 @@ namespace Runtime.Character2D
             _colUp = IsColliderInTheRangeDetection(_raysUp);
 
             if (_colUp)
-            {
-                Debug.Log("Collision");
                 OnCollisionUp?.Invoke();
-            }
+
         }
 
         private bool IsColliderInTheRangeDetection(RayRange range)

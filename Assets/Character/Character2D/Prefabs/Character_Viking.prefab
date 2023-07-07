@@ -4531,6 +4531,7 @@ GameObject:
   - component: {fileID: 8104250357598138701}
   - component: {fileID: 9141218806013339617}
   - component: {fileID: 96561181118155743}
+  - component: {fileID: 9187440432216227417}
   m_Layer: 0
   m_Name: Armature1
   m_TagString: Untagged
@@ -4686,6 +4687,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterFighter: {fileID: 8386594159205130977}
   _timeDoAttackEvent: 0.2
+--- !u!114 &9187440432216227417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958734832295917877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f4ce229a36449e4fad4175400450383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
+  _audioClip: {fileID: 8300000, guid: bd2c80b023c76e04c8aa9a1e6b3151f0, type: 3}
 --- !u!1 &4978261857711155237
 GameObject:
   m_ObjectHideFlags: 0
