@@ -9,6 +9,8 @@ namespace Runtime.Common
 {
     public class ParallaxScroll : MonoBehaviour
     {
+        public Transform _startPosition; // Primera capa del fondo
+
         public Transform background1; // Primera capa del fondo
         public Transform background2; // Segunda capa del fondo
         public Transform background3; // Tercera capa del fondo
@@ -25,7 +27,7 @@ namespace Runtime.Common
 
         private void Start()
         {
-            startPosX = transform.position.x;
+            startPosX = _startPosition.position.x;
             lengthX = background1.GetComponent<SpriteRenderer>().bounds.size.x;
 
             virtualCamera = GetComponent<CinemachineVirtualCamera>();
