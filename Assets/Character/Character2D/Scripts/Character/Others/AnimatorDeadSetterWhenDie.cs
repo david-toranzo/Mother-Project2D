@@ -3,10 +3,11 @@ using UnityEngine;
 
 namespace Runtime.Character2D
 {
-    public class AnimationDeadSetterWhenDie : MonoBehaviour
+    public class AnimatorDeadSetterWhenDie : MonoBehaviour
     {
         [SerializeField] private HealthController _healthController;
-        [SerializeField] private CharacterAnimationDragonBones _characterAnimationDragonBones;
+        [SerializeField] private Animator _animator;
+        [SerializeField] private string _animatorDie = "die";
 
         private void Start()
         {
@@ -15,7 +16,7 @@ namespace Runtime.Character2D
 
         private void MakeActionEvent()
         {
-            _characterAnimationDragonBones.Die();
+            _animator.SetTrigger(_animatorDie);
         }
 
         private void OnDestroy()

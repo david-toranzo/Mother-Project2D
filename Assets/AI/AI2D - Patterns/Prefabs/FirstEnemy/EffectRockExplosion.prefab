@@ -33,7 +33,7 @@ Transform:
   m_Children:
   - {fileID: 6213673895084183935}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &9194518004476729506
 ParticleSystem:
@@ -4857,7 +4857,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_RenderMode: 3
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -9757,7 +9757,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_RenderMode: 3
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -14643,7 +14643,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_RenderMode: 3
   m_MeshDistribution: 0
   m_SortMode: 0
