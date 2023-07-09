@@ -20085,11 +20085,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3332417996642499127, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -43.69983
+      value: -43.699707
       objectReference: {fileID: 0}
     - target: {fileID: 3781476275857688524, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -43.69983
+      value: -43.699707
       objectReference: {fileID: 0}
     - target: {fileID: 3789572779371653627, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -20189,7 +20189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8676294626546737574, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -43.69983
+      value: -43.699707
       objectReference: {fileID: 0}
     - target: {fileID: 9031429478776182093, guid: bc2a1d5242f655c4fabed0b4a8072045, type: 3}
       propertyPath: m_Name
@@ -41499,6 +41499,10 @@ PrefabInstance:
     - target: {fileID: 8036450009586304180, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126621261785666042, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: cursorLocked
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8230399821613593971, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: m_IsActive
