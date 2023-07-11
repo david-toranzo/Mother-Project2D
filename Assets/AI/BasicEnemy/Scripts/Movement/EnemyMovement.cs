@@ -9,6 +9,8 @@ namespace BasicEnemy.Enemy
         private void Update()
         {
             UpdateAnimation();
+
+            _lastMoveDistance = 0;
         }
 
         protected void UpdateAnimation()

@@ -173,7 +173,7 @@ MonoBehaviour:
   suspicionTime: 3
   agroCoolTime: 3
   patrolPath: {fileID: 342644985982125781}
-  waypointTolerance: 1
+  waypointTolerance: 0.8
   waypointDwellTime: 3
   patrolSpeedFraction: 0.432
   shoutDistance: 5
@@ -1028,7 +1028,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2673338436289645951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98, y: 0.11, z: 0}
+  m_LocalPosition: {x: 4.98, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2189,7 +2189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8519435511723975958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.92, y: -0.13, z: 0}
+  m_LocalPosition: {x: -21.92, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
