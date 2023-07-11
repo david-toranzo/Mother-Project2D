@@ -5,7 +5,7 @@ using System;
 
 namespace Runtime.Character2D
 {
-    public class CharacterAnimationDragonBones : MonoBehaviour, IAttackEvent
+    public class CharacterAnimationDragonBones : MonoBehaviour, IAttackEvent, ICharacterAnimation
     {
         public Action OnAttack { get; set; }
 
@@ -34,7 +34,6 @@ namespace Runtime.Character2D
         private State state = State.IDLE;
 
         private bool _isGroundLastFrame = false;
-
 
         private void Start()
         {
@@ -107,7 +106,7 @@ namespace Runtime.Character2D
 
         private void Idle()
         {
-            if (state != State.DEAD && state != State.IDLE && state != State.FALLING 
+            if (state != State.DEAD && state != State.IDLE && state != State.FALLING
                 && state != State.JUMPING && state != State.ATTACK)
             {
                 TransitionToIdle();
@@ -116,18 +115,18 @@ namespace Runtime.Character2D
 
         private void Walk()
         {
-            if (state != State.DEAD && state != State.WALKING && state != State.FALLING 
+            if (state != State.DEAD && state != State.WALKING && state != State.FALLING
                 && state != State.JUMPING && state != State.ATTACK)
             {
                 armatureComponent.animation.timeScale = 1f;
                 armatureComponent.animation.FadeIn(walkAnimation, _timeTransition, -1);
-                state = State.WALKING;      
+                state = State.WALKING;
             }
         }
 
         public void Jump()
         {
-            if (state != State.DEAD && state != State.JUMPING )
+            if (state != State.DEAD && state != State.JUMPING)
             {
                 armatureComponent.animation.FadeIn(jumpAnimation, _timeTransition, -1);
                 state = State.JUMPING;

@@ -27,7 +27,7 @@ namespace Runtime.Character2D
         private bool _canMove = true;
 
         private CharacterController2D _characterController;
-        private CharacterAnimationDragonBones _characterAnimation;
+        private ICharacterAnimation _characterAnimation;
         private ControlInputBool _controlRunInput;
         private ControlInputVector2 _controlInputMovement;
         private CharacterCollision _characterCollision;
@@ -46,7 +46,7 @@ namespace Runtime.Character2D
         {
             _characterCollision = GetComponent<CharacterCollision>();
             _characterController = GetComponent<CharacterController2D>();
-            _characterAnimation = GetComponentInChildren<CharacterAnimationDragonBones>();
+            _characterAnimation = GetComponentInChildren<ICharacterAnimation>();
         }
 
         private void Start()
