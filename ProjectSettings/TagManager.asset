@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - AudioBGM
+  - AudioSFX
+  - AudioAMB
   layers:
   - Default
   - TransparentFX
@@ -26,8 +29,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - BGMLoop00
+  - BGMLoop01
   - 
   - 
   - 
