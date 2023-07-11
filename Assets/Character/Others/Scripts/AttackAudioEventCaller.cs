@@ -9,7 +9,7 @@ namespace Runtime.Character2D
         [SerializeField] private AudioClip _audioClip;
 
         private IAttackEvent _attackEventSubscribe;
-
+ 
         private void Start()
         {
             _attackEventSubscribe = GetComponent<IAttackEvent>();

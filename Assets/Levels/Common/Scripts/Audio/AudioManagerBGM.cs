@@ -47,27 +47,28 @@ namespace Runtime.Level
 
         public void HandleTriggerEnter(int layer)
         {
-            if (layer == LayerMask.NameToLayer(currentLayer) || isPlaying)
-                return;
-
-            StartCoroutine(ChangeBGM(layer));
+            if (layer != LayerMask.NameToLayer(currentLayer) && !isPlaying)
+            {
+                StartCoroutine(ChangeBGM(layer));
+                Debug.Log("Entre a " + layer);
+            }
         }
 
         private IEnumerator ChangeBGM(int layer)
         {
             isPlaying = true;
 
-            if (currentLayer == "BGMLoop00")
+            if (layer == LayerMask.NameToLayer("BGMLoop00"))
             {
                 audioSource.clip = audioClip00;
                 audioSource.loop = true;
             }
-            else if (currentLayer == "BGMLoop01")
+            else if (layer == LayerMask.NameToLayer("BGMLoop01"))
             {
                 audioSource.clip = audioClip01;
                 audioSource.loop = false;
             }
-            else if (currentLayer == "BGMLoop02")
+            else if (layer == LayerMask.NameToLayer("BGMLoop02"))
             {
                 audioSource.clip = audioClip02;
                 audioSource.loop = false;
@@ -83,10 +84,11 @@ namespace Runtime.Level
 
         public void HandleTriggerExit(int layer)
         {
-            if (layer == LayerMask.NameToLayer(currentLayer))
-                return;
-
-            currentLayer = LayerMask.LayerToName(layer);
+            if (layer == LayerMask.NameToLayer(currentLayer) && !isPlaying)
+            {
+                currentLayer = LayerMask.LayerToName(layer);
+                Debug.Log("Sali de " + layer);
+            }
         }
     }
 }
