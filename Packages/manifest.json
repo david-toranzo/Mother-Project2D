@@ -16,6 +16,7 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.8.0",
     "command": "https://github.com/david-toranzo/UP-Command.git",
+    "editor-utils": "https://github.com/david-toranzo/UP-EditorUtils.git",
     "scriptableobject-data": "https://github.com/david-toranzo/UP-ScriptableObject-Data.git",
     "scriptableobject-event": "https://github.com/david-toranzo/UP-ScriptableObject-Event.git",
     "state-machine": "https://github.com/david-toranzo/UP-StateMachine.git",

@@ -1,0 +1,55 @@
+
+skeleton.jpg
+size: 550,331
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brazoDer
+  rotate: false
+  xy: 91, 148
+  size: 152, 181
+  orig: 158, 181
+  offset: 6, 0
+  index: -1
+brazoIzq
+  rotate: false
+  xy: 399, 149
+  size: 149, 180
+  orig: 149, 200
+  offset: 0, 0
+  index: -1
+cabeza Copy 2
+  rotate: true
+  xy: 2, 125
+  size: 204, 87
+  orig: 204, 87
+  offset: 0, 0
+  index: -1
+piernaDer
+  rotate: true
+  xy: 79, 43
+  size: 80, 126
+  orig: 273, 329
+  offset: 163, 0
+  index: -1
+piernaIzq
+  rotate: false
+  xy: 2, 2
+  size: 75, 121
+  orig: 75, 121
+  offset: 0, 0
+  index: -1
+sombrero
+  rotate: false
+  xy: 207, 2
+  size: 328, 144
+  orig: 328, 144
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 245, 148
+  size: 152, 181
+  orig: 152, 181
+  offset: 0, 0
+  index: -1
