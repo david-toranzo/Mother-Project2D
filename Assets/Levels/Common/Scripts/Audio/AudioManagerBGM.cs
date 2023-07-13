@@ -1,5 +1,5 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Runtime.Level
@@ -18,10 +18,7 @@ namespace Runtime.Level
             audioSource = GetComponent<AudioSource>();
 
             if (audioSource == null)
-            {
-                Debug.LogError("No se encontró un objeto con el tag 'AudioBGM' o no tiene un componente AudioSource adjunto.");
-                return;
-            }
+                throw new Exception("No se encontró un objeto con el tag 'AudioBGM' o no tiene un componente AudioSource adjunto.");
         }
 
         public bool IsPlaying()
@@ -50,7 +47,6 @@ namespace Runtime.Level
             if (layer != LayerMask.NameToLayer(currentLayer) && !isPlaying)
             {
                 StartCoroutine(ChangeBGM(layer));
-                Debug.Log("Entre a " + layer);
             }
         }
 
@@ -87,7 +83,6 @@ namespace Runtime.Level
             if (layer == LayerMask.NameToLayer(currentLayer) && !isPlaying)
             {
                 currentLayer = LayerMask.LayerToName(layer);
-                Debug.Log("Sali de " + layer);
             }
         }
     }

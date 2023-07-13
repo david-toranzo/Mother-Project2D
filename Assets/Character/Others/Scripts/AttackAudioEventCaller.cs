@@ -1,12 +1,13 @@
 ﻿using Runtime.Common;
 using UnityEngine;
+using ScriptableObjects.Event;
 
 namespace Runtime.Character2D
 {
     public class AttackAudioEventCaller : MonoBehaviour
     {
-        [SerializeField] private AudioSource _audioSource;
-        [SerializeField] private AudioClip _audioClip;
+        [Header("Data")]
+        [SerializeField] private EmptyEventScriptableObject _eventScriptableObject;
 
         private IAttackEvent _attackEventSubscribe;
  
@@ -18,7 +19,7 @@ namespace Runtime.Character2D
 
         private void MakeAttackAnimator()
         {
-            _audioSource.PlayOneShot(_audioClip);
+            _eventScriptableObject.InvokeEvent();
         }
 
         private void OnDestroy()

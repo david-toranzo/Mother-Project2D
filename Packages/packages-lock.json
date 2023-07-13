@@ -286,19 +286,26 @@
       },
       "url": "https://packages.unity.com"
     },
-    "command": {
-      "version": "https://github.com/david-toranzo/UP-Command.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "8aa468a0ec8bd7ba90b6950984bff1ed37271e84"
-    },
     "editor-utils": {
       "version": "https://github.com/david-toranzo/UP-EditorUtils.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "a5600be8ae132b86b740b855b7f502d38ee50bfe"
+      "hash": "b025d2da51bae2fd7a8e3e9feba2910e717d02f3"
+    },
+    "mono-installer": {
+      "version": "https://github.com/david-toranzo/UP-MonoInstaller.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b864c79ab0bdb4da975fb6b33547b3de99c88545"
+    },
+    "scene-loader": {
+      "version": "https://github.com/david-toranzo/UP-SceneLoader.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0bf5185f00c66015dba233dbdd0206d97d56a758"
     },
     "scriptableobject-data": {
       "version": "https://github.com/david-toranzo/UP-ScriptableObject-Data.git",
@@ -313,6 +320,20 @@
       "source": "git",
       "dependencies": {},
       "hash": "734e5f4bc88fce7778ee050be06e377754847544"
+    },
+    "service-locator": {
+      "version": "https://github.com/david-toranzo/UP-ServiceLocator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d1790de15f75042d7745a86d9653dcfa1258fde4"
+    },
+    "singleton": {
+      "version": "https://github.com/david-toranzo/UP-Singleton.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e873b364d176b3561e9c8bfd820d64d07c785d8e"
     },
     "state-machine": {
       "version": "https://github.com/david-toranzo/UP-StateMachine.git",

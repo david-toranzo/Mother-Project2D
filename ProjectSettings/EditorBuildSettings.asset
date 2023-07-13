@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Init/Init/Scene/Init.unity
+    guid: 441e74f0859ec5840b3128d4f3a231c0
+  - enabled: 1
+    path: Assets/Init/Loading/Scene/Loading.unity
+    guid: d102d945e48e72e43a506d23875364c8
+  - enabled: 1
     path: Assets/Levels/Menu/Scenes/MainMenu.unity
     guid: 8bb24537f52717e44a99bf66b18a50f0
   - enabled: 1
-    path: Assets/Levels/Level 1/Scenes/SampleScene.unity
+    path: Assets/Gameplay/Audio/Scene/AudioScene.unity
+    guid: 660e9d29c07e33d469c491e19306a224
+  - enabled: 1
+    path: Assets/Levels/Level 1/Scenes/Level 1.unity
     guid: a414836ab2dd5ee40be39c7cc2918e68
-  - enabled: 0
-    path: Assets/Levels/Level 1/Scenes/AudioSceneMerge.unity
-    guid: f76fd1c356778e2428e09e746dac509f
   m_configObjects: {}

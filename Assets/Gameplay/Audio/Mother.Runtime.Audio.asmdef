@@ -1,11 +1,8 @@
 {
-    "name": "Runtime.CharacterOthers",
-    "rootNamespace": "Runtime.CharacterOthers",
+    "name": "Mother.Runtime.Audio",
+    "rootNamespace": "Mother.Runtime.Audio",
     "references": [
-        "GUID:de6418bb62bbc8e4fb5224b036319dd1",
-        "GUID:23ef2a7ee77680c4eb8b4d446ccdc23f",
-        "GUID:7ce20abfe6855074786c5a8a03a433ad",
-        "GUID:9ba9b6dece0189c4fbbe5495c67f7a62"
+        "GUID:7ce20abfe6855074786c5a8a03a433ad"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
