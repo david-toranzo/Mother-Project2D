@@ -9,7 +9,6 @@ namespace Runtime.Character2D
         [Header("References")]
         [SerializeField] private CharacterUnity2D _character;
         [SerializeField] protected CharacterJumpController _characterJumpController;
-        [SerializeField] private CharacterAnimationDragonBones _characterAnimation;
 
         [Header("Input")]
         [SerializeField] private CharacterInput _characterInput;
@@ -49,7 +48,7 @@ namespace Runtime.Character2D
         public override void Enter()
         {
             _characterJumpController.IsJumping = true;
-            _characterAnimation.Jump();
+            //_characterAnimation.JumpAnimation();
             SetMoveMakeJump();
         }
 

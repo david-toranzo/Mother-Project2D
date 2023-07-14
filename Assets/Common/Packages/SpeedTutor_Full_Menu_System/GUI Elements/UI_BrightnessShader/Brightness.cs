@@ -17,7 +17,7 @@ public class Brightness : MonoBehaviour
     void Start()
     {
         // Disable if we don't support image effects
-        if (!SystemInfo.supportsImageEffects)
+        //if (!SystemInfo.supportsImageEffects)
         {
             enabled = false;
             return;

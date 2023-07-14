@@ -4,7 +4,7 @@ using ScriptableObjects.Event;
 
 namespace Runtime.Character2D
 {
-    public class AttackAudioEventCaller : MonoBehaviour
+    public class AttackEventNotifier : MonoBehaviour
     {
         [Header("Data")]
         [SerializeField] private EmptyEventScriptableObject _eventScriptableObject;

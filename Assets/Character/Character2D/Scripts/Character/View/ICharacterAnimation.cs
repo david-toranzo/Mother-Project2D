@@ -5,5 +5,6 @@
         void RotateCharacter();
         void UpdateAnimation(bool _walk, bool sprint);
         void UpdateGroundAnimation(bool isGrounded, float airOffset);
+        void AttackAnimation(string nameAttack);
     }
 }

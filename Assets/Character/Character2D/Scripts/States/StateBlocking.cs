@@ -7,7 +7,7 @@ namespace Runtime.Character2D
     public class StateBlocking : StateBaseMove
     {
         [Header("References")]
-        [SerializeField] protected CharacterAnimationDragonBones _characterAnimationDragonBones;
+        [SerializeField] private CharacterAnimation _characterAnimation;
         [SerializeField] protected CharacterUnity2D _character;
         [SerializeField] protected HealthPlayerController _healthPlayerController;
 
@@ -15,13 +15,13 @@ namespace Runtime.Character2D
         {
             _healthPlayerController.SetBlockAttack(true);
             _character.ResetVelocityMove();
-            _characterAnimationDragonBones.Block();
+            //_characterAnimationDragonBones.Block();
         }
 
         public override void Exit()
         {
             _healthPlayerController.SetBlockAttack(false);
-            _characterAnimationDragonBones.StopBlock();
+            //_characterAnimationDragonBones.StopBlock();
         }
 
         protected override void ProcessWorkActualState() { }

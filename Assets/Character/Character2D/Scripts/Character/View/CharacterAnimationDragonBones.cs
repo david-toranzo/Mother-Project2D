@@ -2,6 +2,7 @@
 using DragonBones;
 using Runtime.Common;
 using System;
+using System.Collections.Generic;
 
 namespace Runtime.Character2D
 {
@@ -161,13 +162,13 @@ namespace Runtime.Character2D
             }
         }
 
-        public void Attack(string indexAttack)
+        public void AttackAnimation(string nameAttack)
         {
             if (state != State.DEAD && state != State.ATTACK)
             {
                 OnAttack?.Invoke();
                 armatureComponent.animation.timeScale = _timeScaleAttack;
-                armatureComponent.animation.FadeIn(indexAttack, _timeTransition);
+                armatureComponent.animation.FadeIn(nameAttack, _timeTransition);
                 state = State.ATTACK;
             }
         }

@@ -7320,8 +7320,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5239e336a1075ce4683aa96add5ee7ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _eventScriptableObject: {fileID: 11400000, guid: ec8f2ee7fcbc24b4299fe0def8505395, type: 2}
   playerTag: Player
-  deathAnimation: {fileID: 0}
 --- !u!1 &3145465917086933213
 GameObject:
   m_ObjectHideFlags: 0

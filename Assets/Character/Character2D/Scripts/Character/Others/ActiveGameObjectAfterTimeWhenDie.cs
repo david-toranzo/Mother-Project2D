@@ -1,14 +1,14 @@
 ﻿using Common;
+using ScriptableObjects.Event;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Runtime.Character2D
 {
     public class ActiveGameObjectAfterTimeWhenDie : MonoBehaviour
     {
         [SerializeField] private HealthController _healthController;
-        [SerializeField] private GameObject _objectToActive;
+        [SerializeField] private EmptyEventScriptableObject _eventScriptableObject;
         [SerializeField] private float _time = 0.6f;
 
         private void Start()
@@ -18,14 +18,14 @@ namespace Runtime.Character2D
 
         private void MakeActionEvent()
         {
-            StartCoroutine(RestartScene());
+            StartCoroutine(DeadHealthController());
         }
 
-        private IEnumerator RestartScene()
+        private IEnumerator DeadHealthController()
         {
             yield return new WaitForSeconds(_time);
 
-            _objectToActive.SetActive(true);
+            _eventScriptableObject.InvokeEvent();
         }
 
         private void OnDestroy()
