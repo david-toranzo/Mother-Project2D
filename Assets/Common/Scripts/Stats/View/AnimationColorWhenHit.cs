@@ -1,49 +1,15 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Common
 {
-    public class AnimationColorWhenHit : MonoBehaviour
+
+    public class AnimationColorWhenHit : AnimationColorWhenHitBase
     {
-        [Header("References")]
-        [SerializeField] private HealthController _healthController;
         [SerializeField] private SpriteRenderer _spriteHit;
 
-        [Header("Data")]
-        [SerializeField] private Color _colorDefault = Color.white;
-        [SerializeField] private Color _colorHit = Color.red;
-        [SerializeField] private float _secondToWait = 0.05f;
-        [SerializeField] private int _cyclesChangeColor = 3;
-
-        private int _countCycleAnim = 0;
-
-        private void Start()
+        protected override void SetColorAnimation(Color colorToSet)
         {
-            _healthController.OnSubstractHealth += MakeAnimator;
-        }
-
-        private void MakeAnimator(int value)
-        {
-            _countCycleAnim = 0;
-            StartCoroutine(MakeAnimationChangeColor());
-        }
-
-        private IEnumerator MakeAnimationChangeColor()
-        {
-            while (_countCycleAnim < _cyclesChangeColor)
-            {
-                _spriteHit.material.color = _colorHit;
-                yield return new WaitForSeconds(_secondToWait);
-                _spriteHit.material.color = _colorDefault;
-                yield return new WaitForSeconds(_secondToWait);
-
-                _countCycleAnim++;
-            }
-        }
-
-        private void OnDestroy()
-        {
-            _healthController.OnSubstractHealth -= MakeAnimator;
+            _spriteHit.material.color = colorToSet;
         }
     }
 }

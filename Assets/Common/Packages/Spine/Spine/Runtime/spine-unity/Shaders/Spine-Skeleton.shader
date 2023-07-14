@@ -2,6 +2,7 @@ Shader "Spine/Skeleton" {
 	Properties {
 		_Cutoff ("Shadow alpha cutoff", Range(0,1)) = 0.1
 		[NoScaleOffset] _MainTex ("Main Texture", 2D) = "black" {}
+		_MainColor("Main Color", Color) = (1,1,1,1)
 		[Toggle(_STRAIGHT_ALPHA_INPUT)] _StraightAlphaInput("Straight Alpha Texture", Int) = 0
 		[HideInInspector] _StencilRef("Stencil Reference", Float) = 1.0
 		[HideInInspector][Enum(UnityEngine.Rendering.CompareFunction)] _StencilComp("Stencil Comparison", Float) = 8 // Set to Always as default
@@ -40,6 +41,7 @@ Shader "Spine/Skeleton" {
 			#pragma fragment frag
 			#include "UnityCG.cginc"
 			sampler2D _MainTex;
+			float4 _MainColor;
 
 			struct VertexInput {
 				float4 vertex : POSITION;
@@ -63,7 +65,7 @@ Shader "Spine/Skeleton" {
 
 			float4 frag (VertexOutput i) : SV_Target {
 				float4 texColor = tex2D(_MainTex, i.uv);
-
+				texColor *= _MainColor;
 				#if defined(_STRAIGHT_ALPHA_INPUT)
 				texColor.rgb *= texColor.a;
 				#endif

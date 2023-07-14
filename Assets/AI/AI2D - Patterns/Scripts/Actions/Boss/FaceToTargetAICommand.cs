@@ -18,6 +18,11 @@ namespace Runtime.AICommand
 
         protected override StateNode ProcessWorkCommand()
         {
+            if (_target is null)
+            {
+                _target = _bossDataController.Target.transform;
+            }
+
             if (_objectRotate.position.x > _target.position.x && _bossDataController.IsRightRotation)
                 RotateObject(-180, false);
             else if (_objectRotate.position.x < _target.position.x && !_bossDataController.IsRightRotation)

@@ -21,6 +21,6 @@ MonoBehaviour:
     dontCloseOthersScenes: 0
     hasToKeepOpen: 0
     scenesData:
-    - {fileID: 11400000, guid: f7cfcd027469df2498fd5f764d0fdc25, type: 2}
     - {fileID: 11400000, guid: 699dba8d20c3b00448d05b3c87d21964, type: 2}
+    - {fileID: 11400000, guid: f7cfcd027469df2498fd5f764d0fdc25, type: 2}
     _scenesDataToRemove: []

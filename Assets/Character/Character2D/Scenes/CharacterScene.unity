@@ -1459,13 +1459,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6851751643865703230, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3251758952793988156, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1721883493}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6797035486253274734, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3410459931432340742}
   m_SourcePrefab: {fileID: 100100000, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
 --- !u!114 &3410459931432340738 stripped
 MonoBehaviour:
@@ -1483,6 +1490,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3251758952793988156, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
   m_PrefabInstance: {fileID: 3410459931432340737}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &3410459931432340740 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3927747104893429900, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+  m_PrefabInstance: {fileID: 3410459931432340737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3410459931432340741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6797035486253274734, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+  m_PrefabInstance: {fileID: 3410459931432340737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3410459931432340742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3410459931432340741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806aae100abb7ec44a1154858900e793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colorDefault: {r: 1, g: 1, b: 1, a: 1}
+  _colorHit: {r: 1, g: 0, b: 0, a: 1}
+  _secondToWait: 0.05
+  _cyclesChangeColor: 3
+  _healthController: {fileID: 3410459931432340738}
+  _meshRenderer: {fileID: 3410459931432340740}
 --- !u!114 &5549577622833165664 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6147375219389303815, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
