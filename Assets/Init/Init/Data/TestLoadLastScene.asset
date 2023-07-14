@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975b2e3cb69abb0418d6d946c4a2263d, type: 3}
+  m_Name: TestLoadLastScene
+  m_EditorClassIdentifier: 
+  sceneData:
+    nameScene: LoadLastScene
+    useLoadingScreen: 1
+    isLockedScene: 1
+    removeLockedScenes: 0
+    isPrincipal: 0
+    dontCloseOthersScenes: 0
+    hasToKeepOpen: 0
+    scenesData:
+    - {fileID: 11400000, guid: f7cfcd027469df2498fd5f764d0fdc25, type: 2}
+    - {fileID: 11400000, guid: 699dba8d20c3b00448d05b3c87d21964, type: 2}
+    _scenesDataToRemove: []
