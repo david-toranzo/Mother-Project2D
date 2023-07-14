@@ -2306,7 +2306,7 @@ GameObject:
   - component: {fileID: 1519865854400020394}
   - component: {fileID: 7205960440161384303}
   m_Layer: 3
-  m_Name: ActiveGameObjectWhenDie
+  m_Name: EventNotifierAfterTimeWhenDie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2597,7 +2597,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1341711961281354716}
-  - component: {fileID: 2124642525932132561}
   m_Layer: 3
   m_Name: SpriteHit
   m_TagString: Untagged
@@ -2620,24 +2619,6 @@ Transform:
   m_Father: {fileID: 1305436792846169786}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2124642525932132561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6797035486253274734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d431e5ad6adb674eb29fbe155e9fea6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _healthController: {fileID: 3077633686468941497}
-  _spriteHit: {fileID: 0}
-  _colorDefault: {r: 1, g: 1, b: 1, a: 1}
-  _colorHit: {r: 1, g: 0, b: 0, a: 1}
-  _secondToWait: 0.05
-  _cyclesChangeColor: 3
 --- !u!1 &6804277381203626298
 GameObject:
   m_ObjectHideFlags: 0

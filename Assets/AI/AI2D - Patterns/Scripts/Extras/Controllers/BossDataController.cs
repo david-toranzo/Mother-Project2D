@@ -14,7 +14,7 @@ namespace Runtime.AICommand
         public GameObject Target { get => _target; set => _target = value; }
         public bool IsRightRotation { get => _isRightRotation; set => _isRightRotation = value; }
 
-        private void Start()
+        private void Awake()
         {
             if (_target == null)
                 _target = FindObjectOfType<HealthPlayerController>().gameObject;

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Runtime.Character2D
 {
-    public class ActiveGameObjectAfterTimeWhenDie : MonoBehaviour
+    public class EventNotifierAfterTimeWhenDie : MonoBehaviour
     {
         [SerializeField] private HealthController _healthController;
         [SerializeField] private EmptyEventScriptableObject _eventScriptableObject;

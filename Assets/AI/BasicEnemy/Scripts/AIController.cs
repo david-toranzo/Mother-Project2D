@@ -16,7 +16,7 @@ namespace BasicEnemy.Enemy
         [Range(0,1)] [SerializeField] float patrolSpeedFraction = 0.2f;
         [SerializeField] float shoutDistance = 5;
 
-        GameObject player;
+        [SerializeField] GameObject player;
         EnemyMovement mover;
 
         private IHealth health;
@@ -33,18 +33,22 @@ namespace BasicEnemy.Enemy
             mover = GetComponent<EnemyMovement>();
             health = GetComponent<IHealth>();
             fighter = GetComponent<IFighter>();
-            player = GameObject.FindWithTag("Player");
         }
 
         private void Start()
         {
             health.OnDie += CancelMovement;
+
+            player = GameObject.FindWithTag("Player");
         }
 
         private void Update()
         {
             if (health.IsDead())
                 return;
+
+            if(player is null)
+                player = GameObject.FindWithTag("Player");
 
             if (IsAggrevated(player) && fighter.CanAttack(player))
             {
