@@ -69,7 +69,7 @@ namespace BasicEnemy.Enemy
 
         private bool IsAggrevated(GameObject player)
         {
-            if(player is null)
+            if(player == null)
                 return false;
 
             float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
