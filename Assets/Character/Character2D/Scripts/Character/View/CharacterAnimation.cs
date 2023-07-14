@@ -30,6 +30,9 @@ namespace Runtime.Character2D
 
         public void UpdateAnimation(bool _walk, bool sprint)
         {
+            if (_animator is null)
+                return;
+
             if (_boolDataScriptableObject.Data)
             {
                 _animator.SetFloat(_forwardSpeedParamId, 0, 0.1f, Time.deltaTime);
@@ -48,6 +51,9 @@ namespace Runtime.Character2D
 
         public void UpdateGroundAnimation(bool isGrounded, float airOffset)
         {
+            if (_animator is null)
+                return;
+
             _animator.SetBool(_groundParamId, isGrounded);
 
             if (!isGrounded)

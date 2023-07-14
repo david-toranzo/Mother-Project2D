@@ -1,3 +1,4 @@
+using Common;
 using UnityEngine;
 
 namespace Runtime.AICommand
@@ -12,6 +13,12 @@ namespace Runtime.AICommand
         public GameObject EnemyGameObject { get => _enemyController; set => _enemyController = value; }
         public GameObject Target { get => _target; set => _target = value; }
         public bool IsRightRotation { get => _isRightRotation; set => _isRightRotation = value; }
+
+        private void Start()
+        {
+            if (_target == null)
+                _target = FindObjectOfType<HealthPlayerController>().gameObject;
+        }
 
         public Vector2 GetDirectionToTarget()
         { 

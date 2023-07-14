@@ -65,6 +65,9 @@ namespace BasicEnemy.Enemy
 
         private bool IsAggrevated(GameObject player)
         {
+            if(player is null)
+                return false;
+
             float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
 
             return distanceToPlayer < chaseDistance || timeSinceAggrevated < agroCoolTime;

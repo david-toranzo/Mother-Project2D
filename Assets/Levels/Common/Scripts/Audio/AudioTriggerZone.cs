@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Runtime.Level
@@ -10,7 +9,7 @@ namespace Runtime.Level
 
         private void Start()
         {
-            audioManager = GameObject.FindObjectOfType<AudioManagerBGM>();
+            SetAudioManager();
             if (audioManager == null)
             {
                 Debug.LogError("No se encontró el AudioManager en la escena.");
@@ -18,16 +17,27 @@ namespace Runtime.Level
             }
         }
 
+        private void SetAudioManager()
+        {
+            audioManager = GameObject.FindObjectOfType<AudioManagerBGM>();
+        }
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Player"))
             {
+                if (audioManager is null)
+                    SetAudioManager();
+
                 StartCoroutine(TriggerEnterCoroutine());
             }
         }
 
         private IEnumerator TriggerEnterCoroutine()
         {
+            if (audioManager is null)
+                SetAudioManager();
+
             audioManager.HandleTriggerEnter(gameObject.layer);
 
             while (audioManager.IsPlaying())
@@ -42,6 +52,9 @@ namespace Runtime.Level
         {
             if (other.CompareTag("Player"))
             {
+                if (audioManager is null)
+                    SetAudioManager();
+
                 audioManager.HandleTriggerExit(gameObject.layer);
             }
         }
