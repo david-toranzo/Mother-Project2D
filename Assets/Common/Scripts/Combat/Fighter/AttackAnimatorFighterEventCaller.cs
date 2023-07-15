@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Runtime.Common
@@ -14,6 +15,12 @@ namespace Runtime.Common
         {
             _attackEventSubscribe = GetComponent<IAttackEvent>();
             _attackEventSubscribe.OnAttack += MakeAttackAnimator;
+            _attackEventSubscribe.OnCancelAttack += CancelAttackAnimator;
+        }
+
+        private void CancelAttackAnimator()
+        {
+            StopAllCoroutines();
         }
 
         private void MakeAttackAnimator()

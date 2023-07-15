@@ -1,4 +1,6 @@
-﻿namespace Common
+﻿using System;
+
+namespace Common
 {
     public interface IHealth : IDead, IAttackReceiver
     {
@@ -6,6 +8,8 @@
     }
     public interface IAttackReceiver
     {
+        public Action<int> OnSubstractHealth { get; set; }
+
         public void ReceiveAttack(int damageAttack);
     }
 }

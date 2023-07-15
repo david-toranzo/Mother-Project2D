@@ -17,6 +17,7 @@ namespace Runtime.Character2D
         private readonly int _groundParamId = Animator.StringToHash("onGround");
 
         public Action OnAttack { get; set; }
+        public Action OnCancelAttack { get; set; }
 
         private void Start()
         {

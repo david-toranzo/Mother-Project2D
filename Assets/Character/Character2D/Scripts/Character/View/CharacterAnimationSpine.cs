@@ -9,6 +9,7 @@ namespace Runtime.Character2D
     public class CharacterAnimationSpine : MonoBehaviour, IAttackEvent, ICharacterAnimation
     {
         public Action OnAttack { get; set; }
+        public Action OnCancelAttack { get; set; }
 
         [SerializeField] private SkeletonAnimation skeletonAnimation;
         [SerializeField] private AnimationReferenceAsset animationWalk;

@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec29416e37c4d154c95c9a32da1ca603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startLife: 1
+  _startLife: 3
   _timeTakeDamage: 0.3
 --- !u!114 &6017224065920675173
 MonoBehaviour:
@@ -281,7 +281,9 @@ MonoBehaviour:
   _walkAnimation: walk
   _attack1Animation: attack_1
   _attack2Animation: attack_2
+  _hitAnimation: hit
   _deathAnimation: death
+  _currentState: 0
 --- !u!114 &488091383621923022
 MonoBehaviour:
   m_ObjectHideFlags: 0

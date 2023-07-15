@@ -9,6 +9,7 @@ namespace Runtime.Character2D
     public class CharacterAnimationDragonBones : MonoBehaviour, IAttackEvent, ICharacterAnimation
     {
         public Action OnAttack { get; set; }
+        public Action OnCancelAttack { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         [Header("References")]
         [SerializeField] private UnityArmatureComponent armatureComponent;

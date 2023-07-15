@@ -55,6 +55,5 @@ namespace Runtime.Character2D
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, _distanceAttack);
         }
-
     }
 }

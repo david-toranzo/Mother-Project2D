@@ -14948,6 +14948,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7445099034412580775, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
+      propertyPath: animationName
+      value: hit
+      objectReference: {fileID: 0}
     - target: {fileID: 7799407290322524495, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
       value: 
