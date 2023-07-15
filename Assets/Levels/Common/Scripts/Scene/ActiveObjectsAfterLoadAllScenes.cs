@@ -14,7 +14,7 @@ namespace Runtime.Level
         {
             var service = ServiceLocator.Instance;
 
-            if (service is null)
+            if (service == null)
             {
                 Debug.LogError("There isnt a service locator");
                 return;
@@ -22,7 +22,7 @@ namespace Runtime.Level
 
             _sceneLoader = service.GetService<ISceneLoader>();
 
-            if (_sceneLoader is null)
+            if (_sceneLoader == null)
             {
                 Debug.LogError("There arent a scene loader in the service locator");
                 return;

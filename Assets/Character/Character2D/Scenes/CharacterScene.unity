@@ -273,7 +273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348654020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.42, y: 5.91, z: -10.121539}
+  m_LocalPosition: {x: -0.00000047683716, y: 3.4429889, z: -10.121539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -467,7 +467,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.42, y: 5.91, z: -10.121539}
+  m_LocalPosition: {x: 0.5817777, y: 3.4433699, z: -10.121539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -663,7 +663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &971375213
 Transform:
   m_ObjectHideFlags: 0
@@ -931,8 +931,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 1.42, y: 1.12, z: 0}
-  m_LookaheadTime: 0.227
+  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_LookaheadTime: 0.2
   m_LookaheadSmoothing: 5.5
   m_LookaheadIgnoreY: 1
   m_XDamping: 1
@@ -940,16 +940,16 @@ MonoBehaviour:
   m_ZDamping: 1
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
-  m_ScreenY: 0.539
+  m_ScreenY: 0.4042989
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0.44
+  m_DeadZoneWidth: 0.137
+  m_DeadZoneHeight: 0.24603447
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.826
-  m_SoftZoneHeight: 0.808
+  m_SoftZoneHeight: 0.576
   m_BiasX: 0
-  m_BiasY: 0.004
+  m_BiasY: -0.288
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 0
@@ -1344,6 +1344,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8824428584301608109, guid: 936ad22808eb72c48ba8edd5bc0599af, type: 3}
+      propertyPath: _animationAttackTriggerName.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9028940481799026471, guid: 936ad22808eb72c48ba8edd5bc0599af, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.86265934
@@ -1493,6 +1497,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 971375213}
     m_Modifications:
+    - target: {fileID: 1627670385256924429, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.116
+      objectReference: {fileID: 0}
     - target: {fileID: 2789230697036145817, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: _sliderHealth
       value: 
@@ -1504,6 +1512,22 @@ PrefabInstance:
     - target: {fileID: 4221505331598713023, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: m_Name
       value: Character_Viking
+      objectReference: {fileID: 0}
+    - target: {fileID: 5743182585902706523, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: _animationAttackTriggerName.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5743182585902706523, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: _animationAttackTriggerName.Array.data[0]
+      value: attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 5743182585902706523, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: _animationAttackTriggerName.Array.data[1]
+      value: attack2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5743182585902706523, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: _animationAttackTriggerName.Array.data[2]
+      value: 1_attack3
       objectReference: {fileID: 0}
     - target: {fileID: 5952909805429659164, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: m_TagString
@@ -1556,6 +1580,14 @@ PrefabInstance:
     - target: {fileID: 6851751643865703230, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055424248894861313, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: _distanceAttack
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 8386594159205130977, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: _maxComboSize
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

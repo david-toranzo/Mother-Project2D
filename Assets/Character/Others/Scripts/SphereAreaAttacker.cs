@@ -33,5 +33,11 @@ namespace Runtime.Character2D
                     health.ReceiveAttack(_damage);
             }
         }
+
+        private void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(_positionToAttack.transform.position, _distanceAttack);
+        }
     }
 }

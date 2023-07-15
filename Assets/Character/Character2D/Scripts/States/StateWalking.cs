@@ -9,7 +9,7 @@ namespace Runtime.Character2D
         [SerializeField] protected CharacterUnity2D _character;
 
         [Header("Data")]
-        [SerializeField] private CharacterDataSO _characterDataSO;
+        [SerializeField] protected CharacterDataSO _characterDataSO;
 
         private const float _groundedGravity = -0.05f;
 
@@ -30,7 +30,7 @@ namespace Runtime.Character2D
             _character.Velocity = movVector;
         }
 
-        private float GetSpeed()
+        protected virtual float GetSpeed()
         {
             return _characterDataSO.WalkSpeed;
         }

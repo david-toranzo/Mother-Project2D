@@ -1,215 +1,222 @@
 
 skeleton.png
-size: 1927,277
+size: 1981,308
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-antebrazo_der
+Gslash
   rotate: false
-  xy: 1800, 18
+  xy: 2, 14
+  size: 256, 292
+  orig: 256, 292
+  offset: 0, 0
+  index: -1
+antebrazo_der
+  rotate: true
+  xy: 994, 5
   size: 99, 79
   orig: 99, 79
   offset: 0, 0
   index: -1
 antebrazo_izq
   rotate: true
-  xy: 669, 6
+  xy: 260, 3
   size: 67, 81
   orig: 67, 81
   offset: 0, 0
   index: -1
 bigSlash_1
   rotate: true
-  xy: 1013, 82
+  xy: 1271, 113
   size: 193, 339
   orig: 239, 356
   offset: 46, 17
   index: -1
 bigSlash_2
   rotate: false
-  xy: 820, 78
+  xy: 1078, 109
   size: 191, 197
   orig: 233, 338
   offset: 42, 17
   index: -1
 brazo_der
   rotate: false
-  xy: 1739, 2
+  xy: 1753, 24
   size: 59, 106
   orig: 59, 106
   offset: 0, 0
   index: -1
 brazo_izxq
   rotate: false
-  xy: 1534, 10
+  xy: 815, 4
   size: 83, 87
   orig: 83, 87
   offset: 0, 0
   index: -1
 cabeza
-  rotate: true
-  xy: 1437, 3
+  rotate: false
+  xy: 1227, 12
   size: 91, 95
   orig: 91, 95
   offset: 0, 0
   index: -1
 cintura
   rotate: true
-  xy: 1108, 3
+  xy: 503, 2
   size: 77, 190
   orig: 77, 190
   offset: 0, 0
   index: -1
 escudo
   rotate: false
-  xy: 205, 50
+  xy: 463, 81
   size: 117, 225
   orig: 117, 225
   offset: 0, 0
   index: -1
 hombro
   rotate: false
-  xy: 364, 5
+  xy: 1863, 16
   size: 66, 50
   orig: 66, 50
   offset: 0, 0
   index: -1
 mano_espada
   rotate: true
-  xy: 472, 62
+  xy: 730, 93
   size: 213, 195
   orig: 213, 195
   offset: 0, 0
   index: -1
 mano_izq
   rotate: true
-  xy: 205, 2
+  xy: 1931, 20
   size: 46, 44
   orig: 46, 44
   offset: 0, 0
   index: -1
 mechon_1
-  rotate: true
-  xy: 251, 10
+  rotate: false
+  xy: 1713, 17
   size: 38, 111
   orig: 38, 111
   offset: 0, 0
   index: -1
 mechon_2
-  rotate: true
-  xy: 1800, 99
+  rotate: false
+  xy: 1646, 9
   size: 65, 119
   orig: 65, 119
   offset: 0, 0
   index: -1
 mechon_3
-  rotate: true
-  xy: 2, 6
+  rotate: false
+  xy: 959, 3
   size: 33, 101
   orig: 33, 101
   offset: 0, 0
   index: -1
 muslo_der
   rotate: true
-  xy: 1619, 15
+  xy: 695, 2
   size: 84, 118
   orig: 84, 118
   offset: 0, 0
   index: -1
 muslo_izq
-  rotate: true
-  xy: 1300, 3
+  rotate: false
+  xy: 1868, 171
   size: 77, 135
   orig: 77, 135
   offset: 0, 0
   index: -1
 pelo detras
   rotate: false
-  xy: 324, 57
+  xy: 582, 88
   size: 146, 218
   orig: 146, 218
   offset: 0, 0
   index: -1
 pie_der
-  rotate: false
-  xy: 491, 3
+  rotate: true
+  xy: 900, 8
   size: 83, 57
   orig: 83, 57
   offset: 0, 0
   index: -1
 pie_izq
-  rotate: true
-  xy: 432, 8
+  rotate: false
+  xy: 1814, 9
   size: 47, 57
   orig: 47, 57
   offset: 0, 0
   index: -1
 pierna_der
   rotate: true
-  xy: 752, 7
+  xy: 343, 4
   size: 66, 158
   orig: 66, 158
   offset: 0, 0
   index: -1
 pierna_izq
   rotate: false
-  xy: 1462, 99
+  xy: 1612, 130
   size: 106, 176
   orig: 106, 176
   offset: 0, 0
   index: -1
 pollera_der
-  rotate: false
-  xy: 912, 2
+  rotate: true
+  xy: 1075, 8
   size: 96, 74
   orig: 96, 74
   offset: 0, 0
   index: -1
 pollera_detras
-  rotate: false
-  xy: 1354, 96
+  rotate: true
+  xy: 1465, 5
   size: 106, 179
   orig: 106, 179
   offset: 0, 0
   index: -1
 pollera_izq
-  rotate: false
-  xy: 1010, 2
+  rotate: true
+  xy: 1151, 11
   size: 96, 74
   orig: 96, 74
   offset: 0, 0
   index: -1
 slash_1
   rotate: true
-  xy: 1570, 101
+  xy: 1720, 132
   size: 174, 146
   orig: 186, 146
   offset: 12, 0
   index: -1
 slash_2
   rotate: false
-  xy: 2, 41
+  xy: 260, 72
   size: 201, 234
   orig: 294, 239
   offset: 93, 0
   index: -1
 slash_3
   rotate: true
-  xy: 669, 75
+  xy: 927, 106
   size: 200, 149
   orig: 204, 243
   offset: 0, 0
   index: -1
 slash_4
-  rotate: true
-  xy: 1718, 110
+  rotate: false
+  xy: 1814, 68
   size: 165, 62
   orig: 186, 90
   offset: 0, 0
   index: -1
 torso
   rotate: true
-  xy: 1782, 166
+  xy: 1320, 2
   size: 109, 143
   orig: 109, 143
   offset: 0, 0

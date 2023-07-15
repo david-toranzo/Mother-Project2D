@@ -17,6 +17,7 @@ namespace Runtime.Character2D
         [Header("Data")]
         [SerializeField] private string[] _animationAttackTriggerName = { "attack" };
         [SerializeField] private string _animationAttackAirTriggerName =  "attackAir";
+        [SerializeField] private float _velocityMoveAttack = 1f;
 
         private ControlInputBool _controlInput;
 
@@ -33,7 +34,7 @@ namespace Runtime.Character2D
         public override void Enter()
         {
             _character.ResetVelocityMove();
-            _character.ChangeGravityEnabled(false);
+            //_character.ChangeGravityEnabled(false);
             _controlInput.IsInputPressed = false;
 
             SetAnimationTrigger();
@@ -49,6 +50,11 @@ namespace Runtime.Character2D
         private string GetStringAnimator(int index)
         {
             return _character2DController.isGrounded ? _animationAttackTriggerName[index] : _animationAttackAirTriggerName;
+        }
+
+        protected override float GetSpeed()
+        {
+            return _velocityMoveAttack;
         }
 
         private void UpdateFighterValues()

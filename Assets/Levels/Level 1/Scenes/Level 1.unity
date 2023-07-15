@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 6189083}
   - component: {fileID: 6189085}
   - component: {fileID: 6189084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 8835278}
   - component: {fileID: 8835280}
   - component: {fileID: 8835279}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 19972197}
   - component: {fileID: 19972199}
   - component: {fileID: 19972198}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 21459519}
   - component: {fileID: 21459521}
   - component: {fileID: 21459520}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -466,7 +466,7 @@ GameObject:
   - component: {fileID: 25181473}
   - component: {fileID: 25181475}
   - component: {fileID: 25181474}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 31692723}
   - component: {fileID: 31692725}
   - component: {fileID: 31692724}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -632,7 +632,7 @@ GameObject:
   - component: {fileID: 42750733}
   - component: {fileID: 42750735}
   - component: {fileID: 42750734}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -715,7 +715,7 @@ GameObject:
   - component: {fileID: 44684018}
   - component: {fileID: 44684020}
   - component: {fileID: 44684019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 54970572}
   - component: {fileID: 54970574}
   - component: {fileID: 54970573}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -886,7 +886,7 @@ GameObject:
   - component: {fileID: 58645824}
   - component: {fileID: 58645826}
   - component: {fileID: 58645825}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 59589794}
   - component: {fileID: 59589796}
   - component: {fileID: 59589795}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 62151297}
   - component: {fileID: 62151299}
   - component: {fileID: 62151298}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 63265812}
   - component: {fileID: 63265814}
   - component: {fileID: 63265813}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1218,7 +1218,7 @@ GameObject:
   - component: {fileID: 66914332}
   - component: {fileID: 66914334}
   - component: {fileID: 66914333}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1301,7 +1301,7 @@ GameObject:
   - component: {fileID: 75622316}
   - component: {fileID: 75622318}
   - component: {fileID: 75622317}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,7 +1493,7 @@ GameObject:
   - component: {fileID: 77673032}
   - component: {fileID: 77673034}
   - component: {fileID: 77673033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1576,7 +1576,7 @@ GameObject:
   - component: {fileID: 82101159}
   - component: {fileID: 82101161}
   - component: {fileID: 82101160}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1664,7 +1664,7 @@ GameObject:
   - component: {fileID: 93106020}
   - component: {fileID: 93106022}
   - component: {fileID: 93106021}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1782,7 +1782,7 @@ GameObject:
   - component: {fileID: 103158086}
   - component: {fileID: 103158088}
   - component: {fileID: 103158087}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1865,7 +1865,7 @@ GameObject:
   - component: {fileID: 104950111}
   - component: {fileID: 104950113}
   - component: {fileID: 104950112}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1948,7 +1948,7 @@ GameObject:
   - component: {fileID: 105572187}
   - component: {fileID: 105572189}
   - component: {fileID: 105572188}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2031,7 +2031,7 @@ GameObject:
   - component: {fileID: 112539983}
   - component: {fileID: 112539985}
   - component: {fileID: 112539984}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2114,7 +2114,7 @@ GameObject:
   - component: {fileID: 115373720}
   - component: {fileID: 115373722}
   - component: {fileID: 115373721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2197,7 +2197,7 @@ GameObject:
   - component: {fileID: 138601163}
   - component: {fileID: 138601165}
   - component: {fileID: 138601164}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2285,7 +2285,7 @@ GameObject:
   - component: {fileID: 145546740}
   - component: {fileID: 145546742}
   - component: {fileID: 145546741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2368,7 +2368,7 @@ GameObject:
   - component: {fileID: 146096715}
   - component: {fileID: 146096717}
   - component: {fileID: 146096716}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2451,7 +2451,7 @@ GameObject:
   - component: {fileID: 147840515}
   - component: {fileID: 147840517}
   - component: {fileID: 147840516}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2534,7 +2534,7 @@ GameObject:
   - component: {fileID: 153589510}
   - component: {fileID: 153589512}
   - component: {fileID: 153589511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2624,7 +2624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -2780,7 +2780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -2828,7 +2828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -2864,7 +2864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -2900,7 +2900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -3235,10 +3235,6 @@ PrefabInstance:
       value: EnemyNormal_3
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -3288,7 +3284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -3414,7 +3410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -3570,7 +3566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -3618,7 +3614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -3654,7 +3650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -3690,7 +3686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -4025,10 +4021,6 @@ PrefabInstance:
       value: EnemyNormal_11
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -4078,7 +4070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -4197,7 +4189,7 @@ GameObject:
   - component: {fileID: 186136781}
   - component: {fileID: 186136783}
   - component: {fileID: 186136782}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4280,7 +4272,7 @@ GameObject:
   - component: {fileID: 210017026}
   - component: {fileID: 210017028}
   - component: {fileID: 210017027}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4363,7 +4355,7 @@ GameObject:
   - component: {fileID: 210539120}
   - component: {fileID: 210539122}
   - component: {fileID: 210539121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4480,7 +4472,7 @@ GameObject:
   - component: {fileID: 216000449}
   - component: {fileID: 216000451}
   - component: {fileID: 216000450}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4563,7 +4555,7 @@ GameObject:
   - component: {fileID: 218750744}
   - component: {fileID: 218750746}
   - component: {fileID: 218750745}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4646,7 +4638,7 @@ GameObject:
   - component: {fileID: 222729800}
   - component: {fileID: 222729802}
   - component: {fileID: 222729801}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4729,7 +4721,7 @@ GameObject:
   - component: {fileID: 223719305}
   - component: {fileID: 223719307}
   - component: {fileID: 223719306}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4812,7 +4804,7 @@ GameObject:
   - component: {fileID: 228180444}
   - component: {fileID: 228180446}
   - component: {fileID: 228180445}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4895,7 +4887,7 @@ GameObject:
   - component: {fileID: 243817049}
   - component: {fileID: 243817051}
   - component: {fileID: 243817050}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4988,7 +4980,7 @@ GameObject:
   - component: {fileID: 262211945}
   - component: {fileID: 262211947}
   - component: {fileID: 262211946}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5071,7 +5063,7 @@ GameObject:
   - component: {fileID: 271094502}
   - component: {fileID: 271094504}
   - component: {fileID: 271094503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5154,7 +5146,7 @@ GameObject:
   - component: {fileID: 280973839}
   - component: {fileID: 280973841}
   - component: {fileID: 280973840}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5237,7 +5229,7 @@ GameObject:
   - component: {fileID: 282189545}
   - component: {fileID: 282189547}
   - component: {fileID: 282189546}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5320,7 +5312,7 @@ GameObject:
   - component: {fileID: 284285205}
   - component: {fileID: 284285207}
   - component: {fileID: 284285206}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5403,7 +5395,7 @@ GameObject:
   - component: {fileID: 287040893}
   - component: {fileID: 287040895}
   - component: {fileID: 287040894}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5486,7 +5478,7 @@ GameObject:
   - component: {fileID: 287712837}
   - component: {fileID: 287712839}
   - component: {fileID: 287712838}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5569,7 +5561,7 @@ GameObject:
   - component: {fileID: 328002387}
   - component: {fileID: 328002389}
   - component: {fileID: 328002388}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5652,7 +5644,7 @@ GameObject:
   - component: {fileID: 342109639}
   - component: {fileID: 342109641}
   - component: {fileID: 342109640}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5735,7 +5727,7 @@ GameObject:
   - component: {fileID: 352573365}
   - component: {fileID: 352573367}
   - component: {fileID: 352573366}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5818,7 +5810,7 @@ GameObject:
   - component: {fileID: 358234490}
   - component: {fileID: 358234492}
   - component: {fileID: 358234491}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5901,7 +5893,7 @@ GameObject:
   - component: {fileID: 366597128}
   - component: {fileID: 366597130}
   - component: {fileID: 366597129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5984,7 +5976,7 @@ GameObject:
   - component: {fileID: 373615561}
   - component: {fileID: 373615563}
   - component: {fileID: 373615562}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6067,7 +6059,7 @@ GameObject:
   - component: {fileID: 378202072}
   - component: {fileID: 378202074}
   - component: {fileID: 378202073}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6150,7 +6142,7 @@ GameObject:
   - component: {fileID: 386933852}
   - component: {fileID: 386933854}
   - component: {fileID: 386933853}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6233,7 +6225,7 @@ GameObject:
   - component: {fileID: 419386974}
   - component: {fileID: 419386976}
   - component: {fileID: 419386975}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6316,7 +6308,7 @@ GameObject:
   - component: {fileID: 430180432}
   - component: {fileID: 430180434}
   - component: {fileID: 430180433}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6406,7 +6398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -6562,7 +6554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -6610,7 +6602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -6646,7 +6638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -6682,7 +6674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -7017,10 +7009,6 @@ PrefabInstance:
       value: EnemyNormal_4
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -7070,7 +7058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -7196,7 +7184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -7352,7 +7340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -7400,7 +7388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -7436,7 +7424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -7472,7 +7460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -7807,10 +7795,6 @@ PrefabInstance:
       value: EnemyNormal_9
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -7860,7 +7844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -7984,7 +7968,7 @@ GameObject:
   - component: {fileID: 486984785}
   - component: {fileID: 486984787}
   - component: {fileID: 486984786}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8067,7 +8051,7 @@ GameObject:
   - component: {fileID: 513142701}
   - component: {fileID: 513142703}
   - component: {fileID: 513142702}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8150,7 +8134,7 @@ GameObject:
   - component: {fileID: 529261589}
   - component: {fileID: 529261591}
   - component: {fileID: 529261590}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8233,7 +8217,7 @@ GameObject:
   - component: {fileID: 533662017}
   - component: {fileID: 533662019}
   - component: {fileID: 533662018}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8316,7 +8300,7 @@ GameObject:
   - component: {fileID: 538325998}
   - component: {fileID: 538326000}
   - component: {fileID: 538325999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8399,7 +8383,7 @@ GameObject:
   - component: {fileID: 544781081}
   - component: {fileID: 544781083}
   - component: {fileID: 544781082}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8482,7 +8466,7 @@ GameObject:
   - component: {fileID: 549539089}
   - component: {fileID: 549539091}
   - component: {fileID: 549539090}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8565,7 +8549,7 @@ GameObject:
   - component: {fileID: 556966250}
   - component: {fileID: 556966252}
   - component: {fileID: 556966251}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8648,7 +8632,7 @@ GameObject:
   - component: {fileID: 563384474}
   - component: {fileID: 563384476}
   - component: {fileID: 563384475}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8731,7 +8715,7 @@ GameObject:
   - component: {fileID: 579241463}
   - component: {fileID: 579241465}
   - component: {fileID: 579241464}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8814,7 +8798,7 @@ GameObject:
   - component: {fileID: 583610130}
   - component: {fileID: 583610132}
   - component: {fileID: 583610131}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8897,7 +8881,7 @@ GameObject:
   - component: {fileID: 591604638}
   - component: {fileID: 591604640}
   - component: {fileID: 591604639}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8980,7 +8964,7 @@ GameObject:
   - component: {fileID: 610544802}
   - component: {fileID: 610544804}
   - component: {fileID: 610544803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9063,7 +9047,7 @@ GameObject:
   - component: {fileID: 610604588}
   - component: {fileID: 610604590}
   - component: {fileID: 610604589}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9146,7 +9130,7 @@ GameObject:
   - component: {fileID: 616318137}
   - component: {fileID: 616318139}
   - component: {fileID: 616318138}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9311,7 +9295,7 @@ GameObject:
   - component: {fileID: 652170154}
   - component: {fileID: 652170156}
   - component: {fileID: 652170155}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9394,7 +9378,7 @@ GameObject:
   - component: {fileID: 655319570}
   - component: {fileID: 655319572}
   - component: {fileID: 655319571}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9477,7 +9461,7 @@ GameObject:
   - component: {fileID: 666665409}
   - component: {fileID: 666665411}
   - component: {fileID: 666665410}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9560,7 +9544,7 @@ GameObject:
   - component: {fileID: 682646335}
   - component: {fileID: 682646337}
   - component: {fileID: 682646336}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9643,7 +9627,7 @@ GameObject:
   - component: {fileID: 692601649}
   - component: {fileID: 692601651}
   - component: {fileID: 692601650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9726,7 +9710,7 @@ GameObject:
   - component: {fileID: 694205123}
   - component: {fileID: 694205125}
   - component: {fileID: 694205124}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9816,7 +9800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -9972,7 +9956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -10020,7 +10004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -10056,7 +10040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -10092,7 +10076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -10427,10 +10411,6 @@ PrefabInstance:
       value: EnemyNormal_6
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -10480,7 +10460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -10599,7 +10579,7 @@ GameObject:
   - component: {fileID: 749931685}
   - component: {fileID: 749931687}
   - component: {fileID: 749931686}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10682,7 +10662,7 @@ GameObject:
   - component: {fileID: 752110811}
   - component: {fileID: 752110813}
   - component: {fileID: 752110812}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10765,7 +10745,7 @@ GameObject:
   - component: {fileID: 753639187}
   - component: {fileID: 753639189}
   - component: {fileID: 753639188}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10848,7 +10828,7 @@ GameObject:
   - component: {fileID: 769472969}
   - component: {fileID: 769472971}
   - component: {fileID: 769472970}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10931,7 +10911,7 @@ GameObject:
   - component: {fileID: 769622589}
   - component: {fileID: 769622591}
   - component: {fileID: 769622590}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11014,7 +10994,7 @@ GameObject:
   - component: {fileID: 776074005}
   - component: {fileID: 776074007}
   - component: {fileID: 776074006}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11097,7 +11077,7 @@ GameObject:
   - component: {fileID: 782696880}
   - component: {fileID: 782696882}
   - component: {fileID: 782696881}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11180,7 +11160,7 @@ GameObject:
   - component: {fileID: 789077905}
   - component: {fileID: 789077907}
   - component: {fileID: 789077906}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11263,7 +11243,7 @@ GameObject:
   - component: {fileID: 801120356}
   - component: {fileID: 801120358}
   - component: {fileID: 801120357}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11346,7 +11326,7 @@ GameObject:
   - component: {fileID: 802123993}
   - component: {fileID: 802123995}
   - component: {fileID: 802123994}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11434,7 +11414,7 @@ GameObject:
   - component: {fileID: 821565222}
   - component: {fileID: 821565224}
   - component: {fileID: 821565223}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11517,7 +11497,7 @@ GameObject:
   - component: {fileID: 821840177}
   - component: {fileID: 821840179}
   - component: {fileID: 821840178}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11600,7 +11580,7 @@ GameObject:
   - component: {fileID: 827963922}
   - component: {fileID: 827963924}
   - component: {fileID: 827963923}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11759,7 +11739,7 @@ GameObject:
   - component: {fileID: 830522865}
   - component: {fileID: 830522867}
   - component: {fileID: 830522866}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11842,7 +11822,7 @@ GameObject:
   - component: {fileID: 833679825}
   - component: {fileID: 833679827}
   - component: {fileID: 833679826}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11930,7 +11910,7 @@ GameObject:
   - component: {fileID: 839262944}
   - component: {fileID: 839262946}
   - component: {fileID: 839262945}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12013,7 +11993,7 @@ GameObject:
   - component: {fileID: 886332270}
   - component: {fileID: 886332272}
   - component: {fileID: 886332271}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12096,7 +12076,7 @@ GameObject:
   - component: {fileID: 895764525}
   - component: {fileID: 895764527}
   - component: {fileID: 895764526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12179,7 +12159,7 @@ GameObject:
   - component: {fileID: 910244754}
   - component: {fileID: 910244756}
   - component: {fileID: 910244755}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12262,7 +12242,7 @@ GameObject:
   - component: {fileID: 911768582}
   - component: {fileID: 911768584}
   - component: {fileID: 911768583}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12345,7 +12325,7 @@ GameObject:
   - component: {fileID: 925189788}
   - component: {fileID: 925189790}
   - component: {fileID: 925189789}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12428,7 +12408,7 @@ GameObject:
   - component: {fileID: 926098119}
   - component: {fileID: 926098121}
   - component: {fileID: 926098120}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12511,7 +12491,7 @@ GameObject:
   - component: {fileID: 927732848}
   - component: {fileID: 927732850}
   - component: {fileID: 927732849}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12594,7 +12574,7 @@ GameObject:
   - component: {fileID: 932002189}
   - component: {fileID: 932002191}
   - component: {fileID: 932002190}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12677,7 +12657,7 @@ GameObject:
   - component: {fileID: 939240378}
   - component: {fileID: 939240380}
   - component: {fileID: 939240379}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12760,7 +12740,7 @@ GameObject:
   - component: {fileID: 951865070}
   - component: {fileID: 951865072}
   - component: {fileID: 951865071}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12843,7 +12823,7 @@ GameObject:
   - component: {fileID: 966379901}
   - component: {fileID: 966379903}
   - component: {fileID: 966379902}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12926,7 +12906,7 @@ GameObject:
   - component: {fileID: 980066562}
   - component: {fileID: 980066564}
   - component: {fileID: 980066563}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13009,7 +12989,7 @@ GameObject:
   - component: {fileID: 980481818}
   - component: {fileID: 980481820}
   - component: {fileID: 980481819}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13092,7 +13072,7 @@ GameObject:
   - component: {fileID: 982365954}
   - component: {fileID: 982365956}
   - component: {fileID: 982365955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13180,7 +13160,7 @@ GameObject:
   - component: {fileID: 997898188}
   - component: {fileID: 997898190}
   - component: {fileID: 997898189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13263,7 +13243,7 @@ GameObject:
   - component: {fileID: 1006257021}
   - component: {fileID: 1006257023}
   - component: {fileID: 1006257022}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13351,7 +13331,7 @@ GameObject:
   - component: {fileID: 1045812018}
   - component: {fileID: 1045812020}
   - component: {fileID: 1045812019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13434,7 +13414,7 @@ GameObject:
   - component: {fileID: 1046382944}
   - component: {fileID: 1046382946}
   - component: {fileID: 1046382945}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13517,7 +13497,7 @@ GameObject:
   - component: {fileID: 1046855430}
   - component: {fileID: 1046855432}
   - component: {fileID: 1046855431}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13600,7 +13580,7 @@ GameObject:
   - component: {fileID: 1062785586}
   - component: {fileID: 1062785588}
   - component: {fileID: 1062785587}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13683,7 +13663,7 @@ GameObject:
   - component: {fileID: 1068349930}
   - component: {fileID: 1068349932}
   - component: {fileID: 1068349931}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13766,7 +13746,7 @@ GameObject:
   - component: {fileID: 1072005757}
   - component: {fileID: 1072005759}
   - component: {fileID: 1072005758}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13931,7 +13911,7 @@ GameObject:
   - component: {fileID: 1077921250}
   - component: {fileID: 1077921252}
   - component: {fileID: 1077921251}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14014,7 +13994,7 @@ GameObject:
   - component: {fileID: 1078450269}
   - component: {fileID: 1078450271}
   - component: {fileID: 1078450270}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14131,7 +14111,7 @@ GameObject:
   - component: {fileID: 1103081091}
   - component: {fileID: 1103081093}
   - component: {fileID: 1103081092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14214,7 +14194,7 @@ GameObject:
   - component: {fileID: 1116277407}
   - component: {fileID: 1116277409}
   - component: {fileID: 1116277408}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14297,7 +14277,7 @@ GameObject:
   - component: {fileID: 1123649425}
   - component: {fileID: 1123649427}
   - component: {fileID: 1123649426}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14380,7 +14360,7 @@ GameObject:
   - component: {fileID: 1134769785}
   - component: {fileID: 1134769787}
   - component: {fileID: 1134769786}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14470,7 +14450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -14618,7 +14598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -14662,7 +14642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.y
@@ -14694,7 +14674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3198841388766254352, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -14726,7 +14706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -15017,10 +14997,6 @@ PrefabInstance:
       value: EnemyNormal
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -15070,7 +15046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -15173,7 +15149,7 @@ GameObject:
   - component: {fileID: 1144095483}
   - component: {fileID: 1144095485}
   - component: {fileID: 1144095484}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15256,7 +15232,7 @@ GameObject:
   - component: {fileID: 1144664962}
   - component: {fileID: 1144664964}
   - component: {fileID: 1144664963}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15339,7 +15315,7 @@ GameObject:
   - component: {fileID: 1145793699}
   - component: {fileID: 1145793701}
   - component: {fileID: 1145793700}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15422,7 +15398,7 @@ GameObject:
   - component: {fileID: 1146155590}
   - component: {fileID: 1146155592}
   - component: {fileID: 1146155591}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15510,7 +15486,7 @@ GameObject:
   - component: {fileID: 1172564906}
   - component: {fileID: 1172564908}
   - component: {fileID: 1172564907}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15593,7 +15569,7 @@ GameObject:
   - component: {fileID: 1189389943}
   - component: {fileID: 1189389945}
   - component: {fileID: 1189389944}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15683,7 +15659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -15839,7 +15815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -15887,7 +15863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -15923,7 +15899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -15959,7 +15935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -16294,10 +16270,6 @@ PrefabInstance:
       value: EnemyNormal_12
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -16347,7 +16319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -16466,7 +16438,7 @@ GameObject:
   - component: {fileID: 1198263395}
   - component: {fileID: 1198263397}
   - component: {fileID: 1198263396}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16549,7 +16521,7 @@ GameObject:
   - component: {fileID: 1209269360}
   - component: {fileID: 1209269362}
   - component: {fileID: 1209269361}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16632,7 +16604,7 @@ GameObject:
   - component: {fileID: 1213985238}
   - component: {fileID: 1213985240}
   - component: {fileID: 1213985239}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16715,7 +16687,7 @@ GameObject:
   - component: {fileID: 1217086721}
   - component: {fileID: 1217086723}
   - component: {fileID: 1217086722}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16798,7 +16770,7 @@ GameObject:
   - component: {fileID: 1226732937}
   - component: {fileID: 1226732939}
   - component: {fileID: 1226732938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16888,7 +16860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -17044,7 +17016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -17092,7 +17064,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -17128,7 +17100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -17164,7 +17136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -17499,10 +17471,6 @@ PrefabInstance:
       value: EnemyNormal_8
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -17552,7 +17520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -17671,7 +17639,7 @@ GameObject:
   - component: {fileID: 1230139221}
   - component: {fileID: 1230139223}
   - component: {fileID: 1230139222}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17759,7 +17727,7 @@ GameObject:
   - component: {fileID: 1262528986}
   - component: {fileID: 1262528988}
   - component: {fileID: 1262528987}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17842,7 +17810,7 @@ GameObject:
   - component: {fileID: 1263638920}
   - component: {fileID: 1263638922}
   - component: {fileID: 1263638921}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17925,7 +17893,7 @@ GameObject:
   - component: {fileID: 1263949431}
   - component: {fileID: 1263949433}
   - component: {fileID: 1263949432}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18008,7 +17976,7 @@ GameObject:
   - component: {fileID: 1271608352}
   - component: {fileID: 1271608354}
   - component: {fileID: 1271608353}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18124,7 +18092,7 @@ GameObject:
   - component: {fileID: 1288125966}
   - component: {fileID: 1288125968}
   - component: {fileID: 1288125967}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18278,7 +18246,7 @@ GameObject:
   - component: {fileID: 1295737703}
   - component: {fileID: 1295737705}
   - component: {fileID: 1295737704}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18361,7 +18329,7 @@ GameObject:
   - component: {fileID: 1315397358}
   - component: {fileID: 1315397360}
   - component: {fileID: 1315397359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18444,7 +18412,7 @@ GameObject:
   - component: {fileID: 1336461080}
   - component: {fileID: 1336461082}
   - component: {fileID: 1336461081}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18527,7 +18495,7 @@ GameObject:
   - component: {fileID: 1338004137}
   - component: {fileID: 1338004139}
   - component: {fileID: 1338004138}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18610,7 +18578,7 @@ GameObject:
   - component: {fileID: 1386558852}
   - component: {fileID: 1386558854}
   - component: {fileID: 1386558853}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18693,7 +18661,7 @@ GameObject:
   - component: {fileID: 1398135214}
   - component: {fileID: 1398135216}
   - component: {fileID: 1398135215}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18776,7 +18744,7 @@ GameObject:
   - component: {fileID: 1399067716}
   - component: {fileID: 1399067718}
   - component: {fileID: 1399067717}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18941,7 +18909,7 @@ GameObject:
   - component: {fileID: 1409902249}
   - component: {fileID: 1409902251}
   - component: {fileID: 1409902250}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19024,7 +18992,7 @@ GameObject:
   - component: {fileID: 1434482111}
   - component: {fileID: 1434482113}
   - component: {fileID: 1434482112}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19107,7 +19075,7 @@ GameObject:
   - component: {fileID: 1437410234}
   - component: {fileID: 1437410236}
   - component: {fileID: 1437410235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19190,7 +19158,7 @@ GameObject:
   - component: {fileID: 1445036858}
   - component: {fileID: 1445036860}
   - component: {fileID: 1445036859}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19273,7 +19241,7 @@ GameObject:
   - component: {fileID: 1447445623}
   - component: {fileID: 1447445625}
   - component: {fileID: 1447445624}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19356,7 +19324,7 @@ GameObject:
   - component: {fileID: 1448307075}
   - component: {fileID: 1448307077}
   - component: {fileID: 1448307076}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19439,7 +19407,7 @@ GameObject:
   - component: {fileID: 1449139226}
   - component: {fileID: 1449139228}
   - component: {fileID: 1449139227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19522,7 +19490,7 @@ GameObject:
   - component: {fileID: 1459431634}
   - component: {fileID: 1459431636}
   - component: {fileID: 1459431635}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19687,7 +19655,7 @@ GameObject:
   - component: {fileID: 1484880909}
   - component: {fileID: 1484880911}
   - component: {fileID: 1484880910}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19770,7 +19738,7 @@ GameObject:
   - component: {fileID: 1498109735}
   - component: {fileID: 1498109737}
   - component: {fileID: 1498109736}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19853,7 +19821,7 @@ GameObject:
   - component: {fileID: 1498217233}
   - component: {fileID: 1498217235}
   - component: {fileID: 1498217234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19936,7 +19904,7 @@ GameObject:
   - component: {fileID: 1504422810}
   - component: {fileID: 1504422812}
   - component: {fileID: 1504422811}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20024,7 +19992,7 @@ GameObject:
   - component: {fileID: 1520583520}
   - component: {fileID: 1520583522}
   - component: {fileID: 1520583521}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20107,7 +20075,7 @@ GameObject:
   - component: {fileID: 1529594875}
   - component: {fileID: 1529594877}
   - component: {fileID: 1529594876}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20190,7 +20158,7 @@ GameObject:
   - component: {fileID: 1531625672}
   - component: {fileID: 1531625674}
   - component: {fileID: 1531625673}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20273,7 +20241,7 @@ GameObject:
   - component: {fileID: 1541471181}
   - component: {fileID: 1541471183}
   - component: {fileID: 1541471182}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20356,7 +20324,7 @@ GameObject:
   - component: {fileID: 1544392189}
   - component: {fileID: 1544392191}
   - component: {fileID: 1544392190}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20439,7 +20407,7 @@ GameObject:
   - component: {fileID: 1548893647}
   - component: {fileID: 1548893649}
   - component: {fileID: 1548893648}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20522,7 +20490,7 @@ GameObject:
   - component: {fileID: 1561762704}
   - component: {fileID: 1561762706}
   - component: {fileID: 1561762705}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20605,7 +20573,7 @@ GameObject:
   - component: {fileID: 1565532227}
   - component: {fileID: 1565532229}
   - component: {fileID: 1565532228}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20688,7 +20656,7 @@ GameObject:
   - component: {fileID: 1566802325}
   - component: {fileID: 1566802327}
   - component: {fileID: 1566802326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20771,7 +20739,7 @@ GameObject:
   - component: {fileID: 1569872123}
   - component: {fileID: 1569872125}
   - component: {fileID: 1569872124}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20854,7 +20822,7 @@ GameObject:
   - component: {fileID: 1576197211}
   - component: {fileID: 1576197213}
   - component: {fileID: 1576197212}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20937,7 +20905,7 @@ GameObject:
   - component: {fileID: 1580699782}
   - component: {fileID: 1580699784}
   - component: {fileID: 1580699783}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21020,7 +20988,7 @@ GameObject:
   - component: {fileID: 1614323955}
   - component: {fileID: 1614323957}
   - component: {fileID: 1614323956}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21110,7 +21078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -21266,7 +21234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -21314,7 +21282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -21350,7 +21318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3198841388766254352, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -21382,7 +21350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -21709,10 +21677,6 @@ PrefabInstance:
       value: EnemyNormal_1
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -21762,7 +21726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -21877,7 +21841,7 @@ GameObject:
   - component: {fileID: 1622327536}
   - component: {fileID: 1622327538}
   - component: {fileID: 1622327537}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21960,7 +21924,7 @@ GameObject:
   - component: {fileID: 1634526840}
   - component: {fileID: 1634526842}
   - component: {fileID: 1634526841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22050,7 +22014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -22206,7 +22170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -22254,7 +22218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -22290,7 +22254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -22326,7 +22290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -22661,10 +22625,6 @@ PrefabInstance:
       value: EnemyNormal_10
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -22714,7 +22674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -22833,7 +22793,7 @@ GameObject:
   - component: {fileID: 1646763140}
   - component: {fileID: 1646763142}
   - component: {fileID: 1646763141}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22916,7 +22876,7 @@ GameObject:
   - component: {fileID: 1649146263}
   - component: {fileID: 1649146265}
   - component: {fileID: 1649146264}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22999,7 +22959,7 @@ GameObject:
   - component: {fileID: 1649883331}
   - component: {fileID: 1649883333}
   - component: {fileID: 1649883332}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23082,7 +23042,7 @@ GameObject:
   - component: {fileID: 1660437621}
   - component: {fileID: 1660437623}
   - component: {fileID: 1660437622}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23165,7 +23125,7 @@ GameObject:
   - component: {fileID: 1669962793}
   - component: {fileID: 1669962795}
   - component: {fileID: 1669962794}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23248,7 +23208,7 @@ GameObject:
   - component: {fileID: 1713344827}
   - component: {fileID: 1713344829}
   - component: {fileID: 1713344828}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23331,7 +23291,7 @@ GameObject:
   - component: {fileID: 1716072985}
   - component: {fileID: 1716072987}
   - component: {fileID: 1716072986}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23414,7 +23374,7 @@ GameObject:
   - component: {fileID: 1717888280}
   - component: {fileID: 1717888282}
   - component: {fileID: 1717888281}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23497,7 +23457,7 @@ GameObject:
   - component: {fileID: 1720447131}
   - component: {fileID: 1720447133}
   - component: {fileID: 1720447132}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23580,7 +23540,7 @@ GameObject:
   - component: {fileID: 1722680537}
   - component: {fileID: 1722680539}
   - component: {fileID: 1722680538}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23670,7 +23630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -23826,7 +23786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -23874,7 +23834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -23910,7 +23870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -23946,7 +23906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -24281,10 +24241,6 @@ PrefabInstance:
       value: EnemyNormal_2
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -24334,7 +24290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -24445,7 +24401,7 @@ GameObject:
   - component: {fileID: 1735099598}
   - component: {fileID: 1735099600}
   - component: {fileID: 1735099599}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24528,7 +24484,7 @@ GameObject:
   - component: {fileID: 1738157740}
   - component: {fileID: 1738157742}
   - component: {fileID: 1738157741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24611,7 +24567,7 @@ GameObject:
   - component: {fileID: 1742116169}
   - component: {fileID: 1742116171}
   - component: {fileID: 1742116170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24694,7 +24650,7 @@ GameObject:
   - component: {fileID: 1761679867}
   - component: {fileID: 1761679869}
   - component: {fileID: 1761679868}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24777,7 +24733,7 @@ GameObject:
   - component: {fileID: 1763163854}
   - component: {fileID: 1763163856}
   - component: {fileID: 1763163855}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24860,7 +24816,7 @@ GameObject:
   - component: {fileID: 1764014609}
   - component: {fileID: 1764014611}
   - component: {fileID: 1764014610}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24943,7 +24899,7 @@ GameObject:
   - component: {fileID: 1765621075}
   - component: {fileID: 1765621077}
   - component: {fileID: 1765621076}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25026,7 +24982,7 @@ GameObject:
   - component: {fileID: 1767692523}
   - component: {fileID: 1767692525}
   - component: {fileID: 1767692524}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25109,7 +25065,7 @@ GameObject:
   - component: {fileID: 1770839680}
   - component: {fileID: 1770839682}
   - component: {fileID: 1770839681}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25192,7 +25148,7 @@ GameObject:
   - component: {fileID: 1774560673}
   - component: {fileID: 1774560675}
   - component: {fileID: 1774560674}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25275,7 +25231,7 @@ GameObject:
   - component: {fileID: 1779124607}
   - component: {fileID: 1779124609}
   - component: {fileID: 1779124608}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25358,7 +25314,7 @@ GameObject:
   - component: {fileID: 1783898017}
   - component: {fileID: 1783898019}
   - component: {fileID: 1783898018}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25473,7 +25429,7 @@ GameObject:
   - component: {fileID: 1816705694}
   - component: {fileID: 1816705696}
   - component: {fileID: 1816705695}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25556,7 +25512,7 @@ GameObject:
   - component: {fileID: 1824930061}
   - component: {fileID: 1824930063}
   - component: {fileID: 1824930062}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25639,7 +25595,7 @@ GameObject:
   - component: {fileID: 1834431297}
   - component: {fileID: 1834431299}
   - component: {fileID: 1834431298}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25722,7 +25678,7 @@ GameObject:
   - component: {fileID: 1842861530}
   - component: {fileID: 1842861532}
   - component: {fileID: 1842861531}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: brazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25805,7 +25761,7 @@ GameObject:
   - component: {fileID: 1848118202}
   - component: {fileID: 1848118204}
   - component: {fileID: 1848118203}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25895,7 +25851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517954587879952583, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 585611823436163179, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -26051,7 +26007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079990138868546356, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2103193801206607241, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
@@ -26099,7 +26055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673338436289645951, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2724591017677331866, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -26135,7 +26091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075368978372996233, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3087467340583862774, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: _audioSource
@@ -26171,7 +26127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267981379158485291, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3314312640278818156, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_LocalScale.x
@@ -26506,10 +26462,6 @@ PrefabInstance:
       value: EnemyNormal_5
       objectReference: {fileID: 0}
     - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399013513751031623, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -26559,7 +26511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519435511723975958, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8850724235669654419, guid: 15050e6d044a33b4dbc539c3de4fd134, type: 3}
       propertyPath: m_Mesh
@@ -26678,7 +26630,7 @@ GameObject:
   - component: {fileID: 1862992767}
   - component: {fileID: 1862992769}
   - component: {fileID: 1862992768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26761,7 +26713,7 @@ GameObject:
   - component: {fileID: 1869297468}
   - component: {fileID: 1869297470}
   - component: {fileID: 1869297469}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26844,7 +26796,7 @@ GameObject:
   - component: {fileID: 1882664862}
   - component: {fileID: 1882664864}
   - component: {fileID: 1882664863}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casto_detras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26927,7 +26879,7 @@ GameObject:
   - component: {fileID: 1902402351}
   - component: {fileID: 1902402353}
   - component: {fileID: 1902402352}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27010,7 +26962,7 @@ GameObject:
   - component: {fileID: 1907781295}
   - component: {fileID: 1907781297}
   - component: {fileID: 1907781296}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27093,7 +27045,7 @@ GameObject:
   - component: {fileID: 1935521169}
   - component: {fileID: 1935521171}
   - component: {fileID: 1935521170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27176,7 +27128,7 @@ GameObject:
   - component: {fileID: 1945267214}
   - component: {fileID: 1945267216}
   - component: {fileID: 1945267215}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27259,7 +27211,7 @@ GameObject:
   - component: {fileID: 1945770045}
   - component: {fileID: 1945770047}
   - component: {fileID: 1945770046}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27342,7 +27294,7 @@ GameObject:
   - component: {fileID: 1969749422}
   - component: {fileID: 1969749424}
   - component: {fileID: 1969749423}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27425,7 +27377,7 @@ GameObject:
   - component: {fileID: 1972420293}
   - component: {fileID: 1972420295}
   - component: {fileID: 1972420294}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cintita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27508,7 +27460,7 @@ GameObject:
   - component: {fileID: 1979364555}
   - component: {fileID: 1979364557}
   - component: {fileID: 1979364556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27591,7 +27543,7 @@ GameObject:
   - component: {fileID: 1981692668}
   - component: {fileID: 1981692670}
   - component: {fileID: 1981692669}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27674,7 +27626,7 @@ GameObject:
   - component: {fileID: 1986888954}
   - component: {fileID: 1986888956}
   - component: {fileID: 1986888955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27757,7 +27709,7 @@ GameObject:
   - component: {fileID: 1988942194}
   - component: {fileID: 1988942196}
   - component: {fileID: 1988942195}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27840,7 +27792,7 @@ GameObject:
   - component: {fileID: 2000383926}
   - component: {fileID: 2000383928}
   - component: {fileID: 2000383927}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hombro_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27923,7 +27875,7 @@ GameObject:
   - component: {fileID: 2023013644}
   - component: {fileID: 2023013646}
   - component: {fileID: 2023013645}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28006,7 +27958,7 @@ GameObject:
   - component: {fileID: 2030148056}
   - component: {fileID: 2030148058}
   - component: {fileID: 2030148057}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28176,7 +28128,7 @@ GameObject:
   - component: {fileID: 2049385298}
   - component: {fileID: 2049385300}
   - component: {fileID: 2049385299}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28259,7 +28211,7 @@ GameObject:
   - component: {fileID: 2050820038}
   - component: {fileID: 2050820040}
   - component: {fileID: 2050820039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28342,7 +28294,7 @@ GameObject:
   - component: {fileID: 2053575813}
   - component: {fileID: 2053575815}
   - component: {fileID: 2053575814}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28425,7 +28377,7 @@ GameObject:
   - component: {fileID: 2054178168}
   - component: {fileID: 2054178170}
   - component: {fileID: 2054178169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28508,7 +28460,7 @@ GameObject:
   - component: {fileID: 2056408175}
   - component: {fileID: 2056408177}
   - component: {fileID: 2056408176}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pantorrilla_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28591,7 +28543,7 @@ GameObject:
   - component: {fileID: 2059268646}
   - component: {fileID: 2059268648}
   - component: {fileID: 2059268647}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28674,7 +28626,7 @@ GameObject:
   - component: {fileID: 2062020485}
   - component: {fileID: 2062020487}
   - component: {fileID: 2062020486}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28757,7 +28709,7 @@ GameObject:
   - component: {fileID: 2064491859}
   - component: {fileID: 2064491861}
   - component: {fileID: 2064491860}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pierna_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29070,7 +29022,7 @@ GameObject:
   - component: {fileID: 2104421223}
   - component: {fileID: 2104421225}
   - component: {fileID: 2104421224}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29153,7 +29105,7 @@ GameObject:
   - component: {fileID: 2134307306}
   - component: {fileID: 2134307308}
   - component: {fileID: 2134307307}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: antebrazo_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29236,7 +29188,7 @@ GameObject:
   - component: {fileID: 2135031372}
   - component: {fileID: 2135031374}
   - component: {fileID: 2135031373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29319,7 +29271,7 @@ GameObject:
   - component: {fileID: 2138029058}
   - component: {fileID: 2138029060}
   - component: {fileID: 2138029059}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mano_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29402,7 +29354,7 @@ GameObject:
   - component: {fileID: 2143703373}
   - component: {fileID: 2143703375}
   - component: {fileID: 2143703374}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: casco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29485,7 +29437,7 @@ GameObject:
   - component: {fileID: 2146490389}
   - component: {fileID: 2146490391}
   - component: {fileID: 2146490390}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pie_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}

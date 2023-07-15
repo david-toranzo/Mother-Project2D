@@ -97,17 +97,14 @@ namespace Runtime.Character2D
             if (_lookPlayerDirection == LookDirection.Right && positionToLookAt.x < 0)
             {
                 //TODO DELETE
-                ChangePositionAttack();
-
-                _characterAnimation.RotateCharacter();
+                /*ChangePositionAttack();
+                _characterAnimation.RotateCharacter();*/
+                transform.Rotate(0, -180, 0);
                 _lookPlayerDirection = LookDirection.Left;
             }
             else if (_lookPlayerDirection == LookDirection.Left && positionToLookAt.x > 0)
             {
-                //TODO DELETE
-                ChangePositionAttack();
-
-                _characterAnimation.RotateCharacter();
+                transform.Rotate(0, 180, 0);
                 _lookPlayerDirection = LookDirection.Right;
             }
         }

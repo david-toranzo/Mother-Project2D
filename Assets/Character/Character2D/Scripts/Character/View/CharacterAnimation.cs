@@ -71,7 +71,7 @@ namespace Runtime.Character2D
 
         public void AttackAnimation(string nameAttack)
         {
-            _animator.SetTrigger("attack");
+            _animator.SetTrigger(nameAttack);
         }
 
         public void BlockAnimation()

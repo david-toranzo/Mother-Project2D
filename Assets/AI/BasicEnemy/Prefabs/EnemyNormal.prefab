@@ -177,6 +177,7 @@ MonoBehaviour:
   waypointDwellTime: 3
   patrolSpeedFraction: 0.432
   shoutDistance: 5
+  player: {fileID: 0}
 --- !u!114 &3337964828480961568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,7 +2012,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8456989317631732521}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyNormal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
