@@ -84,5 +84,15 @@ namespace Runtime.Character2D
         {
             //_animator.SetTrigger("attack");
         }
+
+        public void CrouchAnimation()
+        {
+            _animator.SetBool("crouch", true);
+        }
+
+        public void StopCrouchAnimation()
+        {
+            _animator.SetBool("crouch", false);
+        }
     }
 }
