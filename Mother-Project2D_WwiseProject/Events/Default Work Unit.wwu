@@ -3,17 +3,47 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_mother_master_DK" ID="{A5AAF4B7-1A2C-47FA-A2AD-D2C66520E64C}">
+				<Folder Name="AMB" ID="{E72474FD-A07D-4AF4-A663-B936B553A690}" ShortID="46347760">
 					<ChildrenList>
-						<Action Name="" ID="{623B6E1D-B027-4591-8672-842071A4253D}" ShortID="1042756880">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="mother_master_DK" ID="{33DCF8B8-1389-4CB9-8F86-327FCA898D32}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_AMB_Cave" ID="{F4374541-9BC4-4CD6-ABAE-246F3295787A}">
+							<ChildrenList>
+								<Action Name="" ID="{07B97B04-2C06-429B-8C71-82DA78C49EE2}" ShortID="473282083">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP" ID="{2757CD54-3B0A-442C-B871-833A3ED86778}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_Init" ID="{3495D321-4B1B-4C0A-9E1D-A847371022FD}">
+							<ChildrenList>
+								<Action Name="" ID="{DEE02607-126B-4451-A6F6-EE68C657993E}" ShortID="732456825">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Huge Planet, Rumble, Empty, Large, Space, Sci-Fi, Planet, Ambience, Exterior" ID="{8E350676-4E0A-432C-A08B-5610ABCFCE6A}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="BGM" ID="{968CD9D6-04CA-4989-80C5-2402256DBEDC}" ShortID="848125940">
+					<ChildrenList>
+						<Event Name="Play_Mother_main_BGM" ID="{3697520F-B443-4804-BB09-95C82052E7C3}">
+							<ChildrenList>
+								<Action Name="" ID="{CD56EA70-1D3D-48DD-BA49-18FE9B19F8DA}" ShortID="751620273">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mother-main-BGM" ID="{E99D9231-634B-4E9A-B2BE-10F1975EE6A7}" WorkUnitID="{E41C2413-C699-4319-8210-BB45DC21B01E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

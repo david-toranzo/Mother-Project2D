@@ -9,24 +9,107 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1214782156" Type="User" Language="SFX" Hash="{A521A975-B07A-C3CA-F264-9FA45732BAE0}">
+		<SoundBank Id="1214782156" Type="User" Language="SFX" Hash="{3BFE15DA-014B-E2EE-4C15-8EE0C8DE3655}">
 			<ShortName>Mother_Main</ShortName>
 			<Path>Mother_Main.bnk</Path>
 			<Media>
-				<File Id="50039792" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>mother_master_DK.wav</ShortName>
-					<CachePath>SFX/mother_master_DK_10C4C929.wem</CachePath>
+				<File Id="293146212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_voice_long_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_voice_long_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="336773423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_voice_inicio_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_voice_inicio_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="423193327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP.wav</ShortName>
+					<CachePath>SFX/ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP_10C4C929.wem</CachePath>
+				</File>
+				<File Id="487153763" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_foghorn_mid_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_foghorn_mid_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="578847024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_voice_long_end_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_voice_long_end_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="603572804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Huge Planet, Rumble, Empty, Large, Space, Sci-Fi, Planet, Ambience, Exterior.wav</ShortName>
+					<CachePath>SFX/Huge Planet, Rumble, Empty, Large, Space, Sci-Fi, Planet, Ambience, Exterior_10C4C929.wem</CachePath>
+				</File>
+				<File Id="606400031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_pad0_mid_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_pad0_mid_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="623028043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_percusion_high_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_percusion_high_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="651064502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_foghorn_inicio_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_foghorn_inicio_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="679360058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_percu_bridge_low_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_percu_bridge_low_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="697771751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_percusion_veryhigh_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_percusion_veryhigh_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="823775071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_percu_bridge_high_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_percu_bridge_high_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="861112542" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_foghorn_high_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_foghorn_high_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="878198616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_pad0_low_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_pad0_low_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="995442072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_bass_low_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_bass_low_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1060574629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mother-main\mother_main_percusion_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/Mother-main/mother_main_percusion_110bpm4-4_p0_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1984293064" Name="Play_mother_master_DK" DurationType="OneShot" DurationMin="257.55844" DurationMax="257.55844">
+				<Event Id="2314402090" Name="Play_AMB_Cave" DurationType="OneShot" DurationMin="84.87133" DurationMax="84.87133">
 					<MediaRefs>
-						<MediaRef Id="50039792"/>
+						<MediaRef Id="423193327"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3171808287" Name="Play_AMB_Init" DurationType="OneShot" DurationMin="180" DurationMax="180">
+					<MediaRefs>
+						<MediaRef Id="603572804"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="767316002" Name="Play_Mother_main_BGM" DurationType="OneShot" DurationMin="166.9391" DurationMax="166.9391">
+					<MediaRefs>
+						<MediaRef Id="293146212"/>
+						<MediaRef Id="336773423"/>
+						<MediaRef Id="487153763"/>
+						<MediaRef Id="578847024"/>
+						<MediaRef Id="606400031"/>
+						<MediaRef Id="623028043"/>
+						<MediaRef Id="651064502"/>
+						<MediaRef Id="679360058"/>
+						<MediaRef Id="697771751"/>
+						<MediaRef Id="823775071"/>
+						<MediaRef Id="861112542"/>
+						<MediaRef Id="878198616"/>
+						<MediaRef Id="995442072"/>
+						<MediaRef Id="1060574629"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{700844B1-A7CD-EF98-305F-625F0F999B1D}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4AC4DEB5-7AB7-589E-6AB5-C3429DD44DBB}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -43,5 +126,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8A2AEB6D-026A-C1C0-633D-E37951F04301}</FileHash>
+	<FileHash>{7A199885-A42C-3AB6-25F6-84CA49E68A81}</FileHash>
 </SoundBanksInfo>

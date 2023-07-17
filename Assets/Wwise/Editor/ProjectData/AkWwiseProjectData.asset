@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a9a812af44c59f4a9033fbe1f5445bbe
     GuidInternal: 
-    m_lastTime: -8585119888938568379
+    m_lastTime: -8585119763116450236
     List:
     - name: AMB
       guid: 026549b93e29ea4ea9687570b7d2a309
@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d47d1929278786459eabbfaa25fb2d8a
     GuidInternal: 
-    m_lastTime: -8585119887511103561
+    m_lastTime: -8585119730200934374
     List:
     - name: Mother_Main
       guid: 3d0cea15fce0204298012fa600cb8ef8
@@ -145,11 +145,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 80b159ff0182524881e5675c4da4bf1d
     GuidInternal: 
-    m_lastTime: -8585119888731536918
+    m_lastTime: -8585119731900155023
     List:
-    - name: Play_mother_master_DK
-      guid: b7f4aaa52c1afa47a2add2c66520e64c
-      id: 1984293064
+    - name: AMB
+      guid: fd7424e77da0f44aa663b936b553a690
+      id: 1117531639
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -157,13 +157,90 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 80b159ff0182524881e5675c4da4bf1d
-      - ElementName: Play_mother_master_DK
-        ObjectType: 3
-        guid: b7f4aaa52c1afa47a2add2c66520e64c
-      Path: Events\Default Work Unit\Play_mother_master_DK
+      - ElementName: AMB
+        ObjectType: 4
+        guid: fd7424e77da0f44aa663b936b553a690
+      Path: Events\Default Work Unit\AMB
       maxAttenuation: 0
-      maxDuration: 257.55844
-      minDuration: 257.55844
+      maxDuration: -1
+      minDuration: -1
+    - name: BGM
+      guid: d6d98c96ca04894980c52402256dbedc
+      id: 412724365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: BGM
+        ObjectType: 4
+        guid: d6d98c96ca04894980c52402256dbedc
+      Path: Events\Default Work Unit\BGM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AMB_Cave
+      guid: 414537f4c49bd64cabae246f3295787a
+      id: 2314402090
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: AMB
+        ObjectType: 4
+        guid: fd7424e77da0f44aa663b936b553a690
+      - ElementName: Play_AMB_Cave
+        ObjectType: 3
+        guid: 414537f4c49bd64cabae246f3295787a
+      Path: Events\Default Work Unit\AMB\Play_AMB_Cave
+      maxAttenuation: 0
+      maxDuration: 84.87133
+      minDuration: 84.87133
+    - name: Play_AMB_Init
+      guid: 21d395341b4b0a4c9e1da847371022fd
+      id: 3171808287
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: AMB
+        ObjectType: 4
+        guid: fd7424e77da0f44aa663b936b553a690
+      - ElementName: Play_AMB_Init
+        ObjectType: 3
+        guid: 21d395341b4b0a4c9e1da847371022fd
+      Path: Events\Default Work Unit\AMB\Play_AMB_Init
+      maxAttenuation: 0
+      maxDuration: 180
+      minDuration: 180
+    - name: Play_Mother_main_BGM
+      guid: 0f52973643b40448bb0995c82052e7c3
+      id: 767316002
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: BGM
+        ObjectType: 4
+        guid: d6d98c96ca04894980c52402256dbedc
+      - ElementName: Play_Mother_main_BGM
+        ObjectType: 3
+        guid: 0f52973643b40448bb0995c82052e7c3
+      Path: Events\Default Work Unit\BGM\Play_Mother_main_BGM
+      maxAttenuation: 0
+      maxDuration: 166.9391
+      minDuration: 166.9391
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -221,7 +298,7 @@ MonoBehaviour:
     m_lastTime: -8585119892315645560
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c00000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

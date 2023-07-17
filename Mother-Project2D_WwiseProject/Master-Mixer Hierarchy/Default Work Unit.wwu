@@ -10,7 +10,15 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="BGM" ID="{9F035391-98AE-4F09-A142-566C78242DC9}"/>
+						<Bus Name="BGM" ID="{9F035391-98AE-4F09-A142-566C78242DC9}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 						<Bus Name="SFX" ID="{C5B8067A-3F6A-4F2F-B98A-7F83B97F5060}"/>
 						<Bus Name="AMB" ID="{B9496502-293E-4EEA-A968-7570B7D2A309}"/>
 					</ChildrenList>

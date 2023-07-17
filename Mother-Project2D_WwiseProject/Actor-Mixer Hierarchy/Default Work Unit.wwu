@@ -36,6 +36,70 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="01_AMB" ID="{7A0B8877-A0B7-4699-A746-B9473E2012BE}" ShortID="947797778">
+					<ChildrenList>
+						<Sound Name="ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP" ID="{2757CD54-3B0A-442C-B871-833A3ED86778}" ShortID="644902681">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP" ID="{B75BD1D9-D438-4F6C-9F96-B6DFB3759698}">
+									<Language>SFX</Language>
+									<AudioFile>ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="423193327"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP" ID="{B75BD1D9-D438-4F6C-9F96-B6DFB3759698}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Huge Planet, Rumble, Empty, Large, Space, Sci-Fi, Planet, Ambience, Exterior" ID="{8E350676-4E0A-432C-A08B-5610ABCFCE6A}" ShortID="1041948478">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Huge Planet, Rumble, Empty, Large, Space, Sci-Fi, Planet, Ambience, Exterior" ID="{6A98BD52-DECB-45DE-8439-43451073AFA9}">
+									<Language>SFX</Language>
+									<AudioFile>Huge Planet, Rumble, Empty, Large, Space, Sci-Fi, Planet, Ambience, Exterior.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="603572804"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Huge Planet, Rumble, Empty, Large, Space, Sci-Fi, Planet, Ambience, Exterior" ID="{6A98BD52-DECB-45DE-8439-43451073AFA9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

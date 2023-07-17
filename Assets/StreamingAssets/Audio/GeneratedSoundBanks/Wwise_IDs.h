@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_MOTHER_MASTER_DK = 1984293064U;
+        static const AkUniqueID PLAY_AMB_CAVE = 2314402090U;
+        static const AkUniqueID PLAY_AMB_INIT = 3171808287U;
+        static const AkUniqueID PLAY_MOTHER_MAIN_BGM = 767316002U;
     } // namespace EVENTS
 
     namespace BANKS
