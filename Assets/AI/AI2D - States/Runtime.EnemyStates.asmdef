@@ -1,0 +1,16 @@
+{
+    "name": "Runtime.EnemyStates",
+    "rootNamespace": "Runtime.EnemyStates",
+    "references": [
+        "GUID:b5f2204f45a22874a8a0c551b5765bc3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
