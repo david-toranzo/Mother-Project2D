@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1214782156" Type="User" Language="SFX" Hash="{A521A975-B07A-C3CA-F264-9FA45732BAE0}">
+			<ShortName>Mother_Main</ShortName>
+			<Path>Mother_Main.bnk</Path>
+			<Media>
+				<File Id="50039792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mother_master_DK.wav</ShortName>
+					<CachePath>SFX/mother_master_DK_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1984293064" Name="Play_mother_master_DK" DurationType="OneShot" DurationMin="257.55844" DurationMax="257.55844">
+					<MediaRefs>
+						<MediaRef Id="50039792"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{700844B1-A7CD-EF98-305F-625F0F999B1D}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="412724365" Name="BGM"/>
+				<Bus Id="1117531639" Name="AMB"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8A2AEB6D-026A-C1C0-633D-E37951F04301}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1984293064	Play_mother_master_DK			\Default Work Unit\Play_mother_master_DK	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	50039792	mother_master_DK	C:\Users\ro1\Documents\GitHub\Mother-Project2D\Mother-Project2D_WwiseProject\.cache\Windows\SFX\mother_master_DK_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\00_BGM\mother_master_DK		45433404
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="00_BGM" ID="{CE577BB3-6505-47F3-BACD-693069A285EE}" ShortID="924890212">
+					<ChildrenList>
+						<Sound Name="mother_master_DK" ID="{33DCF8B8-1389-4CB9-8F86-327FCA898D32}" ShortID="933945336">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="BGM" ID="{9F035391-98AE-4F09-A142-566C78242DC9}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mother_master_DK" ID="{6056877E-FD4B-4CBB-A8EC-B2F74CB57E18}">
+									<Language>SFX</Language>
+									<AudioFile>mother_master_DK.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="50039792"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mother_master_DK" ID="{6056877E-FD4B-4CBB-A8EC-B2F74CB57E18}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
