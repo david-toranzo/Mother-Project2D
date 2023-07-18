@@ -361,7 +361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348654020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00000059604645, y: 3.5099998, z: -10.121539}
+  m_LocalPosition: {x: -0.00000047683716, y: 3.5099998, z: -10.121539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -548,7 +548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.581037, y: 3.51038, z: -10.121539}
+  m_LocalPosition: {x: 0.5739448, y: 3.51038, z: -10.121539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1752,8 +1752,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1477564948335788165, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3410459931432340739}
   m_SourcePrefab: {fileID: 100100000, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+--- !u!1 &3410459931432340738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1477564948335788165, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+  m_PrefabInstance: {fileID: 3410459931432340737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3410459931432340739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3410459931432340738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf62bd61de637344db8ba9f56ee92a05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transformPlayer: {fileID: 7874707173268546010}
+  _distanceBetweenEnemy: 2
 --- !u!114 &5549577622833165664 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6147375219389303815, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}

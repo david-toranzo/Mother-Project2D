@@ -941,6 +941,7 @@ GameObject:
   - component: {fileID: 6251977345874519749}
   - component: {fileID: 6216208851718787999}
   - component: {fileID: 8311162558163742622}
+  - component: {fileID: 282643761308414424}
   m_Layer: 7
   m_Name: EnemyFirst
   m_TagString: Enemy
@@ -1092,12 +1093,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d431e5ad6adb674eb29fbe155e9fea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthController: {fileID: 2394906720860658285}
-  _spriteHit: {fileID: 2905715657535616128}
   _colorDefault: {r: 1, g: 1, b: 1, a: 1}
   _colorHit: {r: 1, g: 0, b: 0, a: 1}
   _secondToWait: 0.05
   _cyclesChangeColor: 3
+  _healthController: {fileID: 2394906720860658285}
+  _spriteHit: {fileID: 2905715657535616128}
 --- !u!114 &5346079404520367869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1536,6 +1537,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider2D: {fileID: 6216208851718787999}
   _healthController: {fileID: 2394906720860658285}
+--- !u!114 &282643761308414424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2808922801100703274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecdb227e9f63c864d8625c0d72a73c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2808922801179186410
 GameObject:
   m_ObjectHideFlags: 0

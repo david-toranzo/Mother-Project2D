@@ -16,6 +16,10 @@ namespace BasicEnemy.Enemy
         [Range(0,1)] [SerializeField] float patrolSpeedFraction = 0.2f;
         [SerializeField] float shoutDistance = 5;
 
+        [Header("Health")]
+        [SerializeField] private float _timeBetweenReceivedDamage = 0.5f;
+
+
         [SerializeField] GameObject player;
         EnemyMovement mover;
 
@@ -26,6 +30,7 @@ namespace BasicEnemy.Enemy
         float timeSinceLastSawPlayer = Mathf.Infinity;
         float timeSinceArriveAtWaypoint = Mathf.Infinity;
         float timeSinceAggrevated = Mathf.Infinity;
+        float timeSinceReceivedDamage = Mathf.Infinity;
         int currentWaypointIndex = 0;
         
         private void Awake()
@@ -38,13 +43,21 @@ namespace BasicEnemy.Enemy
         private void Start()
         {
             health.OnDie += CancelMovement;
+            health.OnSubstractHealth += ReceiveDamageCancelMove;
 
             player = GameObject.FindWithTag("Player");
         }
 
+        private void ReceiveDamageCancelMove(int damage)
+        {
+            timeSinceReceivedDamage = 0;
+        }
+
         private void Update()
         {
-            if (health.IsDead())
+            timeSinceReceivedDamage += Time.deltaTime;
+
+            if (health.IsDead() || timeSinceReceivedDamage < _timeBetweenReceivedDamage)
                 return;
 
             if(player is null)

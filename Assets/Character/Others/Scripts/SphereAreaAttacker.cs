@@ -7,6 +7,7 @@ namespace Runtime.Character2D
     public class SphereAreaAttacker : MonoBehaviour, IEnemyAttacker
     {
         public Action<Vector2> OnTouchEnemy { get; set; }
+        public Action<GameObject> OnAttackEnemyWithObject { get; set; }
 
         [SerializeField] private CharacterFighter _characterFighter;
 
@@ -34,8 +35,9 @@ namespace Runtime.Character2D
                 IAttackReceiver health = hit.collider.GetComponent<IAttackReceiver>();
                 if (health != null && health != _currentHealth && hit.collider.tag == _tagNameToAttack)
                 {
-                    OnTouchEnemy.Invoke(hit.point);
                     health.ReceiveAttack(_damage);
+                    OnTouchEnemy.Invoke(hit.point);
+                    OnAttackEnemyWithObject.Invoke(hit.collider.gameObject);
                 }
             }
         }
