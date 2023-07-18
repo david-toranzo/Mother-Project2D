@@ -39,7 +39,7 @@ public class WwiseSettings
 	public string GeneratedSoundbanksPath;
 
 	public bool CreatedPicker = false;
-	public bool CreateWwiseGlobal = true;
+	public bool CreateWwiseGlobal = false;
 	public bool CreateWwiseListener = true;
 	public bool ObjectReferenceAutoCleanup = true;
 	public bool ShowMissingRigidBodyWarning = true;

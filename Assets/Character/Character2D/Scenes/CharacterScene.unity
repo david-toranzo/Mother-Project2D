@@ -1697,10 +1697,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_Viking
       objectReference: {fileID: 0}
-    - target: {fileID: 4221505331598713023, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5993083702970845265, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1753,10 +1749,6 @@ PrefabInstance:
       propertyPath: _secondCameraCrouch
       value: 
       objectReference: {fileID: 1071135239}
-    - target: {fileID: 6851751643865703230, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
