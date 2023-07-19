@@ -2,7 +2,12 @@
     "name": "Mother.Runtime.Audio",
     "rootNamespace": "Mother.Runtime.Audio",
     "references": [
-        "GUID:7ce20abfe6855074786c5a8a03a433ad"
+        "GUID:7ce20abfe6855074786c5a8a03a433ad",
+        "GUID:43ef99df67896ad458d69d9fc6545921",
+        "GUID:5d02d01687ca356498521af44c24a67b",
+        "GUID:72ada611d489ccc439da81f5ec9d96aa",
+        "GUID:511f912af151fd248a5723cba4ec7a5c",
+        "GUID:6922857a60a0c26448abc649364ff8c4"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

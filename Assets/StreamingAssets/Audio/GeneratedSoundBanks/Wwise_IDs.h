@@ -15,8 +15,18 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_CAVE = 2314402090U;
         static const AkUniqueID PLAY_AMB_INIT = 3171808287U;
+        static const AkUniqueID PLAY_BREAKABLE_DOOR = 1157719790U;
+        static const AkUniqueID PLAY_CHARSHIELDCOVER = 1072660666U;
+        static const AkUniqueID PLAY_ENEMYATTACKING = 992143342U;
+        static const AkUniqueID PLAY_ENEMYSKULLDEATH = 1794537489U;
         static const AkUniqueID PLAY_MOTHER_MAIN_BGM = 767316002U;
+        static const AkUniqueID PLAY_SWORDWOOSHES = 931212911U;
     } // namespace EVENTS
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID BREAKABLEDOOR = 253538494U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {

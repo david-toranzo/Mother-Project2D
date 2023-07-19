@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d47d1929278786459eabbfaa25fb2d8a
     GuidInternal: 
-    m_lastTime: -8585119730200934374
+    m_lastTime: -8585118238767126316
     List:
     - name: Mother_Main
       guid: 3d0cea15fce0204298012fa600cb8ef8
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 80b159ff0182524881e5675c4da4bf1d
     GuidInternal: 
-    m_lastTime: -8585119731900155023
+    m_lastTime: -8585118239113822092
     List:
     - name: AMB
       guid: fd7424e77da0f44aa663b936b553a690
@@ -199,8 +199,8 @@ MonoBehaviour:
         guid: 414537f4c49bd64cabae246f3295787a
       Path: Events\Default Work Unit\AMB\Play_AMB_Cave
       maxAttenuation: 0
-      maxDuration: 84.87133
-      minDuration: 84.87133
+      maxDuration: -1
+      minDuration: -1
     - name: Play_AMB_Init
       guid: 21d395341b4b0a4c9e1da847371022fd
       id: 3171808287
@@ -219,8 +219,88 @@ MonoBehaviour:
         guid: 21d395341b4b0a4c9e1da847371022fd
       Path: Events\Default Work Unit\AMB\Play_AMB_Init
       maxAttenuation: 0
-      maxDuration: 180
-      minDuration: 180
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Breakable_Door
+      guid: c44ee73a2ec42c42a54b2895f390bcae
+      id: 1157719790
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: BGM
+        ObjectType: 4
+        guid: d6d98c96ca04894980c52402256dbedc
+      - ElementName: Play_Breakable_Door
+        ObjectType: 3
+        guid: c44ee73a2ec42c42a54b2895f390bcae
+      Path: Events\Default Work Unit\BGM\Play_Breakable_Door
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_CharShieldCover
+      guid: 7100e8af94cd6743b77528986a14baed
+      id: 1072660666
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: SFX
+        ObjectType: 4
+        guid: ffcdbae68caf1342bd05da687c1c8b59
+      - ElementName: Play_CharShieldCover
+        ObjectType: 3
+        guid: 7100e8af94cd6743b77528986a14baed
+      Path: Events\Default Work Unit\SFX\Play_CharShieldCover
+      maxAttenuation: 0
+      maxDuration: 1.3723438
+      minDuration: 1.3723438
+    - name: Play_EnemyAttacking
+      guid: cb63bd535d15ee4194b6d19d77810e52
+      id: 992143342
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: SFX
+        ObjectType: 4
+        guid: ffcdbae68caf1342bd05da687c1c8b59
+      - ElementName: Play_EnemyAttacking
+        ObjectType: 3
+        guid: cb63bd535d15ee4194b6d19d77810e52
+      Path: Events\Default Work Unit\SFX\Play_EnemyAttacking
+      maxAttenuation: 0
+      maxDuration: 1.2889792
+      minDuration: 1.2889792
+    - name: Play_EnemySkullDeath
+      guid: 8828684635333f4ea1d651394a040e7c
+      id: 1794537489
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: SFX
+        ObjectType: 4
+        guid: ffcdbae68caf1342bd05da687c1c8b59
+      - ElementName: Play_EnemySkullDeath
+        ObjectType: 3
+        guid: 8828684635333f4ea1d651394a040e7c
+      Path: Events\Default Work Unit\SFX\Play_EnemySkullDeath
+      maxAttenuation: 0
+      maxDuration: 1.625
+      minDuration: 1.625
     - name: Play_Mother_main_BGM
       guid: 0f52973643b40448bb0995c82052e7c3
       id: 767316002
@@ -239,8 +319,45 @@ MonoBehaviour:
         guid: 0f52973643b40448bb0995c82052e7c3
       Path: Events\Default Work Unit\BGM\Play_Mother_main_BGM
       maxAttenuation: 0
-      maxDuration: 166.9391
-      minDuration: 166.9391
+      maxDuration: 500.81732
+      minDuration: 500.81732
+    - name: Play_SwordWooshes
+      guid: 03bf0dbbbc1e5e498ba952f533316f3f
+      id: 931212911
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: SFX
+        ObjectType: 4
+        guid: ffcdbae68caf1342bd05da687c1c8b59
+      - ElementName: Play_SwordWooshes
+        ObjectType: 3
+        guid: 03bf0dbbbc1e5e498ba952f533316f3f
+      Path: Events\Default Work Unit\SFX\Play_SwordWooshes
+      maxAttenuation: 0
+      maxDuration: 1.0789796
+      minDuration: 0.5637188
+    - name: SFX
+      guid: ffcdbae68caf1342bd05da687c1c8b59
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b159ff0182524881e5675c4da4bf1d
+      - ElementName: SFX
+        ObjectType: 4
+        guid: ffcdbae68caf1342bd05da687c1c8b59
+      Path: Events\Default Work Unit\SFX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -295,10 +412,24 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 0fa9287e3fc4c546acfa9e121f8fe8b2
     GuidInternal: 
-    m_lastTime: -8585119892315645560
-    List: []
+    m_lastTime: -8585119601727282641
+    List:
+    - name: BreakableDoor
+      guid: 5dcc14d1c6aca14385cfd9b870d5c4cf
+      id: 253538494
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0fa9287e3fc4c546acfa9e121f8fe8b2
+      - ElementName: BreakableDoor
+        ObjectType: 14
+        guid: 5dcc14d1c6aca14385cfd9b870d5c4cf
+      Path: Triggers\Default Work Unit\BreakableDoor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c00000017000000
+  ExpandedWaapiItemIds: 050000000600000009000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

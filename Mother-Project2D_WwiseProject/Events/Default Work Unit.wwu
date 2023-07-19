@@ -42,6 +42,68 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Breakable_Door" ID="{3AE74EC4-C42E-422C-A54B-2895F390BCAE}">
+							<ChildrenList>
+								<Action Name="" ID="{CCB108DA-13AD-4D19-985B-CF81EE44E763}" ShortID="398714519">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BreakableDoor" ID="{D114CC5D-ACC6-43A1-85CF-D9B870D5C4CF}" WorkUnitID="{7E28A90F-C43F-46C5-ACFA-9E121F8FE8B2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{E6BACDFF-AF8C-4213-BD05-DA687C1C8B59}" ShortID="325223499">
+					<ChildrenList>
+						<Event Name="Play_CharShieldCover" ID="{AFE80071-CD94-4367-B775-28986A14BAED}">
+							<ChildrenList>
+								<Action Name="" ID="{15ABE027-25FD-43CB-A4BC-57829702B1B0}" ShortID="196521716">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CharShieldCover" ID="{F36CFEE9-0449-44A1-BB7A-BA40CBD67826}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_EnemySkullDeath" ID="{46682888-3335-4E3F-A1D6-51394A040E7C}">
+							<ChildrenList>
+								<Action Name="" ID="{5D85640D-1FC2-42BA-A96E-CECC12BA2EDD}" ShortID="171734048">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemySkullDeath" ID="{224CB8D3-40BE-43FE-866C-E0EA9E05410A}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SwordWooshes" ID="{BB0DBF03-1EBC-495E-8BA9-52F533316F3F}">
+							<ChildrenList>
+								<Action Name="" ID="{609EBC0A-B1F1-41E1-A1FF-DD69419D24A3}" ShortID="630823899">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SwordWooshes" ID="{317C5C3A-97E3-480D-9846-B8F27C7D0401}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_EnemyAttacking" ID="{53BD63CB-155D-41EE-94B6-D19D77810E52}">
+							<ChildrenList>
+								<Action Name="" ID="{726012C0-741D-46D9-8D26-6F76B84092F0}" ShortID="957327789">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyAttacking" ID="{6E5EB7EB-9114-4AE0-B8D1-2768B1F36882}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

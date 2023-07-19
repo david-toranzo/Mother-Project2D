@@ -100,6 +100,295 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="02_SFX" ID="{50BBFEA4-986E-449D-A81A-8C8F27E3D98C}" ShortID="356197356">
+					<ChildrenList>
+						<Sound Name="CharShieldCover" ID="{F36CFEE9-0449-44A1-BB7A-BA40CBD67826}" ShortID="807310646">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{C5B8067A-3F6A-4F2F-B98A-7F83B97F5060}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EnemyAttackShield" ID="{184D4C85-6BAB-47E9-8901-6D17F0007A83}">
+									<Language>SFX</Language>
+									<AudioFile>EnemyAttackShield.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="79696905"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EnemyAttackShield" ID="{184D4C85-6BAB-47E9-8901-6D17F0007A83}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EnemyReceiveHit" ID="{41389590-41D2-4D27-B6BF-A6A32578A0EF}" ShortID="298446568">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{C5B8067A-3F6A-4F2F-B98A-7F83B97F5060}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bluezone_BC0263_creature_crab_organic_texture_attack_impact_009" ID="{F3686245-4AED-47AA-973C-D30C9740F611}">
+									<Language>SFX</Language>
+									<AudioFile>Bluezone_BC0263_creature_crab_organic_texture_attack_impact_009.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="732650839"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bluezone_BC0263_creature_crab_organic_texture_attack_impact_009" ID="{F3686245-4AED-47AA-973C-D30C9740F611}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EnemySkullDeath" ID="{224CB8D3-40BE-43FE-866C-E0EA9E05410A}" ShortID="697651493">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{C5B8067A-3F6A-4F2F-B98A-7F83B97F5060}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bluezone_BC0269_creature_wood_attack_impact_dust_006" ID="{75D0C02C-5AC1-4604-83EC-8E26F7BE33A6}">
+									<Language>SFX</Language>
+									<AudioFile>Bluezone_BC0269_creature_wood_attack_impact_dust_006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="24843915"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bluezone_BC0269_creature_wood_attack_impact_dust_006" ID="{75D0C02C-5AC1-4604-83EC-8E26F7BE33A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="SwordWooshes" ID="{317C5C3A-97E3-480D-9846-B8F27C7D0401}" ShortID="1038789106">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{C5B8067A-3F6A-4F2F-B98A-7F83B97F5060}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SwordWoosh00" ID="{E15852C3-3AE7-4E7C-9169-C03C82363859}" ShortID="367492573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwordWoosh00" ID="{D12C079C-45B5-4EB2-A722-3E2D1A38DC16}">
+											<Language>SFX</Language>
+											<AudioFile>SwordWoosh00.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="997299036"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SwordWoosh00" ID="{D12C079C-45B5-4EB2-A722-3E2D1A38DC16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwordWoosh01" ID="{580FC301-2832-4C76-B924-3F2E14685361}" ShortID="280433681">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwordWoosh01" ID="{CEC3FD70-1F0F-408C-962F-7BC48FB6031B}">
+											<Language>SFX</Language>
+											<AudioFile>SwordWoosh01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132646509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SwordWoosh01" ID="{CEC3FD70-1F0F-408C-962F-7BC48FB6031B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwordWoosh02" ID="{694EB838-0AFB-46A5-8A4D-14E9FFA3508C}" ShortID="168372098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwordWoosh02" ID="{343A4C36-7065-4936-8AB5-ED075F02D9E9}">
+											<Language>SFX</Language>
+											<AudioFile>SwordWoosh02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="599368764"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SwordWoosh02" ID="{343A4C36-7065-4936-8AB5-ED075F02D9E9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwordWoosh03" ID="{45B52C6D-09C7-4974-8B88-46DE46599613}" ShortID="419926878">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwordWoosh03" ID="{5CB56EE7-5EFD-4F5D-82B1-8E9809885E02}">
+											<Language>SFX</Language>
+											<AudioFile>SwordWoosh03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="24970867"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SwordWoosh03" ID="{5CB56EE7-5EFD-4F5D-82B1-8E9809885E02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwordWoosh04" ID="{2A8D0C7C-243A-4869-A634-C23E00FB09B8}" ShortID="447623205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwordWoosh04" ID="{72339B3D-84ED-497C-95BA-56C8FD8C6764}">
+											<Language>SFX</Language>
+											<AudioFile>SwordWoosh04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="681039572"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SwordWoosh04" ID="{72339B3D-84ED-497C-95BA-56C8FD8C6764}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<BlendContainer Name="EnemyAttacking" ID="{6E5EB7EB-9114-4AE0-B8D1-2768B1F36882}" ShortID="740780651">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{C5B8067A-3F6A-4F2F-B98A-7F83B97F5060}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SkullAttack" ID="{69E8CF67-65C5-4451-9E9C-6718E781F307}" ShortID="1038806297">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{C5B8067A-3F6A-4F2F-B98A-7F83B97F5060}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BEAST 01 Attack 08" ID="{169D8777-0B14-4003-B036-C1B580AE2BAA}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.04879671325052"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.116888793995859"/>
+												<Property Name="LoopEnd" Type="Real64" Value="0.976741977225673"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BEAST 01 Attack 08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1041911173"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BEAST 01 Attack 08" ID="{169D8777-0B14-4003-B036-C1B580AE2BAA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Impact" ID="{8F090D0E-0CA7-46D5-AEC8-9DA976960CC9}" ShortID="441967509">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bluezone_BC0272_creature_attack_whoosh_impact_003" ID="{53ED8813-02B8-4775-846B-2A31EC5812AE}">
+											<Language>SFX</Language>
+											<AudioFile>Bluezone_BC0272_creature_attack_whoosh_impact_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="710395959"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bluezone_BC0272_creature_attack_whoosh_impact_003" ID="{53ED8813-02B8-4775-846B-2A31EC5812AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -8,9 +8,8 @@ namespace Mother.Runtime.Audio
         [Header("Data")]
         [SerializeField] private EmptyEventScriptableObject _eventScriptableObject;
 
-        [Header("References")]
-        [SerializeField] private AudioSource _audioSource;
-        [SerializeField] private AudioClip _audioClip;
+        [Header("Wwise Events")]
+        [SerializeField] private AK.Wwise.Event _attackCharacterSFX;
 
 
         private void Start()
@@ -20,7 +19,7 @@ namespace Mother.Runtime.Audio
 
         private void MakeSoundPlay()
         {
-            _audioSource.PlayOneShot(_audioClip);
+            _attackCharacterSFX.Post(gameObject);
         }
 
         private void OnDestroy()

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{14A468DC-40CA-422B-9B31-A1BE3C979213}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{14A468DC-40CA-422B-9B31-A1BE3C979213}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{14A468DC-40CA-422B-9B31-A1BE3C979213}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Mother-main" ID="{8F95E596-5E74-473F-9B0E-2BCD3C33500F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Mother_main_BGM" ID="{3697520F-B443-4804-BB09-95C82052E7C3}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Breakable_Door" ID="{3AE74EC4-C42E-422C-A54B-2895F390BCAE}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SwordWooshes" ID="{BB0DBF03-1EBC-495E-8BA9-52F533316F3F}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7E28A90F-C43F-46C5-ACFA-9E121F8FE8B2}" SchemaVersion="110">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{7E28A90F-C43F-46C5-ACFA-9E121F8FE8B2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7E28A90F-C43F-46C5-ACFA-9E121F8FE8B2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="BreakableDoor" ID="{D114CC5D-ACC6-43A1-85CF-D9B870D5C4CF}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

@@ -1335,7 +1335,6 @@
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>
@@ -3051,8 +3050,26 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ObjectLists>
+						<ObjectList Name="Stingers">
+							<Reference>
+								<Local>
+									<MusicStinger Name="" ID="{545BE952-1234-4559-BC41-12407663569F}">
+										<PropertyList>
+											<Property Name="PlaySegmentAt" Type="int16" Value="2"/>
+										</PropertyList>
+										<TriggerRef Name="BreakableDoor" ID="{D114CC5D-ACC6-43A1-85CF-D9B870D5C4CF}" WorkUnitID="{7E28A90F-C43F-46C5-ACFA-9E121F8FE8B2}"/>
+										<SegmentRef Name="IMPACT DARK Epic Punch_01" ID="{03254B4A-D980-42BE-9DF7-482E5B41C996}" WorkUnitID="{E41C2413-C699-4319-8210-BB45DC21B01E}"/>
+									</MusicStinger>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<Playlist>
 						<MusicPlaylistItem Name="" ID="{A763DC34-7186-4873-A2C0-021062D1A2FE}" ShortID="405123388">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="3"/>
+							</PropertyList>
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{70030539-E51D-4239-9CBC-54DF97634640}" ShortID="142604868">
 									<PropertyList>
@@ -3089,6 +3106,105 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<Folder Name="Stingers" ID="{A46FC2C5-9BFC-4323-823A-B49E67FC5ACC}" ShortID="489714546">
+					<ChildrenList>
+						<MusicSegment Name="IMPACT DARK Epic Punch_01" ID="{03254B4A-D980-42BE-9DF7-482E5B41C996}" ShortID="901763398">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="4458.99999999999"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3181BB02-C21E-4594-8771-56275C5BA851}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="BGM" ID="{9F035391-98AE-4F09-A142-566C78242DC9}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="IMPACT DARK Epic Punch_01" ID="{CE7E2951-0512-44A0-BB7D-192A278038CF}" ShortID="694564125">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF12A8A9-C544-4A9F-9033-FBE1F5445BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="IMPACT DARK Epic Punch_01" ID="{24AC02D8-62DF-4A63-BB4A-5898E6D76F09}">
+											<Language>SFX</Language>
+											<AudioFile>IMPACT DARK Epic Punch_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="105168203"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C7C87D39-A130-42D5-9205-B73E0B98C5D9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3330CCDF-2119-4DB7-92F9-1D57DE5BD4FB}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="IMPACT DARK Epic Punch_01" ID="{0A6A225E-B345-46EA-9E2C-2089B24C9470}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3959"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="IMPACT DARK Epic Punch_01" ID="{24AC02D8-62DF-4A63-BB4A-5898E6D76F09}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{2A7826BF-02CD-4DA9-9783-8D34B7E9B526}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="500"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{31CB08FA-56EE-4FD6-AC78-E2DED74247EC}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="500"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
