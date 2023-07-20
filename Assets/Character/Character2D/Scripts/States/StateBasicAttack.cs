@@ -1,4 +1,5 @@
 using Runtime.InputSystem;
+using ScriptableObjects.Event;
 using UnityEngine;
 
 namespace Runtime.Character2D
@@ -18,6 +19,7 @@ namespace Runtime.Character2D
         [SerializeField] private string[] _animationAttackTriggerName = { "attack" };
         [SerializeField] private string _animationAttackAirTriggerName =  "attackAir";
         [SerializeField] private float _velocityMoveAttack = 1f;
+        [SerializeField] private EmptyEventScriptableObject _eventScriptableObject;
 
         private ControlInputBool _controlInput;
 
@@ -34,6 +36,7 @@ namespace Runtime.Character2D
         public override void Enter()
         {
             _character.ResetVelocityMove();
+            _eventScriptableObject.InvokeEvent();
             //_character.ChangeGravityEnabled(false);
             _controlInput.IsInputPressed = false;
 

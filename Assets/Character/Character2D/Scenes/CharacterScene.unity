@@ -1749,6 +1749,10 @@ PrefabInstance:
       propertyPath: _secondCameraCrouch
       value: 
       objectReference: {fileID: 1071135239}
+    - target: {fileID: 6851751643865703230, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

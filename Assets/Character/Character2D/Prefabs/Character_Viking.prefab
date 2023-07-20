@@ -2320,7 +2320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterFighter: {fileID: 8386594159205130977}
-  _eventScriptableObject: {fileID: 11400000, guid: 513089aeafeea5641beb83540848734b, type: 2}
+  _eventScriptableObject: {fileID: 11400000, guid: 6946b5a189bb71b428b9c5856c4d6714, type: 2}
 --- !u!1 &5225183452494865785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3224,6 +3224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterFighter: {fileID: 8386594159205130977}
+  _eventScriptableObject: {fileID: 11400000, guid: 829dfef7fb9bc9e4292cf1f3b8dd77df, type: 2}
 --- !u!1 &7098834566740092965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3560,6 +3561,7 @@ MonoBehaviour:
   - attack2
   _animationAttackAirTriggerName: attackAir
   _velocityMoveAttack: 1
+  _eventScriptableObject: {fileID: 11400000, guid: 513089aeafeea5641beb83540848734b, type: 2}
 --- !u!1 &8655824235480562339
 GameObject:
   m_ObjectHideFlags: 0
