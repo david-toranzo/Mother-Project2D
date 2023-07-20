@@ -77,12 +77,12 @@ namespace Runtime.Character2D
 
         public void BlockAnimation()
         {
-            //_animator.SetBool("attack");
+            _animator.SetBool("block", true);
         }
 
         public void StopBlockAnimation()
         {
-            //_animator.SetTrigger("attack");
+            _animator.SetBool("block", false);
         }
 
         public void CrouchAnimation()

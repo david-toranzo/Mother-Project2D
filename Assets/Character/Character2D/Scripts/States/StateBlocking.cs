@@ -15,13 +15,13 @@ namespace Runtime.Character2D
         {
             _healthPlayerController.SetBlockAttack(true);
             _character.ResetVelocityMove();
-            //_characterAnimationDragonBones.Block();
+            _characterAnimation.BlockAnimation();
         }
 
         public override void Exit()
         {
             _healthPlayerController.SetBlockAttack(false);
-            //_characterAnimationDragonBones.StopBlock();
+            _characterAnimation.StopBlockAnimation();
         }
 
         protected override void ProcessWorkActualState() { }

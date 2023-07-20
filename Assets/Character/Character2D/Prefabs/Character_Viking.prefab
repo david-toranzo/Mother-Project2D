@@ -591,6 +591,7 @@ GameObject:
   - component: {fileID: 2808446109828567808}
   - component: {fileID: 7055424248894861313}
   - component: {fileID: 2410440342041315554}
+  - component: {fileID: 5557297288894196361}
   m_Layer: 3
   m_Name: Attack
   m_TagString: Untagged
@@ -643,6 +644,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _partycleEffect: {fileID: 1046704483320329548}
+--- !u!114 &5557297288894196361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477564948335788165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf62bd61de637344db8ba9f56ee92a05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transformPlayer: {fileID: 5993083702970845265}
+  _distanceBetweenEnemy: 2
 --- !u!1 &1706123781192679478
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,7 +755,7 @@ MonoBehaviour:
   _transitions:
   - {fileID: 3871228773137809549}
   - {fileID: 5753817000778164722}
-  _characterAnimation: {fileID: 0}
+  _characterAnimation: {fileID: 7371494934859638880}
   _character: {fileID: 6147375219389303815}
   _healthPlayerController: {fileID: 3077633686468941497}
 --- !u!1 &1929641736070114288

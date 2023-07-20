@@ -1749,33 +1749,15 @@ PrefabInstance:
       propertyPath: _secondCameraCrouch
       value: 
       objectReference: {fileID: 1071135239}
+    - target: {fileID: 6851751643865703230, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1477564948335788165, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3410459931432340739}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
---- !u!1 &3410459931432340738 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1477564948335788165, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
-  m_PrefabInstance: {fileID: 3410459931432340737}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3410459931432340739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3410459931432340738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf62bd61de637344db8ba9f56ee92a05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _transformPlayer: {fileID: 7874707173268546010}
-  _distanceBetweenEnemy: 2
 --- !u!114 &5549577622833165664 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6147375219389303815, guid: 07a0570e99f86ef40b2d09ffd4e301e9, type: 3}
