@@ -16,9 +16,13 @@ namespace AK
         static const AkUniqueID PLAY_AMB_CAVE = 2314402090U;
         static const AkUniqueID PLAY_AMB_INIT = 3171808287U;
         static const AkUniqueID PLAY_BREAKABLE_DOOR = 1157719790U;
-        static const AkUniqueID PLAY_CHARSHIELDCOVER = 1072660666U;
+        static const AkUniqueID PLAY_CHARACTERCOVERATTACK = 532000872U;
+        static const AkUniqueID PLAY_CHARACTERDEADBLEND = 3279707102U;
+        static const AkUniqueID PLAY_CHARACTERFOOTSTEPS = 2603299628U;
+        static const AkUniqueID PLAY_CHARACTERRECEIVEDAMAGE = 1604083921U;
         static const AkUniqueID PLAY_ENEMYATTACKING = 992143342U;
-        static const AkUniqueID PLAY_ENEMYSKULLDEATH = 1794537489U;
+        static const AkUniqueID PLAY_ENEMYDEAD = 1118869712U;
+        static const AkUniqueID PLAY_ENEMYRECEIVEDAMAGE = 311580602U;
         static const AkUniqueID PLAY_MOTHER_MAIN_BGM = 767316002U;
         static const AkUniqueID PLAY_SWORDWOOSHES = 931212911U;
     } // namespace EVENTS

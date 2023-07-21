@@ -10,12 +10,28 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Breakable_Door" ID="{3AE74EC4-C42E-422C-A54B-2895F390BCAE}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}"/>
-							<Position X="1" Y="0"/>
+							<ObjectRef Name="Play_EnemyAttacking" ID="{53BD63CB-155D-41EE-94B6-D19D77810E52}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}"/>
+							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_SwordWooshes" ID="{BB0DBF03-1EBC-495E-8BA9-52F533316F3F}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EnemyReceiveDamage" ID="{3A6E268F-A86B-4F4A-AACE-98E548025B94}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_Init" ID="{3495D321-4B1B-4C0A-9E1D-A847371022FD}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CharacterFootsteps" ID="{A464CDA6-9C61-4B5B-AE24-B762B7A0A78C}" WorkUnitID="{02B1506E-F886-47CC-B0A5-8BF382EA5475}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_CharacterDeadBlend" ID="{689F17B3-F638-4C8E-B956-A51D05F67E3C}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

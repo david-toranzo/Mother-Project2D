@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1214782156" Type="User" Language="SFX" Hash="{DAA58272-BDA1-20A5-8C7F-2C06EF7DC96A}">
+		<SoundBank Id="1214782156" Type="User" Language="SFX" Hash="{1A38E055-6290-CB58-FE00-FE2143BF742F}">
 			<ShortName>Mother_Main</ShortName>
 			<Path>Mother_Main.bnk</Path>
 			<Media>
@@ -25,13 +25,25 @@
 					<ShortName>EnemyAttackShield.wav</ShortName>
 					<CachePath>SFX/EnemyAttackShield_10C4C929.wem</CachePath>
 				</File>
+				<File Id="96876476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>female_receive05.wav</ShortName>
+					<CachePath>SFX/female_receive05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="105168203" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>IMPACT DARK Epic Punch_01.wav</ShortName>
 					<CachePath>SFX/IMPACT DARK Epic Punch_01_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="132646509" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SwordWoosh01.wav</ShortName>
-					<CachePath>SFX/SwordWoosh01_10C4C929.wem</CachePath>
+				<File Id="112527087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>female_dead00.wav</ShortName>
+					<CachePath>SFX/female_dead00_10C4C929.wem</CachePath>
+				</File>
+				<File Id="146922853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>female_dead01.wav</ShortName>
+					<CachePath>SFX/female_dead01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="259409478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Attack_Gore_Flesh_Rip_01.wav</ShortName>
+					<CachePath>SFX/Attack_Gore_Flesh_Rip_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="293146212" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mother-main\mother_main_voice_long_110bpm4-4_p0.wav</ShortName>
@@ -45,17 +57,21 @@
 					<ShortName>ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP.wav</ShortName>
 					<CachePath>SFX/ATMO EERIE Cave, Water Drips, Emptyness, Howling Interior Wind, Oppressive, LOOP_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="436716264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character_footsteps00.wav</ShortName>
+					<CachePath>SFX/character_footsteps00_10C4C929.wem</CachePath>
+				</File>
 				<File Id="487153763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mother-main\mother_main_foghorn_mid_110bpm4-4_p0.wav</ShortName>
 					<CachePath>SFX/Mother-main/mother_main_foghorn_mid_110bpm4-4_p0_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="496388853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>female_dead03.wav</ShortName>
+					<CachePath>SFX/female_dead03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="578847024" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mother-main\mother_main_voice_long_end_110bpm4-4_p0.wav</ShortName>
 					<CachePath>SFX/Mother-main/mother_main_voice_long_end_110bpm4-4_p0_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="599368764" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SwordWoosh02.wav</ShortName>
-					<CachePath>SFX/SwordWoosh02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="603572804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Huge Planet, Rumble, Empty, Large, Space, Sci-Fi, Planet, Ambience, Exterior.wav</ShortName>
@@ -81,17 +97,57 @@
 					<ShortName>SwordWoosh04.wav</ShortName>
 					<CachePath>SFX/SwordWoosh04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="696596064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character_footsteps02.wav</ShortName>
+					<CachePath>SFX/character_footsteps02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="697771751" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mother-main\mother_main_percusion_veryhigh_110bpm4-4_p0.wav</ShortName>
 					<CachePath>SFX/Mother-main/mother_main_percusion_veryhigh_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="703804946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>female_hit_receive00.wav</ShortName>
+					<CachePath>SFX/female_hit_receive00_10C4C929.wem</CachePath>
 				</File>
 				<File Id="710395959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0272_creature_attack_whoosh_impact_003.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0272_creature_attack_whoosh_impact_003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="711561369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>female_dead04.wav</ShortName>
+					<CachePath>SFX/female_dead04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="732650839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bluezone_BC0263_creature_crab_organic_texture_attack_impact_009.wav</ShortName>
+					<CachePath>SFX/Bluezone_BC0263_creature_crab_organic_texture_attack_impact_009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="743786737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>female_hit_receive01.wav</ShortName>
+					<CachePath>SFX/female_hit_receive01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="753086031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Female Warrior 3 Scream, Battle, War, Cry, Fight, Shout 3.wav</ShortName>
+					<CachePath>SFX/Female Warrior 3 Scream, Battle, War, Cry, Fight, Shout 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="754483843" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MR - Insect Creature Attack VO 02.wav</ShortName>
+					<CachePath>SFX/MR - Insect Creature Attack VO 02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="805065105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>character_footsteps01.wav</ShortName>
+					<CachePath>SFX/character_footsteps01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="813999203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mother_main_foghorn_inicio_110bpm4-4_p0.wav</ShortName>
+					<CachePath>SFX/mother_main_foghorn_inicio_110bpm4-4_p0_05C1F6BD.wem</CachePath>
+				</File>
 				<File Id="823775071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mother-main\mother_main_percu_bridge_high_110bpm4-4_p0.wav</ShortName>
 					<CachePath>SFX/Mother-main/mother_main_percu_bridge_high_110bpm4-4_p0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="841241050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>female_dead02.wav</ShortName>
+					<CachePath>SFX/female_dead02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="861112542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mother-main\mother_main_foghorn_high_110bpm4-4_p0.wav</ShortName>
@@ -101,17 +157,17 @@
 					<ShortName>Mother-main\mother_main_pad0_low_110bpm4-4_p0.wav</ShortName>
 					<CachePath>SFX/Mother-main/mother_main_pad0_low_110bpm4-4_p0_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="882183149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Melee_Sword_Attack_04.wav</ShortName>
+					<CachePath>SFX/Melee_Sword_Attack_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="995442072" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mother-main\mother_main_bass_low_110bpm4-4_p0.wav</ShortName>
 					<CachePath>SFX/Mother-main/mother_main_bass_low_110bpm4-4_p0_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="997299036" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SwordWoosh00.wav</ShortName>
-					<CachePath>SFX/SwordWoosh00_10C4C929.wem</CachePath>
-				</File>
 				<File Id="1041911173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BEAST 01 Attack 08.wav</ShortName>
-					<CachePath>SFX/BEAST 01 Attack 08_04958B82.wem</CachePath>
+					<CachePath>SFX/BEAST 01 Attack 08_CCCDA7E6.wem</CachePath>
 				</File>
 				<File Id="1060574629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mother-main\mother_main_percusion_110bpm4-4_p0.wav</ShortName>
@@ -134,20 +190,55 @@
 						<ActionTriggerEntry Id="253538494" Name="BreakableDoor"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="1072660666" Name="Play_CharShieldCover" DurationType="OneShot" DurationMin="1.3723438" DurationMax="1.3723438">
+				<Event Id="532000872" Name="Play_CharacterCoverAttack" DurationType="OneShot" DurationMin="1.3723438" DurationMax="1.3723438">
 					<MediaRefs>
 						<MediaRef Id="79696905"/>
+						<MediaRef Id="753086031"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="992143342" Name="Play_EnemyAttacking" DurationType="OneShot" DurationMin="1.2889792" DurationMax="1.2889792">
+				<Event Id="3279707102" Name="Play_CharacterDeadBlend" DurationType="OneShot" DurationMin="4.444944" DurationMax="4.444944">
 					<MediaRefs>
+						<MediaRef Id="112527087"/>
+						<MediaRef Id="146922853"/>
+						<MediaRef Id="496388853"/>
+						<MediaRef Id="711561369"/>
+						<MediaRef Id="813999203"/>
+						<MediaRef Id="841241050"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2603299628" Name="Play_CharacterFootsteps" DurationType="OneShot" DurationMin="0.42038548" DurationMax="0.47773242">
+					<MediaRefs>
+						<MediaRef Id="436716264"/>
+						<MediaRef Id="696596064"/>
+						<MediaRef Id="805065105"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1604083921" Name="Play_CharacterReceiveDamage" DurationType="OneShot" DurationMin="0.43442178" DurationMax="0.73965985">
+					<MediaRefs>
+						<MediaRef Id="96876476"/>
+						<MediaRef Id="703804946"/>
+						<MediaRef Id="743786737"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="992143342" Name="Play_EnemyAttacking" DurationType="OneShot" DurationMin="1.1966875" DurationMax="1.1966875">
+					<MediaRefs>
+						<MediaRef Id="24970867"/>
+						<MediaRef Id="259409478"/>
 						<MediaRef Id="710395959"/>
+						<MediaRef Id="754483843"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1118869712" Name="Play_EnemyDead" DurationType="OneShot" DurationMin="1.625" DurationMax="1.625">
+					<MediaRefs>
+						<MediaRef Id="24843915"/>
 						<MediaRef Id="1041911173"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1794537489" Name="Play_EnemySkullDeath" DurationType="OneShot" DurationMin="1.625" DurationMax="1.625">
+				<Event Id="311580602" Name="Play_EnemyReceiveDamage" DurationType="OneShot" DurationMin="1.3723438" DurationMax="1.3723438">
 					<MediaRefs>
-						<MediaRef Id="24843915"/>
+						<MediaRef Id="259409478"/>
+						<MediaRef Id="732650839"/>
+						<MediaRef Id="882183149"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="767316002" Name="Play_Mother_main_BGM" DurationType="OneShot" DurationMin="500.81732" DurationMax="500.81732">
@@ -169,13 +260,10 @@
 						<MediaRef Id="1060574629"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="931212911" Name="Play_SwordWooshes" DurationType="OneShot" DurationMin="0.5637188" DurationMax="1.0789796">
+				<Event Id="931212911" Name="Play_SwordWooshes" DurationType="OneShot" DurationMin="0.5637188" DurationMax="0.61247164">
 					<MediaRefs>
 						<MediaRef Id="24970867"/>
-						<MediaRef Id="132646509"/>
-						<MediaRef Id="599368764"/>
 						<MediaRef Id="681039572"/>
-						<MediaRef Id="997299036"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -183,7 +271,7 @@
 				<Trigger Id="253538494" Name="BreakableDoor"/>
 			</Triggers>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4AC4DEB5-7AB7-589E-6AB5-C3429DD44DBB}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{700844B1-A7CD-EF98-305F-625F0F999B1D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -200,5 +288,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{194C965E-AE8C-071B-CEB5-022702B6CA04}</FileHash>
+	<FileHash>{7021C1A7-F578-9068-11CB-4D40A3ECEEFC}</FileHash>
 </SoundBanksInfo>

@@ -1186,7 +1186,17 @@
 				</Folder>
 				<MusicPlaylistContainer Name="Mother-main-BGM" ID="{E99D9231-634B-4E9A-B2BE-10F1975EE6A7}" ShortID="85147492">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="110"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

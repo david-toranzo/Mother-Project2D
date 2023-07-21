@@ -7,12 +7,16 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_EnemyAttacking" ID="{53BD63CB-155D-41EE-94B6-D19D77810E52}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Breakable_Door" ID="{3AE74EC4-C42E-422C-A54B-2895F390BCAE}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_CharShieldCover" ID="{AFE80071-CD94-4367-B775-28986A14BAED}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyReceiveDamage" ID="{BB330394-A744-422F-8628-AEE261934398}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CharacterFootsteps" ID="{56F8C209-6956-46B7-92FD-A35CD4594C50}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mother_main_BGM" ID="{3697520F-B443-4804-BB09-95C82052E7C3}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CharacterCoverAttack" ID="{6703CAF4-36B7-48D5-BAE0-27E1929AD14F}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordWooshes" ID="{BB0DBF03-1EBC-495E-8BA9-52F533316F3F}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CharacterReceiveDamage" ID="{9B44EF12-ACC7-49C3-8E8A-3DF4CB4A9CC1}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyDead" ID="{3386AD4A-C4AC-4A0A-B204-01E64A0CB866}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Init" ID="{3495D321-4B1B-4C0A-9E1D-A847371022FD}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CharacterDeadBlend" ID="{689F17B3-F638-4C8E-B956-A51D05F67E3C}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Cave" ID="{F4374541-9BC4-4CD6-ABAE-246F3295787A}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_EnemySkullDeath" ID="{46682888-3335-4E3F-A1D6-51394A040E7C}" WorkUnitID="{FF59B180-8201-4852-81E5-675C4DA4BF1D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
