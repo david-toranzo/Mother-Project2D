@@ -118,6 +118,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
+                    ""name"": ""Escape"",
+                    ""type"": ""Button"",
+                    ""id"": ""1ec26897-0da1-4cc4-a2ae-699df8f48523"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press"",
+                    ""initialStateCheck"": false
+                },
+                {
                     ""name"": ""UpOption"",
                     ""type"": ""Button"",
                     ""id"": ""7fe1634e-7f84-4160-9c48-a3e514d60931"",
@@ -539,6 +548,28 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""action"": ""Crouch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7607103f-9a3b-48fd-b562-d065520193c5"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard And Mouse"",
+                    ""action"": ""Escape"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b169e44c-cc04-44d0-9f10-97ae7f23d6e5"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Escape"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -596,6 +627,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         m_PlayerControls_Interact = m_PlayerControls.FindAction("Interact", throwIfNotFound: true);
         m_PlayerControls_Attack = m_PlayerControls.FindAction("Attack", throwIfNotFound: true);
         m_PlayerControls_Confirm = m_PlayerControls.FindAction("Confirm", throwIfNotFound: true);
+        m_PlayerControls_Escape = m_PlayerControls.FindAction("Escape", throwIfNotFound: true);
         m_PlayerControls_UpOption = m_PlayerControls.FindAction("UpOption", throwIfNotFound: true);
         m_PlayerControls_DownOption = m_PlayerControls.FindAction("DownOption", throwIfNotFound: true);
         m_PlayerControls_CursorLock = m_PlayerControls.FindAction("Cursor Lock", throwIfNotFound: true);
@@ -671,6 +703,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerControls_Interact;
     private readonly InputAction m_PlayerControls_Attack;
     private readonly InputAction m_PlayerControls_Confirm;
+    private readonly InputAction m_PlayerControls_Escape;
     private readonly InputAction m_PlayerControls_UpOption;
     private readonly InputAction m_PlayerControls_DownOption;
     private readonly InputAction m_PlayerControls_CursorLock;
@@ -689,6 +722,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         public InputAction @Interact => m_Wrapper.m_PlayerControls_Interact;
         public InputAction @Attack => m_Wrapper.m_PlayerControls_Attack;
         public InputAction @Confirm => m_Wrapper.m_PlayerControls_Confirm;
+        public InputAction @Escape => m_Wrapper.m_PlayerControls_Escape;
         public InputAction @UpOption => m_Wrapper.m_PlayerControls_UpOption;
         public InputAction @DownOption => m_Wrapper.m_PlayerControls_DownOption;
         public InputAction @CursorLock => m_Wrapper.m_PlayerControls_CursorLock;
@@ -732,6 +766,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Confirm.started += instance.OnConfirm;
             @Confirm.performed += instance.OnConfirm;
             @Confirm.canceled += instance.OnConfirm;
+            @Escape.started += instance.OnEscape;
+            @Escape.performed += instance.OnEscape;
+            @Escape.canceled += instance.OnEscape;
             @UpOption.started += instance.OnUpOption;
             @UpOption.performed += instance.OnUpOption;
             @UpOption.canceled += instance.OnUpOption;
@@ -778,6 +815,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Confirm.started -= instance.OnConfirm;
             @Confirm.performed -= instance.OnConfirm;
             @Confirm.canceled -= instance.OnConfirm;
+            @Escape.started -= instance.OnEscape;
+            @Escape.performed -= instance.OnEscape;
+            @Escape.canceled -= instance.OnEscape;
             @UpOption.started -= instance.OnUpOption;
             @UpOption.performed -= instance.OnUpOption;
             @UpOption.canceled -= instance.OnUpOption;
@@ -846,6 +886,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         void OnInteract(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
         void OnConfirm(InputAction.CallbackContext context);
+        void OnEscape(InputAction.CallbackContext context);
         void OnUpOption(InputAction.CallbackContext context);
         void OnDownOption(InputAction.CallbackContext context);
         void OnCursorLock(InputAction.CallbackContext context);

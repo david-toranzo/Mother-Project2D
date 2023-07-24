@@ -576,7 +576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   started: 0
-  _objectToChangeState: {fileID: 0}
+  _boolEventScriptableObject: {fileID: 11400000, guid: 60559539379919940ba035905602df27, type: 2}
   _newState: 1
 --- !u!1 &2247256108845934523
 GameObject:
@@ -2656,7 +2656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   started: 0
-  _objectToChangeState: {fileID: 0}
+  _boolEventScriptableObject: {fileID: 11400000, guid: 60559539379919940ba035905602df27, type: 2}
   _newState: 0
 --- !u!1 &8602771069292848998
 GameObject:

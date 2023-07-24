@@ -10,18 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 975b2e3cb69abb0418d6d946c4a2263d, type: 3}
-  m_Name: LoadLastScene
+  m_Name: UI
   m_EditorClassIdentifier: 
   sceneData:
-    nameScene: LoadLastScene
+    nameScene: UI
     useLoadingScreen: 1
-    isLockedScene: 1
+    isLockedScene: 0
     removeLockedScenes: 0
     isPrincipal: 0
     dontCloseOthersScenes: 0
     hasToKeepOpen: 0
-    scenesData:
-    - {fileID: 11400000, guid: 77fe618e057ef264dbb08139acc77b52, type: 2}
-    - {fileID: 11400000, guid: e4a31512c5dd1ca48a025d2c1bb8c169, type: 2}
-    - {fileID: 11400000, guid: da56b3d88d53cbf4b8c1c4b38ba5eba3, type: 2}
+    scenesData: []
     _scenesDataToRemove: []
