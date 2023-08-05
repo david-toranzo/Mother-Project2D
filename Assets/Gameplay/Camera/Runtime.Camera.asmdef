@@ -1,7 +1,10 @@
 {
     "name": "Runtime.Camera",
     "rootNamespace": "Runtime.Camera",
-    "references": [],
+    "references": [
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:7ce20abfe6855074786c5a8a03a433ad"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

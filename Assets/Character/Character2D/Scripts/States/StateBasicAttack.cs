@@ -62,7 +62,7 @@ namespace Runtime.Character2D
 
         private void UpdateFighterValues()
         {
-            _characterFighter.TimeBetweenLastAttack = 0;
+            _characterFighter.ResetAttacksTimes();
             _characterFighter.UpdateComboCount();
         }
 

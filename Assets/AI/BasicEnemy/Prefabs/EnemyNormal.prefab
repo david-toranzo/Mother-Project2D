@@ -180,7 +180,7 @@ MonoBehaviour:
   waypointDwellTime: 3
   patrolSpeedFraction: 0.432
   shoutDistance: 5
-  _timeBetweenReceivedDamage: 0.5
+  _timeBetweenReceivedDamage: 0.1
   player: {fileID: 0}
 --- !u!114 &3337964828480961568
 MonoBehaviour:
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _positionToAttack: {fileID: 7201137304483291961}
   _distanceAttack: 1.5
-  _timeBetweenAttack: 2.5
+  _timeBetweenAttack: 0.83
   _damage: 1
   _tagNameToAttack: attack
   _shoutDistanceTakeDamage: 1.5
@@ -233,8 +233,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.74, y: 2}
+  m_Offset: {x: 0.0025610924, y: 0.051212072}
+  m_Size: {x: 0.5534258, y: 1.8975759}
   m_Direction: 0
 --- !u!114 &4587966466221313464
 MonoBehaviour:
@@ -328,7 +328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 180069317097471455}
-  _force: 15
+  _force: 12
+  _applyForcePercent: 0
 --- !u!50 &180069317097471455
 Rigidbody2D:
   serializedVersion: 4

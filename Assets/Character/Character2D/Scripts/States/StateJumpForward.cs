@@ -1,12 +1,14 @@
 ﻿using Runtime.InputSystem;
 using Patterns.StateMachine;
 using UnityEngine;
+using Common;
 
 namespace Runtime.Character2D
 {
     public class StateJumpForward : StateBaseMove
     {
         [Header("References jump forward")]
+        [SerializeField] private HealthPlayerController _healthPlayerController;
         [SerializeField] private CharacterUnity2D _character;
         [SerializeField] private CharacterJumpController _characterJumpController;
         [SerializeField] private Animator _animator;
@@ -32,7 +34,9 @@ namespace Runtime.Character2D
 
         public override void Enter()
         {
-            _animator.Play("JumpFront");
+            _animator.SetTrigger("jumpForward");
+            //_animator.Play("JumpFront");
+            _healthPlayerController.SetBlockAttack(true);
 
             _characterJumpController.NotifyJumpCharacter();
             _characterJumpController.IsJumping = true;
@@ -42,6 +46,8 @@ namespace Runtime.Character2D
 
         public override void Exit()
         {
+            _healthPlayerController.SetBlockAttack(false);
+
             _characterJumpController.IsJumping = false;
             _characterJumpController.LastTimeJumpForward = 0;
             _controlInput.IsInputPressed = false;

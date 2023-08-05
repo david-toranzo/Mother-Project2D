@@ -133,7 +133,7 @@ namespace Runtime.Character2D
 
         public void ResetVelocityMove()
         {
-            _velocity = new Vector3(0, _groundedGravity, 0);
+            _velocity = new Vector3(0, _velocity.y, 0);
             _inputMove = Vector2.zero;
             _walkInput = false;
         }

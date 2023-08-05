@@ -7,11 +7,11 @@ namespace Runtime.Character2D
     public class TransitionToBasicAttack : Transition
     {
         [Header("References")]
-        [SerializeField] private CharacterFighter _characterFighter;
+        [SerializeField] protected CharacterFighter _characterFighter;
 
         [Header("Input")]
-        [SerializeField] private CharacterInput _characterInput;
-        [SerializeField] private NameInput _nameInputAction;
+        [SerializeField] protected CharacterInput _characterInput;
+        [SerializeField] protected NameInput _nameInputAction;
         
         private ControlInputBool _controlInput;
 

@@ -6,12 +6,15 @@ namespace Runtime.Character2D
     {
         [SerializeField] private Rigidbody2D _rigidbody;
         [SerializeField] private int _force = 2;
+        [SerializeField] private bool _applyForcePercent = true;
 
         private int _forceToApply = 10;
 
         public void SetForceWithDirection(float percent, Vector2 direction)
         {
-            _rigidbody.AddForce((_forceToApply * _force * percent) * direction);
+            float percentForce = _applyForcePercent ? percent : 1;
+
+            _rigidbody.AddForce((_forceToApply * _force * percentForce) * direction);
         }
     }
 }
