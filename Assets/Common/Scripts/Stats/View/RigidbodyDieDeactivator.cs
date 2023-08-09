@@ -14,6 +14,7 @@ namespace Common
 
         private void DeactiveCollider()
         {
+            _rigidbody2D.velocity = Vector3.zero;
             _rigidbody2D.isKinematic = true;
         }
     }

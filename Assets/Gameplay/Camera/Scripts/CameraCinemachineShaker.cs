@@ -18,7 +18,8 @@ namespace Runtime.Camera
         private void Awake()
         {
             var cinemachineVirtual = GetComponent<CinemachineVirtualCamera>();
-            _cinemachineBasicMultiChannelPerlin = cinemachineVirtual.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+            _cinemachineBasicMultiChannelPerlin = cinemachineVirtual
+                .GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
 
             _eventScriptableObject.OnEvent += MakeShake;
         }

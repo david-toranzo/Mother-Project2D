@@ -328,8 +328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 180069317097471455}
-  _force: 12
-  _applyForcePercent: 0
+  _force: 15
+  _applyForcePercent: 1
 --- !u!50 &180069317097471455
 Rigidbody2D:
   serializedVersion: 4

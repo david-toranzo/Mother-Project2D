@@ -14,6 +14,9 @@ namespace Runtime.Character2D
         {
             float percentForce = _applyForcePercent ? percent : 1;
 
+            if (percentForce < 0)
+                percentForce = 0;
+
             _rigidbody.AddForce((_forceToApply * _force * percentForce) * direction);
         }
     }
