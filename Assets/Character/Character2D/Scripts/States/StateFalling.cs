@@ -9,11 +9,18 @@ namespace Runtime.Character2D
         public Action OnChangeStateFalling { get; set; }
 
         [Header("Character")]
-        [SerializeField] protected CharacterUnity2D _character;
-        [SerializeField] protected CharacterJumpController _characterJumpController;
+        [SerializeField] protected CharacterStateReference _characterStateReference;
 
-        [Header("Data")]
-        [SerializeField] private CharacterDataSO _characterDataSO;
+        protected CharacterUnity2D _character;
+        protected CharacterJumpController _characterJumpController;
+        private CharacterDataSO _characterDataSO;
+
+        private void Start()
+        {
+            _character = _characterStateReference.CharacterUnity2D;
+            _characterJumpController = _characterStateReference.CharacterJumpController;
+            _characterDataSO = _characterStateReference.CharacterDataSO;
+        }
 
         public override void Enter() 
         {

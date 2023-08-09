@@ -6,12 +6,18 @@ namespace Runtime.Character2D
     public class StateWalking : StateBaseMove
     {
         [Header("References")]
-        [SerializeField] protected CharacterUnity2D _character;
+        [SerializeField] protected CharacterStateReference _characterStateReference;
 
-        [Header("Data")]
-        [SerializeField] protected CharacterDataSO _characterDataSO;
+        protected CharacterUnity2D _character;
+        protected CharacterDataSO _characterDataSO;
 
         private const float _groundedGravity = -0.05f;
+
+        protected virtual void Start()
+        {
+            _character = _characterStateReference.CharacterUnity2D;
+            _characterDataSO = _characterStateReference.CharacterDataSO;
+        }
 
         public override void Enter() {}
 

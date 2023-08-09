@@ -7,15 +7,17 @@ namespace Runtime.Character2D
     public class StateJump : StateBaseMove
     {
         [Header("References")]
-        [SerializeField] private CharacterUnity2D _character;
-        [SerializeField] protected CharacterJumpController _characterJumpController;
+        [SerializeField] protected CharacterStateReference _characterStateReference;
 
         [Header("Input")]
-        [SerializeField] private CharacterInput _characterInput;
         [SerializeField] private NameInput _nameInputAction;
 
-        [Header("Data")]
-        [SerializeField] private CharacterDataSO _characterDataSO;
+
+        protected CharacterJumpController _characterJumpController;
+
+        private CharacterUnity2D _character;
+        private CharacterInput _characterInput;
+        private CharacterDataSO _characterDataSO;
 
         private ControlInputBool _controlInput;
         private const float _multiplyJumpForce = 0.5f;
@@ -24,14 +26,13 @@ namespace Runtime.Character2D
 
         private void Start()
         {
+            _character = _characterStateReference.CharacterUnity2D;
+            _characterInput = _characterStateReference.CharacterInput;
+            _characterDataSO = _characterStateReference.CharacterDataSO;
+            _characterJumpController = _characterStateReference.CharacterJumpController;
+
             SetupJumpParameters();
             _controlInput = GetControlInputBool();
-        }
-
-        //DELETE this, only for debug and changed the values in runtime
-        private void Update()
-        {
-            SetupJumpParameters();
         }
 
         private ControlInputBool GetControlInputBool()
@@ -48,7 +49,6 @@ namespace Runtime.Character2D
         public override void Enter()
         {
             _characterJumpController.IsJumping = true;
-            //_characterAnimation.JumpAnimation();
             SetMoveMakeJump();
         }
 
@@ -63,7 +63,6 @@ namespace Runtime.Character2D
 
         private void SetMoveMakeJump()
         {
-            //_character.MakeJump(_initialJumpVelocity * _multiplyJumpForce);
             _character.Velocity = new Vector3
                 (_character.Velocity.x, 
                 _initialJumpVelocity * _multiplyJumpForce,

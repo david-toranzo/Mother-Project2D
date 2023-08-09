@@ -6,13 +6,7 @@ namespace Runtime.Character2D
 {
     public class StateBasicAttack : StateWalking
     {
-        [Header("References")]
-        [SerializeField] private CharacterController2D _character2DController;
-        [SerializeField] private CharacterAnimation _characterAnimation;
-        [SerializeField] private CharacterFighter _characterFighter;
-
         [Header("Input")]
-        [SerializeField] private CharacterInput _characterInput;
         [SerializeField] private NameInput _nameInputAction;
 
         [Header("Data")]
@@ -21,10 +15,22 @@ namespace Runtime.Character2D
         [SerializeField] private float _velocityMoveAttack = 1f;
         [SerializeField] private EmptyEventScriptableObject _eventScriptableObject;
 
+        private CharacterController2D _character2DController;
+        private CharacterAnimation _characterAnimation;
+        private CharacterFighter _characterFighter;
+
+        private CharacterInput _characterInput;
         private ControlInputBool _controlInput;
 
-        private void Start()
+        protected override void Start()
         {
+            base.Start();
+
+            _character2DController = _characterStateReference.Character2DController;
+            _characterAnimation = _characterStateReference.CharacterAnimation;
+            _characterFighter = _characterStateReference.CharacterFighter;
+            _characterInput = _characterStateReference.CharacterInput;
+
             _controlInput = GetControlInputBool();
         }
 
@@ -42,6 +48,11 @@ namespace Runtime.Character2D
 
             SetAnimationTrigger();
             UpdateFighterValues();
+        }
+
+        public override void Exit()
+        {
+            _character.ChangeGravityEnabled(true);
         }
 
         private void SetAnimationTrigger()
@@ -64,11 +75,6 @@ namespace Runtime.Character2D
         {
             _characterFighter.ResetAttacksTimes();
             _characterFighter.UpdateComboCount();
-        }
-
-        public override void Exit() 
-        {
-            _character.ChangeGravityEnabled(true);
         }
     }
 }

@@ -8,22 +8,29 @@ namespace Runtime.Character2D
     public class StateJumpForward : StateBaseMove
     {
         [Header("References jump forward")]
-        [SerializeField] private HealthPlayerController _healthPlayerController;
-        [SerializeField] private CharacterUnity2D _character;
-        [SerializeField] private CharacterJumpController _characterJumpController;
-        [SerializeField] private Animator _animator;
+        [SerializeField] protected CharacterStateReference _characterStateReference;
 
         [Header("Input")]
-        [SerializeField] private CharacterInput _characterInput;
         [SerializeField] private NameInput _nameInputAction;
 
-        [Header("Jump forward")]
-        [SerializeField] private CharacterDataSO _characterDataSO;
+        private HealthPlayerController _healthPlayerController;
+        private CharacterUnity2D _character;
+        private CharacterJumpController _characterJumpController;
+        private CharacterInput _characterInput;
+        private CharacterDataSO _characterDataSO;
+        private Animator _animator;
 
         private ControlInputBool _controlInput;
 
         private void Start()
         {
+            _healthPlayerController = _characterStateReference.HealthPlayerController;
+            _character = _characterStateReference.CharacterUnity2D;
+            _characterJumpController = _characterStateReference.CharacterJumpController;
+            _characterInput = _characterStateReference.CharacterInput;
+            _characterDataSO = _characterStateReference.CharacterDataSO;
+            _animator = _characterStateReference.Animator;
+
             _controlInput = GetControlInputBool();
         }
 
@@ -35,7 +42,7 @@ namespace Runtime.Character2D
         public override void Enter()
         {
             _animator.SetTrigger("jumpForward");
-            //_animator.Play("JumpFront");
+
             _healthPlayerController.SetBlockAttack(true);
 
             _characterJumpController.NotifyJumpCharacter();
